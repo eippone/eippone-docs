@@ -55,5 +55,3 @@ Once local testing is successful, you are ready to push the second version to li
 5.  **Rollback Capability**: If Version 2 has an unexpected bug, you can hover over the previous version in the console and click **"Rollback"** to instantly restore Version 1.
 
 
-
-Would you like me to help you draft the `firebase.json` configuration file to ensure your caching headers are optimized for these heavy assets?
