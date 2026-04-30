@@ -110,7 +110,6 @@ If you were to store and serve a moderate amount of "heavy" content for **EIPPON
 3.  **Leverage the "Always Free" Regions:** Ensure your bucket is created in `us-central1`, `us-east1`, or `us-west1` to ensure you qualify for the Google Cloud "Always Free" tier benefits.
 
 
-333333333
 Given that EIPPONE heavy assets—specifically a **14.4 MB image** and a **98.2 MB video**—are primarily for your website's hero section and UI/UX slideshow, the primary cost concern is **Network Egress** (the data transferred to users' browsers when they visit EIPPONE site).
 
 For the **EIPPONE Simulation Dynamics** project, here is how those specific file sizes translate into potential monthly costs on the Firebase Blaze (Pay-as-you-go) plan:
