@@ -149,3 +149,69 @@ Since a **98.2 MB video** is quite large for a web hero section, you can signifi
 
 ### Monthly Estimate at 5,000 Visits
 If you do not optimize these files, 5,000 visitors per month would cost you approximately **$67.55** in data transfer fees alone. If you compress the video to 15 MB, that same traffic would cost only **$17.64**.
+
+
+## Steps to optimize the video and image files related costs
+
+To lower the egress costs for **EIPPONE Simulation Dynamics**, you can significantly reduce your 14.4 MB image and 98.2 MB video without sacrificing the high-impact look of your hero section.
+
+Here are the technical steps to optimize these files:
+
+### 1. Optimize the Hero Image (14.4 MB)
+A 14.4 MB image is likely uncompressed or in a format like PNG/TIFF. You can usually reduce this by **90%** using modern formats.
+
+*   **Convert to WebP or AVIF:** Use tools like **Squoosh.app** (by Google) or **ImageMagick**.
+    *   *Command Line (ImageMagick):* `magick input.png -quality 80 output.webp`
+*   **Resize to Display Size:** If the image is 8K resolution but your users are on 1080p or 4K screens, downscale it. A width of **2560px** is usually the "sweet spot" for high-resolution hero images.
+*   **Apply Lossy Compression:** Reducing the quality to **80%** is often indistinguishable to the human eye but cuts the file size in half.
+
+
+
+---
+
+### 2. Optimize the Hero Video (98.2 MB)
+For a 100 MB video used as a background, your goal is to reach **under 20 MB** so it loads instantly.
+
+*   **Remove Audio:** Hero videos are usually muted. Removing the audio track can save 5–10% of the file size.
+    *   *FFmpeg command:* `ffmpeg -i input.mp4 -an -vcodec libx264 -crf 28 output.mp4`
+*   **Use the H.265 (HEVC) or VP9 Codec:** These provide much better compression than the standard H.264.
+*   **Adjust the CRF (Constant Rate Factor):** This controls quality. For web backgrounds, a CRF between **24 and 28** provides a great balance.
+*   **Shorten the Loop:** If the video is long, try to find a seamless 10–15 second loop. Most users only see the first few seconds before scrolling.
+
+
+
+---
+
+### 3. Implementation in Firebase
+Once optimized, update your `firebase.json` to ensure browsers "remember" these files so they aren't downloaded twice by the same user.
+
+**Add Cache-Control Headers:**
+In your `firebase.json`, add a header rule for your media folder:
+
+```json
+{
+  "hosting": {
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|webp|mp4)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+### Summary of Expected Gains
+| File | Original Size | Optimized Size | Estimated Savings |
+| :--- | :--- | :--- | :--- |
+| **Hero Image** | 14.4 MB | ~1.5 MB | **-89%** |
+| **Hero Video** | 98.2 MB | ~18.0 MB | **-81%** |
+| **Total Transfer** | **112.6 MB** | **~19.5 MB** | **~$11.00 per 1k visits saved** |
+
+By following these steps, you keep the site fast for your Mississauga and global clients while keeping your Firebase bill minimal.
+
