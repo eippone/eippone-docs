@@ -132,7 +132,7 @@ Once local testing is successful, you are ready to push the second version to li
 
 
 
-## Website Cost Opotimization
+## Website Cost Opotimizations
 
 For the project, **EIPPONE Simulation Dynamics**, storing "heavy" files (like the simulation videos or high-resolution assets you mentioned earlier) will primarily incur costs in three categories: **Storage**, **Egress (Download Bandwidth)**, and **Operations**.
 
