@@ -55,3 +55,98 @@ Once local testing is successful, you are ready to push the second version to li
 5.  **Rollback Capability**: If Version 2 has an unexpected bug, you can hover over the previous version in the console and click **"Rollback"** to instantly restore Version 1.
 
 
+## Website Cost Estimates
+
+For the project, **EIPPONE Simulation Dynamics**, storing "heavy" files (like the simulation videos or high-resolution assets you mentioned earlier) will primarily incur costs in three categories: **Storage**, **Egress (Download Bandwidth)**, and **Operations**.
+
+As of 2026, the cost for storage is relatively low, but **egress** is the most significant factor to monitor, especially for heavy media.
+
+---
+
+### 1. The "Free Tier" Buffer
+Before you are charged, Firebase provides a no-cost quota. Note that as of late 2025/early 2026, you must be on the **Blaze (Pay-as-you-go) Plan** to access these resources, though the "no-cost" amounts still apply until you exceed them.
+
+*   **Stored Data:** First **5 GB** are free.
+*   **Downloads (Egress):** First **1 GB per day** (or **10 GB per month** depending on bucket type) is free.
+*   **Uploads:** First **20,000** operations per day are free.
+
+---
+
+### 2. Estimated Costs (Post-Free Tier)
+Once you exceed the free limits, the following rates (typical for the `us-central1` region) apply:
+
+#### **A. Storage (The "Heavy" Files)**
+*   **Cost:** ~$0.026 per GB per month.
+*   *Example:* Storing **100 GB** of simulation videos would cost roughly **$2.60/month** (minus the 5 GB free credit).
+
+#### **B. Network Egress (The Most Expensive Part)**
+This is charged when users view your videos or download your synthetic datasets.
+*   **Standard Internet Egress:** ~$0.12 per GB.
+*   **CDN Interconnect (Important):** If you serve your data through a CDN (like Cloudflare or Akamai), rates were recently adjusted in May 2026 to roughly **$0.08 per GB** in North America.
+*   *Example:* If 1,000 visitors watch a **100 MB** high-def simulation demo, that is 100 GB of egress, costing approximately **$12.00**.
+
+#### **C. Operations**
+*   **Uploads (Class A):** $0.05 per 10,000 operations.
+*   **Downloads (Class B):** $0.004 per 10,000 operations.
+
+---
+
+### 3. Summary Table: Monthly Cost Estimate
+If you were to store and serve a moderate amount of "heavy" content for **EIPPONE**:
+
+| Resource | Usage Amount | Estimated Monthly Cost |
+| :--- | :--- | :--- |
+| **Storage** | 50 GB | ~$1.17 |
+| **Egress (Downloads)** | 200 GB | ~$24.00 |
+| **Total** | | **~$25.17** |
+
+
+
+---
+
+### Tips for EIPPONE to Save Money:
+1.  **Use Firebase Hosting for Small Assets:** Since Firebase Hosting has its own separate free tier (10 GB storage), keep your CSS, JS, and small icons there.
+2.  **Optimize Video Files:** Use modern codecs (like H.265 or AV1) to reduce file size. A 50% reduction in file size directly results in a 50% reduction in your **Egress** bill.
+3.  **Leverage the "Always Free" Regions:** Ensure your bucket is created in `us-central1`, `us-east1`, or `us-west1` to ensure you qualify for the Google Cloud "Always Free" tier benefits.
+
+
+333333333
+Given that EIPPONE heavy assets—specifically a **14.4 MB image** and a **98.2 MB video**—are primarily for your website's hero section and UI/UX slideshow, the primary cost concern is **Network Egress** (the data transferred to users' browsers when they visit EIPPONE site).
+
+For the **EIPPONE Simulation Dynamics** project, here is how those specific file sizes translate into potential monthly costs on the Firebase Blaze (Pay-as-you-go) plan:
+
+### 1. Cost per 1,000 "Hero" Views
+Every time a new visitor loads your homepage, they will download roughly **112.6 MB** of data (14.4 MB + 98.2 MB). 
+
+| Metric | Calculation | Estimated Cost |
+| :--- | :--- | :--- |
+| **Data per Visit** | 112.6 MB | — |
+| **Total for 1,000 Visits** | ~112.6 GB | — |
+| **Storage Egress Cost** | 112.6 GB × $0.12/GB | **$13.51** |
+
+> [!IMPORTANT]
+> Google Cloud egress rates for North America are typically **$0.12 per GB**. While the first **1 GB per day** (Storage) or **10 GB per month** (Hosting) is free, you would exceed your monthly free hosting allowance after just **90 visits**.
+
+---
+
+### 2. Strategy: Hosting vs. Storage
+For hero assets, where you place the files affects both performance and billing:
+
+*   **Firebase Hosting (Recommended for Global Performance):**
+    *   **Pros:** Automatically utilizes a global **Content Delivery Network (CDN)** at no extra charge, ensuring your hero video starts playing quickly for users worldwide.
+    *   **Cons:** Limited to **10 GB** of free data transfer per month. Beyond that, it costs ~$0.15 per GiB.
+*   **Firebase Storage (Recommended for Cost/Large Files):**
+    *   **Pros:** Can handle files up to the terabyte range.
+    *   **Cons:** Standard egress is generally more expensive ($0.12/GB) and may not be as aggressively cached as Hosting assets unless manually configured.
+
+---
+
+### 3. Optimization Tips to Reduce Costs
+Since a **98.2 MB video** is quite large for a web hero section, you can significantly lower your bill by following these steps:
+
+*   **Video Compression:** Aim to compress the video to under **15–20 MB** without losing visible quality for web use. Reducing your video size by 80% will reduce your egress bill by 80%.
+*   **Browser Caching:** Configure your `firebase.json` headers to use long-lived `Cache-Control` max-age values. This ensures returning visitors don't re-download the 112 MB of assets.
+*   **WebP/AVIF Images:** Convert your 14.4 MB image to **WebP** or **AVIF** format. This typically reduces file size by 70-90% compared to standard PNG/JPEG with almost no quality loss.
+
+### Monthly Estimate at 5,000 Visits
+If you do not optimize these files, 5,000 visitors per month would cost you approximately **$67.55** in data transfer fees alone. If you compress the video to 15 MB, that same traffic would cost only **$17.64**.
