@@ -55,7 +55,7 @@ Once local testing is successful, you are ready to push the second version to li
 5.  **Rollback Capability**: If Version 2 has an unexpected bug, you can hover over the previous version in the console and click **"Rollback"** to instantly restore Version 1.
 
 
-## Website Cost Estimates
+## Website Cost Optimizations 
 
 For the project, **EIPPONE Simulation Dynamics**, storing "heavy" files (like the simulation videos or high-resolution assets you mentioned earlier) will primarily incur costs in three categories: **Storage**, **Egress (Download Bandwidth)**, and **Operations**.
 
