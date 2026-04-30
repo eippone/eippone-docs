@@ -1,13 +1,13 @@
 # EIPPONE Simulation Dynamics Website  Deployment Workflow.
 
 ## 1. Cloud Storage & CDN Strategy
-To minimize costs and maximize speed, you should separate your **static site files** (HTML/CSS/JS) from your **heavy media assets** (Videos/Images).
+To minimize costs and maximize speed,  separate the  **static site files** (HTML/CSS/JS) from the  **heavy media assets** (Videos/Images).
 
 ### Suggested CDN: Firebase Storage + Firebase Hosting
-Since you are already on the Firebase ecosystem, I recommend using **Cloud Storage for Firebase**. It is backed by Google Cloud Storage and integrates seamlessly with Firebase Hosting. Firebase Hosting itself acts as a Global CDN; when you serve assets through it, they are cached at "edge" locations near your users.
+**Cloud Storage for Firebase** is backed by Google Cloud Storage and integrates seamlessly with Firebase Hosting. Firebase Hosting itself acts as a Global CDN; when you serve assets through it, they are cached at "edge" locations near your users.
 
 ### Steps to Upload Heavy Files
-You should keep your heavy files out of your `public/` folder to avoid long deployment times and high hosting storage usage.
+Keep THE heavy files out of your `public/` folder to avoid long deployment times and high hosting storage usage.
 1.  **Go to the Firebase Console**: Navigate to the **Storage** section.
 2.  **Create Folders**: Create a structure that mirrors your site (e.g., `/assets/videos/` and `/assets/images/`).
 3.  **Upload via Console**: Click "Upload File" for individual items. For bulk uploads, simply drag and drop the folders into the browser.
