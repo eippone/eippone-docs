@@ -1,4 +1,4 @@
-
+```bash
 C:\Users\atsuv\Documents\project\eippone-website>firebase init emulators
 
      ######## #### ########  ######## ########     ###     ######  ########
@@ -82,7 +82,7 @@ C:\Users\atsuv\Documents\project\eippone-website>
 Note: 
 Firestore and Database components—runs on Java. If it cannot find a Java installation on your computer, it will generate:
 Error: Could not spawn `java -version`. Please make sure Java is installed and on your system PATH.
-
+```
 ### 1. Check if Java is Installed
 Open your terminal and run:
 ```bash
