@@ -78,3 +78,36 @@ Progress: ======================================================================
 
 
 C:\Users\atsuv\Documents\project\eippone-website>
+
+Note: 
+Firestore and Database components—runs on Java. If it cannot find a Java installation on your computer, it will generate:
+Error: Could not spawn `java -version`. Please make sure Java is installed and on your system PATH.
+
+### 1. Check if Java is Installed
+Open your terminal and run:
+```bash
+java -version
+```
+If you get the same "Could not spawn" error, Java is either not installed or not recognized by Windows.
+
+### 2. Install the Required Java Version
+As of April 2026, the latest Firebase CLI (v15.0.0+) requires **Java 21 or higher** for the emulators to function.
+*   **Download:** Go to the [Oracle JDK Download page](https://www.oracle.com/java/technologies/downloads/) or [Adoptium (OpenJDK)](https://adoptium.net/).
+*   **Version:** Select **JDK 21** (LTS) for Windows.
+*   **Installer:** Use the `.msi` or `.exe` installer as it usually handles the PATH configuration for you automatically.
+
+### 3. Manually Add Java to your System PATH
+If you have Java installed but still get the error, you must point Windows to it:
+1.  Search for **"Edit the system environment variables"** in your Start menu.
+2.  Click **Environment Variables**.
+3.  Under **System variables**, find **Path**, select it, and click **Edit**.
+4.  Click **New** and paste the path to your Java `bin` folder (usually `C:\Program Files\Java\jdk-21\bin`).
+5.  Click **OK** on all windows and **restart your terminal** (C:\Users\atsuv\Documents\project\eippone-website) for the changes to take effect.
+
+---
+### Why This Matters for EIPPONE
+Since you are developing a Data and Analytics platform, having a stable local environment is critical for testing your **Firestore triggers** and **Nodemailer** integration without incurring costs or hitting production rate limits[cite: 11].
+
+[How to set up JAVA_HOME on Windows 11](https://www.youtube.com/watch?v=fuXTyRRge3s)
+This video provides a step-by-step visual guide to adding Java to your system environment variables, which is the most common fix for the "Could not spawn java" error.
+http://googleusercontent.com/youtube_content/1
