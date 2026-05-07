@@ -267,3 +267,66 @@ Run `npm audit` for details.
 C:\Users\atsuv\Documents\project\eippone-website\functions>
 ```
 
+# Completed Firebase Emulators 
+
+```bash
+PS C:\Users\atsuv\Documents\project\eippone-website> Firebase emulators:start
+i  emulators: Starting emulators: auth, functions, firestore, database, hosting, pubsub, storage, eventarc, tasks, extensions
+!  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, dataconnect
+i  firestore: Firestore Emulator logging to firestore-debug.log
++  firestore: Firestore Emulator UI websocket is running on 9150.
+!  database: Did not find a Realtime Database rules file specified in a firebase.json config file. The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration.
+i  database: Database Emulator logging to database-debug.log
+(node:30588) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log
+(node:30588) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
++  hosting[eippone-website]: Local server: http://127.0.0.1:5000
+i  functions: Watching "C:\Users\atsuv\Documents\project\eippone-website\functions" for Cloud Functions...
+!  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+!  functions: Your requested "node" version "20" doesn't match your global version "24". Using node@24 from host.
+i  functions: Loaded environment variables from .env.
+Serving at port 8039
+
+◇ injected env (2) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
++  functions: Loaded functions definitions from source: sendLeadEmail, submitLead.
++  functions[us-central1-sendLeadEmail]: firestore function initialized.
++  functions[us-central1-submitLead]: http function initialized (http://127.0.0.1:5001/eippone-website/us-central1/submitLead).
+
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth       │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database   │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5000 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8085 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage    │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Eventarc       │ 127.0.0.1:9299 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Cloud Tasks    │ 127.0.0.1:9499 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions     │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+
+```
