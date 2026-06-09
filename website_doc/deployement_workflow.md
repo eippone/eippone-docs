@@ -54,6 +54,274 @@ Once local testing is successful, you are ready to push the second version to li
     * You will see **"Version 2"** (or the latest release). You can add a comment to this release (e.g., "V2: Integrated Cloud Storage for Media") for easier tracking.
 5.  **Rollback Capability**: If Version 2 has an unexpected bug, you can hover over the previous version in the console and click **"Rollback"** to instantly restore Version 1.
 
+---
+## Deployment Steps(version 3)
+
+## 1. Commit or Backup First
+
+Before deployment, create a backup:
+
+```bash
+git add .
+git commit -m "Pre-production deployment cleanup"
+```
+
+or simply copy the project folder.
+
+---
+
+## 2. Verify Local Production Build
+
+Stop the emulators:
+
+```bash
+Ctrl + C
+```
+
+Then serve locally:
+
+```bash
+firebase serve
+```
+
+or
+
+```bash
+firebase hosting:channel:deploy preview
+```
+
+Verify:
+
+* Home page
+* Hero slideshow
+* Hamburger menu
+* Contacts form
+* Engage page
+* Products page
+* About pages
+* Dashboard pages
+* Mobile view
+* Chrome
+* Edge
+
+---
+
+## 3. Check Firebase Project
+
+Verify you're targeting the correct project:
+
+```bash
+firebase projects:list
+```
+
+Then:
+
+```bash
+firebase use
+```
+
+Expected:
+
+```text
+Active Project: eippone-website
+```
+
+If not:
+
+```bash
+firebase use eippone-website
+```
+
+---
+
+## 4. Verify Functions Configuration
+
+Check that your Outlook credentials are configured in production.
+
+If using environment variables:
+
+```bash
+firebase functions:secrets:list
+```
+
+or verify your `.env` strategy.
+
+Make sure production has:
+
+```text
+OUTLOOK_EMAIL
+OUTLOOK_PASSWORD
+```
+
+configured.
+
+---
+
+## 5. Deploy Hosting Only (Recommended First)
+
+Since you've changed mostly HTML/CSS/JS:
+
+```bash
+firebase deploy --only hosting
+```
+
+Expected:
+
+```text
+✔ hosting[YOUR_SITE]: release complete
+
+Project Console:
+https://console.firebase.google.com
+
+Hosting URL:
+https://YOUR_SITE.web.app
+```
+
+Test thoroughly.
+
+---
+
+## 6. Deploy Functions Separately
+
+If intake form code changed:
+
+```bash
+firebase deploy --only functions
+```
+
+Watch for:
+
+```text
+✔ functions[submitLead]
+✔ functions[sendLeadEmail]
+```
+
+---
+
+## 7. Full Deployment
+
+Once everything looks good:
+
+```bash
+firebase deploy
+```
+
+This deploys:
+
+```text
+hosting
+functions
+firestore rules
+indexes
+```
+
+depending on your firebase.json.
+
+---
+
+## 8. Verify Production Site
+
+Open:
+
+```text
+https://eippone.com
+```
+
+and test:
+
+### Navigation
+
+* Home
+* Products
+* Engage
+* Contacts
+* About
+
+### Mobile
+
+* Hamburger
+* Search
+* Hero slideshow
+
+### Forms
+
+Submit a test lead.
+
+Verify:
+
+* Firestore document created
+* Notification email received
+* Auto-reply sent
+
+---
+
+## 9. Check Browser Console
+
+On production:
+
+Press:
+
+```text
+F12 → Console
+```
+
+You should **not** see:
+
+```text
+Detected local environment. Connecting to emulators...
+```
+
+If you do, your production site is still connecting to emulators.
+
+---
+
+## 10. Monitor Logs
+
+Immediately after deployment:
+
+```bash
+firebase functions:log
+```
+
+Watch for:
+
+```text
+sendLeadEmail
+submitLead
+```
+
+errors.
+
+---
+
+## Final Pre-Deployment Checklist
+
+Before running `firebase deploy`, I'd verify:
+
+* ✅ Removed duplicated navigation from `scripts_video.js`
+* ✅ Removed duplicated navigation from `scripts.js`
+* ✅ `navigation.js` owns navigation
+* ✅ `window.showPage()` sets:
+
+```js
+frame.style.display = "block";
+```
+
+* ✅ Chrome works
+* ✅ Edge works
+* ✅ Mobile works
+* ✅ Contact form submits once
+* ✅ Duplicate detection behaves as expected
+
+Once those are confirmed, you're ready for:
+
+```bash
+firebase deploy
+```
+
+and then test the live site immediately after deployment.
+
+---
 
 ## Website Cost Optimizations 
 
