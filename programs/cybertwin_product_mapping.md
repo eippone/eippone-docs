@@ -1,6 +1,6 @@
-To scale **CyberTwin** from a sequence of disparate, manual Google Colab notebooks into a cohesive commercial architecture, you need a decoupled, modular design. Clients must be able to purchase and run single products independently (e.g., *only* generating data with SDG Pro), while still having the option to unlock the fully integrated, end-to-end platform.
+To scale **CyberTwin** from a sequence of disparate, manual Google Colab notebooks into a cohesive commercial architecture, we need a decoupled, modular design. Clients must be able to purchase and run single products independently (e.g., *only* generating data with SDG Pro), while still having the option to unlock the fully integrated, end-to-end platform.
 
-By separating your pipeline into individual, containerized microservices that communicate via a structured data layer or lightweight REST APIs, you can achieve both goals. Below is the blueprint to map your current `CyberThreat_Insight` GitHub pipeline steps directly into independent commercial products, followed by the platform integration architecture.
+By separating your pipeline into individual, containerized microservices that communicate via a structured data layer or lightweight REST APIs, we can achieve both goals. Below is the blueprint to map your current `CyberThreat_Insight` GitHub pipeline steps directly into independent commercial products, followed by the platform integration architecture.
 
 ---
 
