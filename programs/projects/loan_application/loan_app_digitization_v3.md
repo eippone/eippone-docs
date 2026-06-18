@@ -1,31 +1,33 @@
-Yes, you are absolutely correct. Since this application is purely for demo and architectural proof-of-concept purposes, you can absolutely build, test, and showcase the entire solution **without spending any dollars**.
+Yes, you can absolutely share them for a live demonstration, but because they are built using two different Power Platform technologies, the sharing mechanism depends entirely on *who* you are demoing to.
 
-As a founder and architect, you can leverage Microsoft's official free tiers and developer programs to spin up an isolated sandbox environment. Here is how you can access every piece of the stack for free:
+Understanding how each interface exposes its data dictates how you present the solution without running into temporary authentication roadblocks.
 
-### 1. Free Dataverse & Power Apps: The Power Apps Developer Plan
+---
 
-Microsoft offers a completely free **Power Apps Developer Plan** designed specifically for building, testing, and modeling applications.
+### 1. External Portal (Power Pages)
 
-* **What you get:** A dedicated, fully featured development/sandbox environment that includes **Microsoft Dataverse**, premium connectors, and the ability to build both Canvas apps (for client intake) and Model-Driven apps/Portals.
-* **Cost:** $0 (Free forever for development purposes).
-* **How to get it:** Search for "Power Apps Developer Plan" and sign up with your existing Microsoft 365 or business credentials.
+**Status:** Highly shareable with anyone.
 
-### 2. Free Power Automate Workflows
+* **How it works:** Power Pages is designed exactly for external audiences. While developing inside your free sandbox, your portal is set to **Private** by default.
+* **To Demo:** You can go to the **Security** tab -> **Site Visibility** inside the Power Pages design studio and add up to 50 email addresses (even external ones) to grant them immediate preview access.
+* **Demo Strategy:** This is ideal for showcasing how a third-party client submits data. Since you have configured the `Status` choice column, you can show an external user filling out their details and immediately see it route into your internal pipeline.
 
-Any workflows or automated cloud flows you build inside your Power Apps Developer environment are included for free under that same developer license, provided they are running in the context of your development applications.
+### 2. Client Frontend Form (Power Apps Canvas App)
 
-### 3. Free Power BI Pro Totyping
+**Status:** Great for internal demos; requires minor configuration for external users.
 
-For your executive insights dashboard, you do not need to buy a Power BI Pro or Premium license right away:
+* **Internal Teams:** If you are demoing to people within your immediate Azure/Microsoft Entra tenant, simply click **Share** on the app, add their names, and ensure they have a basic security role assigned to read/write to your Dataverse table.
+* **External Clients/Investors:** Because Canvas Apps are enterprise-focused, an external user cannot just click an open link anonymously. To show it to an external guest, you must first add their email as a **Guest User (B2B)** in your Microsoft Entra ID portal before sharing the app with them.
+* **Demo Strategy:** If you are doing a live pitch or screen-share demonstration, it is often smoothest to run the Canvas App yourself on an iPad or browser tab to demonstrate the "Intake" phase, rather than asking external stakeholders to authenticate into a sandbox environment.
 
-* **Power BI Desktop:** The desktop authoring tool where you connect to your Dataverse environment and build the visuals is **100% free** for anyone to download and use.
-* **Local Demos:** You can build the entire dashboard, pull the data from Dataverse using Import or DirectQuery, and present it directly inside Power BI Desktop during a demo without publishing it to the cloud service.
+---
 
-### One Asset to Note for the Demo: AI Builder (Document Extraction)
+### The Recommended Demo Workflow
 
-If you decide to show off the automated PDF document extraction feature using AI Builder to ingest the `Sample Application.pdf` data into Dataverse:
+To deliver a smooth presentation of your newly digitized solution, follow this sequence:
 
-* AI Builder typically requires premium capacity, but Microsoft includes a **30-day free trial** of AI Builder that you can activate directly inside your Power Apps environment.
-* This is perfect for a time-boxed pitch or system demo to show full end-to-end automation without putting down a credit card.
+1. **The Intake:** Open the **Canvas App** on your screen. Submit a fresh record with a digital signature using the pen control.
+2. **The Verification:** Switch tabs to the **Power Pages portal** to show how an internal reviewer instantly sees the new application arrive in real time, shifting its status from `Submitted` to `Under Review`.
+3. **The Executive View:** Open **Power BI Desktop** and click *Refresh* to show the executive cards, donut charts, and pipeline table update instantly via your Dataverse link.
 
-By keeping everything contained within a free **Developer Environment** and presenting your Power BI insights straight from **Power BI Desktop**, you can showcase a flawless, enterprise-grade architecture completely free of charge.
+To gain a comprehensive understanding of configuring permissions safely before your pitch, you can review this [detailed walkthrough on securing anonymous access and managing site visibility inside Power Pages](https://www.youtube.com/watch?v=4qGgyEdS6XE). This guide is particularly useful for ensuring external users only see relevant fields during a live evaluation.
