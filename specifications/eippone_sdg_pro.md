@@ -158,16 +158,23 @@ Enterprises face three structural constraints:
 
 ## 8. Product Overview
 
-Hybrid system combining:
+EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that combines GANs, statistical reconstruction, and rare-event simulation.  
 
-* Rare-event injection
-* Statistical simulation
-* GAN-based generation
-* Validation engine
+<p align="center">
+    
+      <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-overview.jpg" width="100%" />    
+</p>
 
-![Synthetic Data in AI: When, Why, and How Enterprises Use It | by Amit Kharche | Medium](https://images.openai.com/static-rsc-4/zu3o3dDJbWYnSgDtcqIdijksesK335ffYMOHUbgRpuCJHW2DiVUJ8HsaYPlITc1KVfTu-F1zKWqQFXPyLBG6JNdiX7lDp22ioGg79UkpkXNXes5nrAlYPblzmarNH9-WOuq2TkICpYIjsW5Fda-SIrVYOA-VL7JdFVrjYbQJgcVG8e5ecAaY7PZ2oJ5OOlt_?purpose=fullsize)
 
-EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that combines GANs, statistical reconstruction, and rare-event simulation.
+This module outlines the end-to-end flow of data through the platform, emphasizing a "Privacy by Design" approach with a rare event accuracy of 95%+ and high fidelity (>0.90 similarity). The process is divided into four main stages:
+
+* Input Data: Supports enterprise data, APIs/databases, files (CSV, Parquet), and data lakes.
+
+* Engine & Models: Utilizes statistical modeling, GAN/cGAN engines, rare event injectors, and Monte Carlo simulations.
+
+* Validation & Quality: Focuses on statistical similarity, privacy and PII protection, quality scoring, and bias/drift detection.
+
+* Output & Consumption: Delivers synthetic datasets, APIs, dashboards, and integration for downstream AI/ML.
 
 <br>
 
