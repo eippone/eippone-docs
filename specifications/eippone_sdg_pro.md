@@ -17,9 +17,7 @@
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
 
   <div style="break-inside: avoid;">
-    
     **Executive & Investor Layer**
-    
     <ul style="list-style-type: none; padding-left: 0;">
       <li>1. [Executive Summary](#1-executive-summary)</li>
       <li>2. [Company Overview](#2-company-overview)</li>
