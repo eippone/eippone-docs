@@ -3,11 +3,11 @@
 
 ## Enterprise Technical + Compliance Specification (Hybrid Investor & ISO 27001-Aligned)
 
-**Version:** 1.0
-**Status:** MVP Ready
-**Classification:** Confidential – Investor / Enterprise Evaluation
-**Owner:** EIPPONE Simulation Dynamics Inc.
-**Author:** Atsu Vovor
+**Version:** 1.0  
+**Status:** MVP Ready  
+**Classification:** Confidential – Investor / Enterprise Evaluation  
+**Owner:** EIPPONE Simulation Dynamics Inc.  
+**Author:** Atsu Vovor  
 
 <br>
 
