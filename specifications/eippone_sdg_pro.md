@@ -166,17 +166,13 @@ EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that co
        style="width: 100%; height: Auto;">
 </p>  
 
-
-
 This module outlines the end-to-end flow of data through the platform, emphasizing a "Privacy by Design" approach with a rare event accuracy of 95%+ and high fidelity (>0.90 similarity). The process is divided into four main stages:
 
-* Input Data: Supports enterprise data, APIs/databases, files (CSV, Parquet), and data lakes.
+* **Input Data**: Supports enterprise data, APIs/databases, files (CSV, Parquet), and data lakes.
+* **Engine & Models**: Utilizes statistical modeling, GAN/cGAN engines, rare event injectors, and Monte Carlo simulations.
+* **Validation & Quality**: Focuses on statistical similarity, privacy and PII protection, quality scoring, and bias/drift detection.
+* **Output & Consumption**: Delivers synthetic datasets, APIs, dashboards, and integration for downstream AI/ML.
 
-* Engine & Models: Utilizes statistical modeling, GAN/cGAN engines, rare event injectors, and Monte Carlo simulations.
-
-* Validation & Quality: Focuses on statistical similarity, privacy and PII protection, quality scoring, and bias/drift detection.
-
-* Output & Consumption: Delivers synthetic datasets, APIs, dashboards, and integration for downstream AI/ML.
 
 <br>
 
@@ -269,13 +265,43 @@ Define synthetic data generation objectives and success metrics.
 
 ## 13. System Architecture
 
-![Harnessing Synthetic Data for Advanced AI Models](https://images.openai.com/static-rsc-4/MCCKeOA21dqDcZvjC43Wd5T9bJT4zAM_C1WLw2r22X39IwhoVQQ4mCwZsWPr1MT1197TELSH6dvzOyhUzLqQJVO2ljG_h7MSfOSklOSJBQEzrOifOx8L4VtuYnEfbxGWnWZNHwM3hWyWRMWdh7a8SDhEu_JjfLyZmNlw4Fa2nBch1X0IbizD4c6U_Vdvw8pu?purpose=fullsize)
+<p align="center">
+  <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-system-architecture.jpg" 
+       alt="Centered Image" 
+       style="width: 100%; height: Auto;">
+</p>
+
+The core architecture is built around a **Core Intelligence Engine** supported by robust data management and observability layers:
+
+* **Core Intelligence Engine**: Contains a rare event injector, statistical engine, GAN engine (cGAN/WGAN-GP), and Monte Carlo simulator, all governed by a distribution alignment engine.
+* **Validation Layer**: Implements KS tests, Wasserstein distance metrics, privacy risk scores, and quality scores.
+* **Data Management Layer**: Handles metadata services, dataset catalogs, lineage tracking, and versioning.
+* **Observability & Operations**: Utilizes Prometheus for monitoring, the ELK stack for logging, OpenTelemetry for tracing, PagerDuty for alerts, and dedicated compliance reporting.
+* **Data Services**: Manages dataset storage (S3/Object Store), a relational database (PostgreSQL), a cache layer (Redis), and a feature store.
+
+<br>
 
 ### 14. Data Architecture
 
-![What Is a Data Pipeline? Types, Architecture & More](https://images.openai.com/static-rsc-4/XqOXk0bSvI_vW_WBYjGNJQ6pd5Bo-OXwo7W9sUrTh-h3D-A5-txRgr0EKUtOgcfjt-TFvtLy03d2UCXneMm9Fxra948xgFGe3fGA1RZVq3VUtmjFLJJUoggqaMDL662guxG4wOfhc9Di3bBtLUJVeri3s_AYFgsZq7NYZADZTRLdHiyhH2xwj7_TWqVk5-Je?purpose=fullsize)
-<br>
+<p align="center">
+  <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-data-pipeline.jpg" 
+       alt="Centered Image" 
+       style="width: 100%; height: Auto;">
+</p>
 
+The pipeline is structured into five distinct phases, complemented by supporting services and strict security compliance:
+
+* **Pipeline Stages**:
+1. **Ingestion**: Connects to databases, data lakes, APIs, files (CSV, Parquet), and streaming platforms (Kafka).
+2. **Preparation**: Executes data profiling, cleaning, normalization, encoding, feature engineering, and SMOTE balancing.
+3. **Synthetic Generation**: Applies statistical modeling, GAN/cGAN generation, rare event injection, Monte Carlo simulation, and distribution alignment.
+4. **Validation**: Conducts statistical similarity tests, privacy risk scoring, bias/fairness checks, quality scoring, and drift detection.
+5. **Export & Delivery**: Outputs to CSV/Parquet/JSON, APIs, data warehouses, BI tools, and AI/ML platforms.
+
+* **Supporting Services**: Includes metadata management, data lineage tracking, access control (RBAC), audit logging, encryption (at rest/in transit), and backup/recovery.
+* **Security & Compliance**: Aligned with ISO 27001, featuring PII detection and masking, k-Anonymity, differential privacy, data governance policies, and continuous monitoring.
+
+<br>
 ## 15. Core Intelligence Engine
 
 * Rare-event injection
@@ -339,8 +365,25 @@ POST /api/v1/synthesize
 
 ## 18. Deployment Architecture
 
-![Part-87: 🚀 Kubernetes Deployments with Imperative Commands in GCP (Google Kubernetes Engine) - DEV Community](https://images.openai.com/static-rsc-4/7Povar2M3NrWobY26JDDXjh3yey5o_Bfhs5C0sDXfTMzDOXsttqRXauIBjpUp72SUUg5Y5y_pmTfBvEQnF4AAE61OexS2k3kElxE0Jl3zyr-SzfPH3RE71KhD7csCMUcyjUUSrjdmBcI7mBqpbpCEbc-SIOI9v4mgwhs2xmHxlTnCpJF_mdiCz5egJQB1KxH?purpose=fullsize)
+<p align="center">
+  <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-deployment-kubernetes.jpg" 
+       alt="Centered Image" 
+       style="width: 100%; height: Auto;">
+</p>
 
+The platform is deployed within a scalable **Kubernetes Cluster**, optimized for cloud infrastructure (AWS/GCP/Azure):
+
+* **Cluster Components**:
+* **Ingress Controller**: Manages external access to the cluster.
+* **Application Layer (Pods)**: Houses the API service, web console, workers (CronJobs), and scheduler.
+* **GPU/ML Worker Nodes**: Dedicated GPU pods handle the heavy computational requirements of the ML models.
+* **System Services**: Manages backend dependencies including Redis (cache), PostgreSQL (database), MinIO (object storage), and RabbitMQ (message queue).
+
+
+* **Monitoring Stack**: Integrates Prometheus, Grafana, Alertmanager, and Loki/EFK for comprehensive cluster health tracking.
+* **External Connectivity**: Connects via DNS/CDN and load balancers (Cloud LB) to serve web users, API clients, partners, and Power BI/BI tools.
+* **Cloud Infrastructure**: Leverages underlying cloud services for object storage (S3/GCS/Blob), secrets management, IAM/RBAC, VPC/network security, backup/DR, and CloudWatch/logging.
+* 
 <br>
 
 ## 19. DevOps and CI/CD
