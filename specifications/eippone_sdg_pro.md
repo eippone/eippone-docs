@@ -1,13 +1,75 @@
-<div style="font-family: sans-serif; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 20px;">
-  <h1 style="margin: 0; font-size: 2.5em; color: #000;">EIPPONE-SDG Pro (Synthetic Data Generator)</h1>
-  <h2 style="margin: 5px 0 15px 0; font-size: 1.5em; color: #000; font-weight: 600;">Enterprise Technical Specification</h2>
-  
-  <div style="display: flex; gap: 10px;">
-    <span style="background-color: #e0f2fe; color: #3b82f6; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Version 1.0</span>
-    <span style="background-color: #dcfce7; color: #166534; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Status: MVP Ready</span>
-    <span style="border: 1px solid #3b82f6; color: #3b82f6; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Methodology: CRISP-DM</span>
-  </div>
+<hr>
+
+<div style="padding:28px 0 24px 0;">
+
+<h1 style="
+margin:0;
+font-size:3rem;
+font-weight:800;
+font-family:Segoe UI,Arial,sans-serif;
+color:#111827;
+line-height:1.15;">
+
+EIPPONE-SDG Pro (Synthetic Data Generator)
+
+</h1>
+
+<h2 style="
+margin-top:18px;
+margin-bottom:22px;
+font-size:2rem;
+font-weight:600;
+font-family:Segoe UI,Arial,sans-serif;
+color:#1f2937;">
+
+Enterprise Technical Specification
+
+</h2>
+
+<span style="
+display:inline-block;
+padding:6px 14px;
+margin-right:10px;
+background:#dbeafe;
+color:#2563eb;
+border-radius:999px;
+font-size:15px;
+font-weight:600;">
+
+Version 1.0
+
+</span>
+
+<span style="
+display:inline-block;
+padding:6px 14px;
+margin-right:10px;
+background:#dcfce7;
+color:#15803d;
+border-radius:999px;
+font-size:15px;
+font-weight:600;">
+
+Status: MVP Ready
+
+</span>
+
+<span style="
+display:inline-block;
+padding:6px 14px;
+border:2px solid #3b82f6;
+color:#2563eb;
+border-radius:999px;
+font-size:15px;
+font-weight:600;">
+
+Methodology: CRISP-DM
+
+</span>
+
 </div>
+
+<hr>
 
 ### Document Control
 
