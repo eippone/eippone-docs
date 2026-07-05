@@ -161,9 +161,11 @@ Enterprises face three structural constraints:
 EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that combines GANs, statistical reconstruction, and rare-event simulation.  
 
 <p align="center">
-    
-      <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-overview.jpg" width="100%" />    
-</p>
+  <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-overview.jpg" 
+       alt="Centered Image" 
+       style="width: 100%; height: Auto;">
+</p>  
+
 
 
 This module outlines the end-to-end flow of data through the platform, emphasizing a "Privacy by Design" approach with a rare event accuracy of 95%+ and high fidelity (>0.90 similarity). The process is divided into four main stages:
