@@ -13,7 +13,6 @@
 </div>
 
 <br>
-<br>
 
 <div style="background-color: #f6f8fa; padding: 20px; border-radius: 8px; border: 1px solid #d0d7de;">
 
@@ -21,7 +20,7 @@
 
 <div>
 
-**🧾 Executive & Investor Layer**
+**Executive & Investor Layer**
 1. [Executive Summary](#1-executive-summary)
 2. [Company Overview](#2-company-overview)
 3. [Market Problem](#3-market-problem)
@@ -29,7 +28,7 @@
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
 
-**⚙️ Product & Engineering Layer**
+**Product & Engineering Layer**
 7. [Product Overview](#7-product-overview)
 8. [System Architecture](#8-system-architecture)
 9. [Core Intelligence Engine](#9-core-intelligence-engine)
@@ -38,7 +37,7 @@
 12. [Deployment Architecture](#12-deployment-architecture)
 13. [Performance Benchmarks](#13-performance-benchmarks)
 
-**🛡️ Security & Compliance Layer**
+**Security & Compliance Layer**
 14. [ISMS](#14-information-security-management-system-isms)
 15. [Risk Management](#15-risk-management-framework)
 16. [Security Controls](#16-security-controls-annex-a-mapping)
@@ -46,31 +45,27 @@
 18. [Access Control](#18-access-control--identity-management)
 19. [Audit Logging](#19-audit-logging--monitoring)
 
-**⚖️ Legal & Governance Layer**
+**Legal & Governance Layer**
 20. [Licensing Model](#20-licensing-model)
 21. [Confidentiality](#21-confidentiality--nda)
 22. [Export Control](#22-export-control-compliance)
 23. [Liability](#23-limitation-of-liability)
 
-**🚀 Roadmap & Strategy**
+**Roadmap & Strategy**
 24. [18-Week Roadmap](#24-18-week-delivery-roadmap)
 25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)
 26. [Research Roadmap](#26-research--innovation-roadmap)
 
-**📚 Appendices**
+**Appendices**
 27–30. [Appendices](#27-appendix-a--api-error-codes)
 
 </div>
-</div>
-
 
 
 # 1. Executive Summary
 EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for artificial intelligence, analytics, testing, and simulation environments.
 
 <br>
-<br>
-
 
 # 2. Company Overview
 EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
@@ -80,15 +75,14 @@ EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused 
 * **Risk-aware data modeling**
 
 <br>
-<br>
 
-# 3. Market Problem
+  # 3. Market Problem
 * Data privacy regulations (GDPR, HIPAA, etc.)
 * Limited access to high-quality training datasets
 * High cost of secure data acquisition
 
 <br>
-<br>
+
 
 # 4. Business Model
 * SaaS API licensing
@@ -98,7 +92,6 @@ EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused 
 
 
 <br>
-<br>
 
 
 # 5. Competitive Advantage
@@ -107,26 +100,25 @@ EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused 
 * Built-in compliance layer (ISO 27001-aligned)
 * Enterprise API-first architecture
 
+<br>
+
 # 6. Investment Highlights
 * High-margin AI infrastructure product
 * Scalable API consumption model
 * Strong enterprise lock-in potential
 * Regulatory-driven demand tailwinds
 
+<br>
 
-<br>
-<br>
 
 # 7. Product Overview
 Hybrid system combining GAN-based generation, statistical simulation, rare-event injection, and a validation engine.
 
 <br>
-<br>
 
 # 8. System Architecture
 Layered architecture: API Gateway → Synthetic Engine → Validation Layer → Security Layer → Storage Layer.
 
-<br>
 <br>
 
 # 9. Core Intelligence Engine
@@ -136,12 +128,10 @@ Layered architecture: API Gateway → Synthetic Engine → Validation Layer → 
 * Rare-event injector
 
 <br>
-<br>
 
 # 10. Data Architecture
 Pipeline: Ingestion → Transformation → Generation → Validation → Export
 
-<br>
 <br>
 
 # 11. API Specification
@@ -159,7 +149,6 @@ Pipeline: Ingestion → Transformation → Generation → Validation → Export
   "privacy_level": "High"
 }
 ```
-<br>
 <br>
 
 #  11. API Specification
@@ -200,7 +189,6 @@ POST /api/v1/synthesize
 </div>
 
 <br>
-<br>
 
 # 12. Deployment Architecture
 
@@ -210,8 +198,6 @@ POST /api/v1/synthesize
 * Horizontal scaling model
 
 <br>
-<br>
-
 
 # 13. Performance Benchmarks
 
@@ -221,7 +207,6 @@ POST /api/v1/synthesize
 | API latency  | < 2 sec    |
 | Concurrency  | 500+ users |
 
-<br>
 <br>
 
 #  14. Information Security Management System (ISMS)
@@ -234,7 +219,6 @@ Aligned with ISO 27001 principles:
 * Control enforcement across systems
 
 <br>
-<br>
 
 # 15. Risk Management Framework
 
@@ -243,7 +227,6 @@ Aligned with ISO 27001 principles:
 * Infrastructure risk monitoring
 * Compliance risk mapping
 
-<br>
 <br>
 
 # 16. Security Controls (Annex A Mapping)
@@ -254,7 +237,6 @@ Aligned with ISO 27001 principles:
 * Communications Security (A.13)
 
 <br>
-<br>
 
 # 17. Data Protection & Privacy
 
@@ -263,7 +245,6 @@ Aligned with ISO 27001 principles:
 * PII detection & removal
 * Data masking layer
 
-<br>
 <br>
 
 # 18. Access Control & Identity Management
@@ -274,7 +255,6 @@ Aligned with ISO 27001 principles:
 * Multi-tenant isolation
 
 <br>
-<br>
 
 # 19. Audit Logging & Monitoring
 
@@ -284,15 +264,13 @@ Aligned with ISO 27001 principles:
 * Compliance reporting pipeline
 
 <br>
-<br>
 
-# ⚖️ 20. Licensing Model
+# 20. Licensing Model
 
 * Proprietary commercial license
 * No open-source redistribution rights
 * Enterprise licensing required for production use
 
-<br>
 <br>
 
 # 21. Confidentiality & NDA
@@ -302,7 +280,7 @@ Aligned with ISO 27001 principles:
 * Partner-only evaluation access
 
 <br>
-<br>
+
 
 # 22. Export Control Compliance
 
@@ -312,7 +290,7 @@ Aligned with ISO 27001 principles:
 * Restricted territory enforcement
 
 <br>
-<br>
+
 
 # 23. Limitation of Liability
 
@@ -320,7 +298,7 @@ System provided “as is” without warranty.
 No liability for indirect or consequential damages.
 
 <br>
-<br>
+
 
 #  24. 18-Week Delivery Roadmap
 
@@ -330,7 +308,7 @@ No liability for indirect or consequential damages.
 * Phase 4: ecosystem integration
 
 <br>
-<br>
+
 
 #  25. Enterprise Platform Evolution Roadmap
 
@@ -359,7 +337,7 @@ No liability for indirect or consequential damages.
 </div>
 
 <br>
-<br>
+
 
 # 26. Research & Innovation Roadmap
 
@@ -369,7 +347,8 @@ No liability for indirect or consequential damages.
 
 
 <br>
-<br>
+
+
 #  Appendices
 
 ## 27. API Error Codes
