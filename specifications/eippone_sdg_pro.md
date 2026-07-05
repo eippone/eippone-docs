@@ -28,6 +28,10 @@
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
 
+</div>
+
+<div style="column-count: 2;">
+  
 **⚙️ Product & Engineering Layer**  
 7. [Product Overview](#7-product-overview)    
 8. [System Architecture](#8-system-architecture)  
@@ -36,6 +40,8 @@
 11. [API Specification](#11-api-specification)  
 12. [Deployment Architecture](#12-deployment-architecture)  
 13. [Performance Benchmarks](#13-performance-benchmarks)  
+
+</div>
 
 **🛡️ Security & Compliance Layer**  
 14. [ISMS](#14-information-security-management-system-isms)  
