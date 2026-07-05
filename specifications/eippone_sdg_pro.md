@@ -2,7 +2,7 @@
 
 ### Enterprise Technical Specification
 
-Version 1.0Status: MVP ReadyMethodology: CRISP-DM
+Version 1.0 Status: MVP ReadyMethodology: CRISP-DM
 
 ### Document Control
 
