@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Define text and graphic styles -->
+  <style>
+    .main-title { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 48px; fill: #000000; }
+    .subtitle { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 32px; fill: #000000; }
+    .badge-text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 18px; }
+    .badge-blue-bg { fill: #dbeafe; }
+    .badge-blue-text { fill: #2563eb; }
+    .badge-green-bg { fill: #dcfce7; }
+    .badge-green-text { fill: #166534; }
+    .badge-border { stroke: #2563eb; stroke-width: 2px; fill: none; }
+    .line { stroke: #e5e7eb; stroke-width: 2px; fill: none; }
+  </style>
+
+  <!-- Top horizontal line -->
+  <line x1="50" y1="50" x2="950" y2="50" class="line" />
+
+  <!-- Main Header Text -->
+  <text x="50" y="120" class="main-title">EIPPONE-SDG Pro (Synthetic Data Generator)</text>
+
+  <!-- Subtitle Text -->
+  <text x="50" y="170" class="subtitle">Enterprise Technical Specification</text>
+
+  <!-- Badges Group -->
+  <g transform="translate(50, 195)">
+    <!-- Badge 1: Version 1.0 -->
+    <rect x="0" y="15" width="120" height="32" rx="16" ry="16" class="badge-blue-bg" />
+    <text x="15" y="37" class="badge-text badge-blue-text">Version 1.0</text>
+
+    <!-- Badge 2: Status: MVP Ready -->
+    <rect x="135" y="15" width="180" height="32" rx="16" ry="16" class="badge-green-bg" />
+    <text x="150" y="37" class="badge-text badge-green-text">Status: MVP Ready</text>
+
+    <!-- Badge 3: Methodology: CRISP-DM -->
+    <rect x="330" y="15" width="220" height="32" rx="16" ry="16" class="badge-border" />
+    <text x="345" y="37" class="badge-text badge-blue-text">Methodology: CRISP-DM</text>
+  </g>
+
+  <!-- Bottom horizontal line -->
+  <line x1="50" y1="270" x2="950" y2="270" class="line" />
+</svg>
