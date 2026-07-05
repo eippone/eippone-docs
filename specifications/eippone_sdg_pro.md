@@ -1,8 +1,13 @@
-### EIPPONE-SDG Pro (Synthetic Data Generator)
-
-### Enterprise Technical Specification
-
-Version 1.0 Status: MVP ReadyMethodology: CRISP-DM
+<div style="font-family: sans-serif; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 20px;">
+  <h1 style="margin: 0; font-size: 2.5em; color: #000;">EIPPONE-SDG Pro (Synthetic Data Generator)</h1>
+  <h2 style="margin: 5px 0 15px 0; font-size: 1.5em; color: #000; font-weight: 600;">Enterprise Technical Specification</h2>
+  
+  <div style="display: flex; gap: 10px;">
+    <span style="background-color: #e0f2fe; color: #3b82f6; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Version 1.0</span>
+    <span style="background-color: #dcfce7; color: #166534; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Status: MVP Ready</span>
+    <span style="border: 1px solid #3b82f6; color: #3b82f6; padding: 4px 12px; border-radius: 15px; font-size: 0.9em; font-weight: bold;">Methodology: CRISP-DM</span>
+  </div>
+</div>
 
 ### Document Control
 
