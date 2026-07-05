@@ -11,9 +11,9 @@
 
 <br>
 
-#  Table of Contents
+##  Table of Contents
 
-##  Executive & Investor Layer
+###  Executive & Investor Layer
 
 1. [Executive Summary](#1-executive-summary)
 2. [Company Overview](#2-company-overview)
@@ -22,7 +22,7 @@
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
 
-## 🏗️ Product & Engineering Layer
+###  Product & Engineering Layer
 
 7. [Product Overview](#7-product-overview)
 8. [System Architecture](#8-system-architecture)
@@ -32,7 +32,7 @@
 12. [Deployment Architecture](#12-deployment-architecture)
 13. [Performance Benchmarks](#13-performance-benchmarks)
 
-##  ISO 27001 Security & Compliance Layer
+###  ISO 27001 Security & Compliance Layer
 
 14. [Information Security Management System (ISMS)](#14-information-security-management-system-isms)
 15. [Risk Management Framework](#15-risk-management-framework)
@@ -41,20 +41,20 @@
 18. [Access Control & Identity Management](#18-access-control--identity-management)
 19. [Audit Logging & Monitoring](#19-audit-logging--monitoring)
 
-## ⚖️ Legal & Governance Layer
+### ⚖️ Legal & Governance Layer
 
 20. [Licensing Model](#20-licensing-model)
 21. [Confidentiality & NDA](#21-confidentiality--nda)
 22. [Export Control Compliance](#22-export-control-compliance)
 23. [Limitation of Liability](#23-limitation-of-liability)
 
-##  Roadmap & Strategy
+###  Roadmap & Strategy
 
 24. [18-Week Delivery Roadmap](#24-18-week-delivery-roadmap)
 25. [Enterprise Platform Evolution Roadmap](#25-enterprise-platform-evolution-roadmap)
 26. [Research & Innovation Roadmap](#26-research--innovation-roadmap)
 
-##  Appendices
+###  Appendices
 
 27. [Appendix A — API Error Codes](#27-appendix-a--api-error-codes)
 28. [Appendix B — Data Schemas](#28-appendix-b--data-schemas)
@@ -63,7 +63,7 @@
 
 <br>
 
-# 1. Executive Summary
+## 1. Executive Summary
 
 EIPPONE-SDG Pro is an enterprise-grade synthetic data generation platform enabling organizations to generate privacy-preserving, statistically accurate datasets for AI, simulation, and analytics systems.
 
@@ -71,7 +71,7 @@ It eliminates reliance on sensitive production data while enabling scalable AI m
 
 <br>
 
-# 2. Company Overview
+## 2. Company Overview
 
 EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
 
@@ -82,7 +82,7 @@ EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused 
 
 <br>
 
-# 3. Market Problem
+## 3. Market Problem
 
 Enterprises face three structural constraints:
 
@@ -92,7 +92,7 @@ Enterprises face three structural constraints:
 
 <br>
 
-# 4. Business Model
+## 4. Business Model
 
 * SaaS API licensing
 * Enterprise on-prem deployments
@@ -101,7 +101,7 @@ Enterprises face three structural constraints:
 
 <br>
 
-# 5. Competitive Advantage
+## 5. Competitive Advantage
 
 * Rare-event synthetic modeling engine
 * Hybrid GAN + statistical reconstruction
@@ -110,7 +110,7 @@ Enterprises face three structural constraints:
 
 <br>
 
-# 6. Investment Highlights
+## 6. Investment Highlights
 
 * High-margin AI infrastructure product
 * Scalable API consumption model
@@ -119,7 +119,7 @@ Enterprises face three structural constraints:
 
 <br>
 
-# 7. Product Overview
+## 7. Product Overview
 
 Hybrid system combining:
 
@@ -130,7 +130,7 @@ Hybrid system combining:
 
 <br>
 
-# 8. System Architecture
+## 8. System Architecture
 
 Layered architecture:
 
@@ -142,7 +142,7 @@ Layered architecture:
 
 <br>
 
-# 9. Core Intelligence Engine
+## 9. Core Intelligence Engine
 
 * cGAN / WGAN-GP models
 * Monte Carlo simulation
@@ -151,7 +151,7 @@ Layered architecture:
 
 <br>
 
-# 10. Data Architecture
+## 10. Data Architecture
 
 Pipeline:
 
@@ -159,7 +159,7 @@ Ingestion → Transformation → Generation → Validation → Export
 
 <br>
 
-#  11. API Specification
+##  11. API Specification
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
 
@@ -198,16 +198,16 @@ POST /api/v1/synthesize
 
 <br>
 
-# 12. Deployment Architecture
+## 12. Deployment Architecture
 
 * Kubernetes orchestration
 * Docker containerization
 * CI/CD via GitHub Actions
 * Horizontal scaling model
 
----
+<br>
 
-# 13. Performance Benchmarks
+## 13. Performance Benchmarks
 
 | Metric       | Target     |
 | ------------ | ---------- |
@@ -217,7 +217,7 @@ POST /api/v1/synthesize
 
 
 
-#  14. Information Security Management System (ISMS)
+##  14. Information Security Management System (ISMS)
 
 Aligned with ISO 27001 principles:
 
@@ -228,7 +228,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 15. Risk Management Framework
+## 15. Risk Management Framework
 
 * Data leakage risk scoring
 * Model inversion threat analysis
@@ -237,7 +237,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 16. Security Controls (Annex A Mapping)
+## 16. Security Controls (Annex A Mapping)
 
 * Access Control (A.9)
 * Cryptography (A.10)
@@ -246,7 +246,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 17. Data Protection & Privacy
+## 17. Data Protection & Privacy
 
 * Differential Privacy engine
 * k-anonymity enforcement
@@ -255,7 +255,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 18. Access Control & Identity Management
+## 18. Access Control & Identity Management
 
 * Role-Based Access Control (RBAC)
 * API key governance
@@ -264,7 +264,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 19. Audit Logging & Monitoring
+## 19. Audit Logging & Monitoring
 
 * Immutable audit logs
 * Trace ID tracking
@@ -273,7 +273,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# ⚖️ 20. Licensing Model
+## ⚖️ 20. Licensing Model
 
 * Proprietary commercial license
 * No open-source redistribution rights
@@ -281,7 +281,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 21. Confidentiality & NDA
+## 21. Confidentiality & NDA
 
 * Controlled access distribution
 * Non-disclosure enforcement
@@ -289,7 +289,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 22. Export Control Compliance
+## 22. Export Control Compliance
 
 * Canadian EIPA compliance
 * U.S. EAR awareness
@@ -298,42 +298,42 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-# 23. Limitation of Liability
+## 23. Limitation of Liability
 
 System provided “as is” without warranty.
 No liability for indirect or consequential damages.
 
 <br>
 
-#  24. 18-Week Delivery Roadmap
+##  24. 18-Week Delivery Roadmap
 
 * Phase 1: Core engine
 * Phase 2: API + validation layer
 * Phase 3: enterprise scaling
 * Phase 4: ecosystem integration
 
----
+<br>
 
-#  25. Enterprise Platform Evolution Roadmap
+##  25. Enterprise Platform Evolution Roadmap
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px;">
 
-## Phase 1 — Intelligence Layer
+### Phase 1 — Intelligence Layer
 
 * Natural language dataset generation
 * LLM schema synthesis
 
-## Phase 2 — Scaling Layer
+### Phase 2 — Scaling Layer
 
 * Federated synthetic learning
 * GPU distributed training
 
-## Phase 3 — Autonomous Layer
+### Phase 3 — Autonomous Layer
 
 * Self-improving synthetic agents
 * Adaptive simulation systems
 
-## Phase 4 — Ecosystem Layer
+### Phase 4 — Ecosystem Layer
 
 * Synthetic data marketplace
 * Multi-modal generation platform
@@ -342,7 +342,7 @@ No liability for indirect or consequential damages.
 
 <br>
 
-# 26. Research & Innovation Roadmap
+## 26. Research & Innovation Roadmap
 
 * Agentic synthetic intelligence
 * Quantum-inspired simulation
@@ -350,21 +350,21 @@ No liability for indirect or consequential damages.
 
 <br>
 
-#  Appendices
+##  Appendices
 
-## 27. API Error Codes
+### 27. API Error Codes
 
 (Standardized SDG error taxonomy)
 
-## 28. Data Schemas
+### 28. Data Schemas
 
 (Supported synthetic dataset structures)
 
-## 29. Security Controls Mapping
+### 29. Security Controls Mapping
 
 (ISO 27001 Annex A alignment matrix)
 
-## 30. Benchmark Methodology
+### 30. Benchmark Methodology
 
 (KS test, Wasserstein distance, privacy risk scoring)
 
