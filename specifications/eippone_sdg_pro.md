@@ -17,7 +17,7 @@
 
 1. [Executive Summary](#1-executive-summary)
 2. [Company Overview](#2-company-overview)
-3. [Business Overview](#3-Business Overview)
+3. [Business Overview](#3-business-Overview)
 4. [Business Model](#4-business-model)
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
