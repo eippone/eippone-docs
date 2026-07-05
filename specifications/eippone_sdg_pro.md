@@ -329,13 +329,6 @@ Assumptions: Cloud availability, GPU access
 EIPPONE-SDG Pro establishes a foundation for enterprise-grade synthetic intelligence systems enabling secure, scalable AI development.
 
 
-
-You’re right — that section is too vague for an enterprise technical spec. “Appendices” should be **structured, referenceable, and usable by engineers**, not just a bullet list.
-
-Here is a **clean, professional rewrite of Section 25** with proper documentation structure and clarity.
-
----
-
 #  25. Appendices
 
 This section provides supporting technical references, standards, and extended documentation used across the EIPPONE-SDG Pro platform.
