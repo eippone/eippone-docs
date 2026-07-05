@@ -17,7 +17,9 @@
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
 
   <div style="break-inside: avoid;">
-    **🧾 Executive & Investor Layer**
+    
+    **Executive & Investor Layer**
+    
     <ul style="list-style-type: none; padding-left: 0;">
       <li>1. [Executive Summary](#1-executive-summary)</li>
       <li>2. [Company Overview](#2-company-overview)</li>
@@ -27,7 +29,7 @@
       <li>6. [Investment Highlights](#6-investment-highlights)</li>
     </ul>
 
-    **⚙️ Product & Engineering Layer**
+    **Product & Engineering Layer**
     <ul style="list-style-type: none; padding-left: 0;">
       <li>7. [Product Overview](#7-product-overview)</li>
       <li>8. [System Architecture](#8-system-architecture)</li>
@@ -40,7 +42,7 @@
   </div>
 
   <div style="break-inside: avoid;">
-    **🛡️ Security & Compliance Layer**
+    **Security & Compliance Layer**
     <ul style="list-style-type: none; padding-left: 0;">
       <li>14. [ISMS](#14-information-security-management-system-isms)</li>
       <li>15. [Risk Management](#15-risk-management-framework)</li>
@@ -50,7 +52,7 @@
       <li>19. [Audit Logging](#19-audit-logging--monitoring)</li>
     </ul>
 
-    **⚖️ Legal & Governance Layer**
+    **Legal & Governance Layer**
     <ul style="list-style-type: none; padding-left: 0;">
       <li>20. [Licensing Model](#20-licensing-model)</li>
       <li>21. [Confidentiality](#21-confidentiality--nda)</li>
@@ -58,14 +60,14 @@
       <li>23. [Liability](#23-limitation-of-liability)</li>
     </ul>
 
-    **🚀 Roadmap & Strategy**
+    **Roadmap & Strategy**
     <ul style="list-style-type: none; padding-left: 0;">
       <li>24. [18-Week Roadmap](#24-18-week-delivery-roadmap)</li>
       <li>25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)</li>
       <li>26. [Research Roadmap](#26-research--innovation-roadmap)</li>
     </ul>
 
-    **📚 Appendices**
+    **Appendices**
     <ul style="list-style-type: none; padding-left: 0;">
       <li>27–30. [Appendices](#27-appendix-a--api-error-codes)</li>
     </ul>
