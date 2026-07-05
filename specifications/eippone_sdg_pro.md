@@ -491,15 +491,15 @@ Defines how synthetic data quality is measured.
 
  Here is a **legal-grade enterprise footer** you can place at the end of your specification. It is structured like what you’d see in enterprise SaaS, defense-adjacent software, or regulated AI platforms.
 
----
 
-# Appendix E — Legal & Compliance Notice
 
----
+## Appendix E — Legal & Compliance Notice
+
+
 
 <div style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:16px; font-size:12.5px; color:#57606a;">
 
-## 🔐 Confidentiality & NDA Notice
+###  Confidentiality & NDA Notice
 
 This document may contain confidential and proprietary information.
 By accessing or reviewing this document, the recipient agrees that:
@@ -511,9 +511,9 @@ By accessing or reviewing this document, the recipient agrees that:
 
 Where applicable, access to this document is governed by a **Mutual Non-Disclosure Agreement (NDA)** between EIPPONE and the receiving party.
 
----
 
-## ⚖️ Licensing Terms
+
+### ⚖️ Licensing Terms
 
 Unless otherwise stated in a separate written agreement:
 
@@ -522,9 +522,9 @@ Unless otherwise stated in a separate written agreement:
 * Use of the EIPPONE-SDG Pro system, architecture, or methods requires a valid commercial license from EIPPONE Simulation Dynamics Inc.
 * Reverse engineering, decompilation, or derivation of competing systems is strictly prohibited
 
----
 
-## 🌍 Export Control & Regulatory Compliance
+
+###  Export Control & Regulatory Compliance
 
 This document and associated technologies may be subject to export control laws and regulations, including but not limited to:
 
@@ -534,23 +534,17 @@ This document and associated technologies may be subject to export control laws 
 
 The recipient agrees not to export, re-export, transfer, or disclose controlled technical data to any restricted country, entity, or individual in violation of applicable laws.
 
----
 
-## 🚫 Limitation of Liability
+
+###  Limitation of Liability
 
 This document is provided “as is” for informational and technical evaluation purposes.
 EIPPONE Simulation Dynamics Inc. makes no warranties, express or implied, regarding accuracy, completeness, or fitness for a particular purpose.
 
 Under no circumstances shall EIPPONE be liable for any direct, indirect, incidental, or consequential damages arising from use of this document or related systems.
 
----
 
-## 👤 Document Ownership
 
-**Author:** Atsu Vovor
-**Organization:** EIPPONE Simulation Dynamics Inc.
-**Document:** EIPPONE-SDG Pro – Enterprise Technical Specification
-**Classification:** Proprietary / Confidential (Unless Explicitly Released)
 
 </div>
 
