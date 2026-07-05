@@ -1,18 +1,4 @@
-You’re right. For an enterprise-grade AI platform company, the specification should read like a professional technical blueprint, not a README. It should have a formal structure similar to documents used by enterprise software vendors, system integrators, and engineering organizations.
-
-Below is the structure I recommend for EIPPONE-SDG Pro — Enterprise Technical Specification. This format is suitable for:
-
-* Publishing in `eippone-docs`
-
-* Sharing with developers
-
-* Sharing with enterprise customers
-
-* Sharing with partners and integrators
-
-* Supporting future certification and governance processes
-
-### EIPPONE-SDG Pro (Synthetic Data Generator)
+ # EIPPONE-SDG Pro (Synthetic Data Generator)
 
 ### Enterprise Technical Specification
 
