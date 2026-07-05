@@ -11,7 +11,7 @@
 
   <h1
     style="
-      margin:0;
+      margin:50%;
       padding:0;
       color:#ffffff;
       font-size:2.8rem;
