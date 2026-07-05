@@ -142,6 +142,9 @@ Hybrid system combining:
 
 ## 8. System Architecture
 
+![Synthetic Data in AI: When, Why, and How Enterprises Use It | by Amit Kharche | Medium](https://images.openai.com/static-rsc-4/zu3o3dDJbWYnSgDtcqIdijksesK335ffYMOHUbgRpuCJHW2DiVUJ8HsaYPlITc1KVfTu-F1zKWqQFXPyLBG6JNdiX7lDp22ioGg79UkpkXNXes5nrAlYPblzmarNH9-WOuq2TkICpYIjsW5Fda-SIrVYOA-VL7JdFVrjYbQJgcVG8e5ecAaY7PZ2oJ5OOlt_?purpose=fullsize)
+
+EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that combines GANs, statistical reconstruction, and rare-event simulation.
 Layered architecture:
 
 * API Gateway
