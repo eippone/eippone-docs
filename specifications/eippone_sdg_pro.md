@@ -28,7 +28,7 @@
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
 
-**⚙️ Product & Engineering Layer**
+**⚙️ Product & Engineering Layer**  
 7. [Product Overview](#7-product-overview)
 8. [System Architecture](#8-system-architecture)
 9. [Core Intelligence Engine](#9-core-intelligence-engine)
@@ -37,7 +37,7 @@
 12. [Deployment Architecture](#12-deployment-architecture)
 13. [Performance Benchmarks](#13-performance-benchmarks)
 
-**🛡️ Security & Compliance Layer**
+**🛡️ Security & Compliance Layer**  
 14. [ISMS](#14-information-security-management-system-isms)
 15. [Risk Management](#15-risk-management-framework)
 16. [Security Controls](#16-security-controls-annex-a-mapping)
@@ -45,18 +45,18 @@
 18. [Access Control](#18-access-control--identity-management)
 19. [Audit Logging](#19-audit-logging--monitoring)
 
-**⚖️ Legal & Governance Layer**
+**⚖️ Legal & Governance Layer**  
 20. [Licensing Model](#20-licensing-model)
 21. [Confidentiality](#21-confidentiality--nda)
 22. [Export Control](#22-export-control-compliance)
 23. [Liability](#23-limitation-of-liability)
 
-**🚀 Roadmap & Strategy**
+**🚀 Roadmap & Strategy**  
 24. [18-Week Roadmap](#24-18-week-delivery-roadmap)
 25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)
 26. [Research Roadmap](#26-research--innovation-roadmap)
 
-**📚 Appendices**
+**📚 Appendices**  
 27–30. [Appendices](#27-appendix-a--api-error-codes)
 
 </div>
