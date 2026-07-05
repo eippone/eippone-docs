@@ -13,12 +13,13 @@
 </div>
 
 <br>
+<br>
 
 <div style="background-color: #f6f8fa; padding: 20px; border-radius: 8px; border: 1px solid #d0d7de;">
 
 <h1>Table of Contents</h1>
 
-<div style="column-count: 2;">
+<div>
 
 **🧾 Executive & Investor Layer**
 1. [Executive Summary](#1-executive-summary)
