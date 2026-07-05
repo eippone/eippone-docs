@@ -1,7 +1,60 @@
-<p align="center">
-         <img src="https://github.com/eippone/eippone-docs/blob/main/images/eippone_sdg_pro_header.svg" width="90%" />
-</p>
+<div
+  style="
+    background: linear-gradient(135deg,#0b1f3a 0%, #123b6d 100%);
+    border-radius:14px;
+    padding:42px 40px;
+    margin:30px 0;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    color:white;
+  ">
 
+  <h1
+    style="
+      margin:0;
+      padding:0;
+      color:#ffffff;
+      font-size:2.8rem;
+      font-weight:800;
+      font-family:Segoe UI,Arial,sans-serif;
+      line-height:1.15;
+    ">
+    EIPPONE-SDG Pro
+  </h1>
+
+  <div
+    style="
+      margin-top:8px;
+      font-size:1.5rem;
+      font-weight:400;
+      color:#dbeafe;
+      font-family:Segoe UI,Arial,sans-serif;
+    ">
+    (Synthetic Data Generator)
+  </div>
+
+  <div
+    style="
+      width:120px;
+      height:3px;
+      background:#4ea3ff;
+      margin:28px auto;
+      border-radius:3px;
+    ">
+  </div>
+
+  <h2
+    style="
+      margin:0;
+      color:white;
+      font-size:1.9rem;
+      font-weight:600;
+      font-family:Segoe UI,Arial,sans-serif;
+    ">
+    Enterprise Technical Specification
+  </h2>
+
+</div>
 
 <div align="center">
 ### Document Control
