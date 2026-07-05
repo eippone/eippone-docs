@@ -1,192 +1,178 @@
 # 📘 EIPPONE-SDG Pro (Synthetic Data Generator)
 
-## Enterprise Technical Specification
+## Enterprise Technical + Compliance Specification (Hybrid Investor & ISO 27001-Aligned)
 
-Version 1.0 • Status: MVP Ready • Methodology: CRISP-DM
+**Version:** 1.0
+**Status:** MVP Ready
+**Classification:** Confidential – Investor / Enterprise Evaluation
+**Owner:** EIPPONE Simulation Dynamics Inc.
+**Author:** Atsu Vovor
 
-
+---
 
 #  Table of Contents
 
+## 🧾 Executive & Investor Layer
+
 1. [Executive Summary](#1-executive-summary)
-2. [Introduction](#2-introduction)
-3. [Business Overview](#3-business-overview)
-4. [Scope](#4-scope)
-5. [Product Overview](#5-product-overview)
-6. [Business Objectives](#6-business-objectives)
-7. [CRISP-DM Methodology](#7-crisp-dm-methodology)
-8. [Functional Requirements](#8-functional-requirements)
-9. [Non-Functional Requirements](#9-non-functional-requirements)
-10. [System Architecture](#10-system-architecture)
-11. [Data Architecture](#11-data-architecture)
-12. [Core Intelligence Engine](#12-core-intelligence-engine)
-13. [Security and Compliance](#13-security-and-compliance)
-14. [API Specification](#14-api-specification)
-15. [Deployment Architecture](#15-deployment-architecture)
-16. [DevOps and CI/CD](#16-devops-and-cicd)
-17. [EIPPONE Ecosystem Integration](#17-eippone-ecosystem-integration)
-18. [Testing Strategy](#18-testing-strategy)
-19. [Performance Benchmarks](#19-performance-benchmarks)
-20. [18-Week Delivery Roadmap](#20-18-week-delivery-roadmap)
-21. [Enterprise Platform Evolution Roadmap](#21-enterprise-platform-evolution-roadmap)
-22. [Research and Innovation Roadmap](#22-research-and-innovation-roadmap)
-23. [Risks and Assumptions](#23-risks-and-assumptions)
-24. [Conclusion](#24-conclusion)
-25. [Appendices](#25-appendices)
+2. [Company Overview](#2-company-overview)
+3. [Market Problem](#3-market-problem)
+4. [Business Model](#4-business-model)
+5. [Competitive Advantage](#5-competitive-advantage)
+6. [Investment Highlights](#6-investment-highlights)
 
+##  Product & Engineering Layer
 
+7. [Product Overview](#7-product-overview)
+8. [System Architecture](#8-system-architecture)
+9. [Core Intelligence Engine](#9-core-intelligence-engine)
+10. [Data Architecture](#10-data-architecture)
+11. [API Specification](#11-api-specification)
+12. [Deployment Architecture](#12-deployment-architecture)
+13. [Performance Benchmarks](#13-performance-benchmarks)
+
+##  ISO 27001 Security & Compliance Layer
+
+14. [Information Security Management System (ISMS)](#14-information-security-management-system-isms)
+15. [Risk Management Framework](#15-risk-management-framework)
+16. [Security Controls (Annex A Mapping)](#16-security-controls-annex-a-mapping)
+17. [Data Protection & Privacy](#17-data-protection--privacy)
+18. [Access Control & Identity Management](#18-access-control--identity-management)
+19. [Audit Logging & Monitoring](#19-audit-logging--monitoring)
+
+##  Legal & Governance Layer
+
+20. [Licensing Model](#20-licensing-model)
+21. [Confidentiality & NDA](#21-confidentiality--nda)
+22. [Export Control Compliance](#22-export-control-compliance)
+23. [Limitation of Liability](#23-limitation-of-liability)
+
+##  Roadmap & Strategy
+
+24. [18-Week Delivery Roadmap](#24-18-week-delivery-roadmap)
+25. [Enterprise Platform Evolution Roadmap](#25-enterprise-platform-evolution-roadmap)
+26. [Research & Innovation Roadmap](#26-research--innovation-roadmap)
+
+##  Appendices
+
+27. [Appendix A — API Error Codes](#27-appendix-a--api-error-codes)
+28. [Appendix B — Data Schemas](#28-appendix-b--data-schemas)
+29. [Appendix C — Security Controls Mapping](#29-appendix-c--security-controls-mapping)
+30. [Appendix D — Benchmark Methodology](#30-appendix-d--benchmark-methodology)
+
+---
 
 # 1. Executive Summary
 
-EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for AI, analytics, testing, and simulation environments.
+EIPPONE-SDG Pro is an enterprise-grade synthetic data generation platform enabling organizations to generate privacy-preserving, statistically accurate datasets for AI, simulation, and analytics systems.
 
+It eliminates reliance on sensitive production data while enabling scalable AI model training and testing.
 
+---
 
-# 2. Introduction
+# 2. Company Overview
 
-## 2.1 Purpose
-
-Defines technical, functional, and architectural specifications of the platform.
-
-## 2.2 Audience
-
-Engineers • Architects • Enterprise Clients • Security Teams • Partners
-
-
-
-# 3. Business Overview
-
-## 3.1 Market Problem
-
-Restricted access to real-world data due to privacy regulations.
-
-## 3.2 Value Proposition
-
-* Accelerated AI development
-* Reduced compliance risk
-* Secure synthetic datasets
-
-
-
-# 4. Scope
-
-## In Scope
+EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
 
 * Synthetic data generation
-* REST API access
-* Statistical validation
+* Simulation intelligence
+* AI-driven decision systems
+* Risk-aware data modeling
 
-## Out of Scope (v1.0)
+---
 
-* Real-time streaming
-* Multi-modal generation
+# 3. Market Problem
 
+Enterprises face three structural constraints:
 
+* Data privacy regulations (GDPR, HIPAA, etc.)
+* Limited access to high-quality training datasets
+* High cost of secure data acquisition
 
-# 5. Product Overview
+---
 
-Hybrid AI system combining:
+# 4. Business Model
+
+* SaaS API licensing
+* Enterprise on-prem deployments
+* Usage-based synthetic generation
+* Industry-specific simulation modules
+
+---
+
+# 5. Competitive Advantage
+
+* Rare-event synthetic modeling engine
+* Hybrid GAN + statistical reconstruction
+* Built-in compliance layer (ISO 27001-aligned)
+* Enterprise API-first architecture
+
+---
+
+# 6. Investment Highlights
+
+* High-margin AI infrastructure product
+* Scalable API consumption model
+* Strong enterprise lock-in potential
+* Regulatory-driven demand tailwinds
+
+---
+
+# 7. Product Overview
+
+Hybrid system combining:
 
 * GAN-based generation
-* Statistical modeling
-* Rare-event simulation
+* Statistical simulation
+* Rare-event injection
+* Validation engine
 
+---
 
+# 8. System Architecture
 
-# 6. Business Objectives
+Layered architecture:
 
-| Objective              | Target |
-| ---------------------- | ------ |
-| Statistical Similarity | 0.90   |
-| Rare Event Accuracy    | 95%    |
-| PII Leakage            | 0%     |
-| API Availability       | 99.9%  |
+* API Gateway
+* Synthetic Engine
+* Validation Layer
+* Security Layer
+* Storage Layer
 
+---
 
+# 9. Core Intelligence Engine
 
-# 7. CRISP-DM Methodology
+* cGAN / WGAN-GP models
+* Monte Carlo simulation
+* Distribution alignment engine
+* Rare-event injector
 
-* Business Understanding
-* Data Understanding
-* Data Preparation
-* Modeling
-* Evaluation
-* Deployment
+---
 
-
-
-# 8. Functional Requirements
-
-| ID     | Requirement                  |
-| ------ | ---------------------------- |
-| FR-001 | Generate synthetic datasets  |
-| FR-002 | Inject rare events           |
-| FR-003 | Validate statistical quality |
-
-
-
-# 9. Non-Functional Requirements
-
-* 99.9% uptime
-* Horizontal scalability
-* Secure API access
-* < 60s generation for 100k records
-
-
-
-# 10. System Architecture
-
-Hybrid AI pipeline with distributed processing and validation layer.
-
-
-
-# 11. Data Architecture
+# 10. Data Architecture
 
 Pipeline:
-Ingestion → Transformation → Synthetic Engine → Validation → Export
 
+Ingestion → Transformation → Generation → Validation → Export
 
+---
 
-# 12. Core Intelligence Engine
-
-* GAN generation
-* Statistical correction
-* Rare-event injection
-* Validation layer
-
-
-
-# 13. Security and Compliance
-
-* Differential Privacy
-* k-Anonymity
-* PII detection
-* Encryption at rest & in transit
-
-
-
-#  14. API Specification (CARD VIEW)
+#  11. API Specification
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
 
-##  Generate Synthetic Dataset API
+##  Synthetic Dataset Generation API
 
 ### Endpoint
 
-```http
+```http id="v8qk2x"
 POST /api/v1/synthesize
 ```
 
+### Request
 
-
-### Example Request
-
-```http
-POST https://api.eippone.com/api/v1/synthesize  
-Content-Type: application/json
-```
-
-```json
+```json id="g4m1rx"
 {
   "dataset_schema": "loan_applications",
   "sample_size": 100000,
@@ -195,11 +181,9 @@ Content-Type: application/json
 }
 ```
 
+### Response
 
-
-### Example Response
-
-```json
+```json id="k2x9lm"
 {
   "job_id": "SDG-2026-000154",
   "status": "Completed",
@@ -211,351 +195,186 @@ Content-Type: application/json
 
 </div>
 
+---
 
+# 12. Deployment Architecture
 
-# 15. Deployment Architecture
-
-Containerized Kubernetes-based deployment with CI/CD pipelines.
-
-
-
-# 16. DevOps and CI/CD
-
-* GitHub Actions
-* Docker Build pipelines
-* Automated testing
-* Kubernetes deployment
-
-
-
-# 17. EIPPONE Ecosystem Integration
-
-| Platform   | Purpose                  |
-| ---------- | ------------------------ |
-| RES-X      | Rare-event simulation    |
-| FinSim-360 | Financial stress testing |
-| CYB-SimX   | Cyber datasets           |
-| DT-Ops     | Digital twin integration |
-
-
-
-# 18. Testing Strategy
-
-* Unit Testing
-* Integration Testing
-* Security Testing
-* Statistical Validation
-
-
-
-# 19. Performance Benchmarks
-
-| Metric       | Target     |
-| ------------ | ---------- |
-| 100k records | < 60s      |
-| API latency  | < 2s       |
-| Concurrency  | 500+ users |
-
-
-
-# 20. 18-Week Delivery Roadmap
-
-Structured phased rollout:
-
-* Core engine
-* API layer
-* Validation system
-* Enterprise integration
-
-
-
-#  21. Enterprise Platform Evolution Roadmap (CARD VIEW)
-
-<div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
-
-## 🔮 Strategic Capabilities Expansion
-
-### Phase 1 — Intelligence Expansion
-
-* Real-time synthetic data streaming
-* LLM-driven schema generation
-* Natural language dataset generation
-
-
-
-### Phase 2 — Distributed AI Scaling
-
-* Federated synthetic learning
-* GPU-accelerated distributed processing
-* Multi-region deployment
-
-
-
-### Phase 3 — Autonomous Systems
-
-* Autonomous data generation agents
-* Self-improving synthetic models
-* Adaptive rare-event simulation
-
-
-
-### Phase 4 — Ecosystem Platform
-
-* Synthetic data marketplace
-* Multi-modal synthetic generation
-* Enterprise AI simulation hub
-
-</div>
-
-
-
-# 22. Research and Innovation Roadmap
-
-* Agentic synthetic intelligence
-* Physics-informed GANs
-* Quantum-inspired modeling
-
-
-
-# 23. Risks and Assumptions
-
-Risks: Drift, compliance changes, compute cost
-Assumptions: Cloud availability, GPU access
-
-
-
-# 24. Conclusion
-
-EIPPONE-SDG Pro establishes a foundation for enterprise-grade synthetic intelligence systems enabling secure, scalable AI development.
-
-
-#  25. Appendices
-
-This section provides supporting technical references, standards, and extended documentation used across the EIPPONE-SDG Pro platform.
-
-
-
-##  Appendix A — API Error Codes
-
-Standardized error response format for all API endpoints:
-
-###  Error Response Schema
-
-```json
-{
-  "error_code": "string",
-  "message": "string",
-  "details": "string",
-  "trace_id": "string"
-}
-```
-
-###  Standard Error Codes
-
-| Code    | Description                          | HTTP Status |
-| ------- | ------------------------------------ | ----------- |
-| SDG-400 | Invalid request payload              | 400         |
-| SDG-401 | Unauthorized API access              | 401         |
-| SDG-403 | Permission denied (RBAC restriction) | 403         |
-| SDG-404 | Resource not found                   | 404         |
-| SDG-422 | Schema validation failed             | 422         |
-| SDG-429 | Rate limit exceeded                  | 429         |
-| SDG-500 | Internal generation engine failure   | 500         |
-| SDG-503 | Synthetic engine unavailable         | 503         |
-
-
-
-##  Appendix B — Data Schemas
-
-Defines supported synthetic dataset structures.
-
-###  Supported Schema Types
-
-| Schema Name        | Description                                |
-| ------------------ | ------------------------------------------ |
-| loan_applications  | Financial credit application dataset       |
-| insurance_claims   | Insurance claim records with fraud signals |
-| transaction_logs   | Banking transaction events                 |
-| healthcare_records | Synthetic medical patient data             |
-| cyber_events       | Security event logs                        |
-| manufacturing_iot  | Industrial sensor telemetry                |
-
-
-
-###  Schema Definition Format
-
-```json
-{
-  "schema_name": "loan_applications",
-  "fields": [
-    {
-      "name": "age",
-      "type": "integer",
-      "distribution": "gaussian"
-    },
-    {
-      "name": "income",
-      "type": "float",
-      "distribution": "log_normal"
-    }
-  ]
-}
-```
-
-
-
-##  Appendix C — Security Policies
-
-Defines security controls enforced across all system layers.
-
-###  Core Security Principles
-
-* Zero Trust Architecture (ZTA)
-* End-to-end encryption (AES-256)
-* Role-Based Access Control (RBAC)
-* Audit logging for all API calls
-
-
-
-###  Privacy Protection Mechanisms
-
-| Mechanism            | Description                                  |
-| -------------------- | -------------------------------------------- |
-| Differential Privacy | Noise injection to prevent re-identification |
-| k-Anonymity          | Ensures minimum group indistinguishability   |
-| PII Detection Engine | Removes sensitive identifiers                |
-| Data Masking Layer   | Obfuscates sensitive fields                  |
-
-
-
-###  Audit & Compliance
-
-* Full API request tracing (`trace_id`)
-* Immutable audit logs
-* GDPR-aligned synthetic generation rules
-* SOC2-ready logging structure
-
-
-
-##  Appendix D — Benchmark Methodology
-
-Defines how synthetic data quality is measured.
-
-
-
-###  1. Statistical Similarity Metrics
-
-| Metric               | Description                                        |
-| -------------------- | -------------------------------------------------- |
-| KS Test              | Distribution similarity between real and synthetic |
-| Wasserstein Distance | Measures distribution divergence                   |
-| KL Divergence        | Information loss estimation                        |
-
-
-
-###  2. Privacy Risk Metrics
-
-| Metric                    | Description                               |
-| ------------------------- | ----------------------------------------- |
-| Membership Inference Risk | Likelihood of data leakage                |
-| Attribute Disclosure Risk | Sensitive attribute inference probability |
-| Re-identification Score   | Individual traceability risk              |
-
-
-
-###  3. Performance Metrics
-
-| Metric           | Target                        |
-| ---------------- | ----------------------------- |
-| Generation Speed | < 60 seconds per 100k records |
-| API Latency      | < 2 seconds                   |
-| Throughput       | 500+ concurrent requests      |
-
-
-
-###  4. Rare Event Accuracy
-
-* Measures correctness of low-probability synthetic events
-* Evaluated using:
-
-  * Stratified sampling validation
-  * Event frequency deviation scoring
-
-
- Here is a **legal-grade enterprise footer** you can place at the end of your specification. It is structured like what you’d see in enterprise SaaS, defense-adjacent software, or regulated AI platforms.
-
-
-
-## Appendix E — Legal & Compliance Notice
-
-
-
-<div style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:16px; font-size:12.5px; color:#57606a;">
-
-###  Confidentiality & NDA Notice
-
-This document may contain confidential and proprietary information.
-By accessing or reviewing this document, the recipient agrees that:
-
-* The content is provided strictly for **evaluation, integration, or authorized enterprise use only**
-* The recipient shall not disclose, share, or distribute this material to any third party without explicit written consent from EIPPONE
-* The recipient shall implement reasonable safeguards to prevent unauthorized access or leakage
-* Any breach of confidentiality may result in legal action and damages
-
-Where applicable, access to this document is governed by a **Mutual Non-Disclosure Agreement (NDA)** between EIPPONE and the receiving party.
-
-
-
-### ⚖️ Licensing Terms
-
-Unless otherwise stated in a separate written agreement:
-
-* This document is licensed under **proprietary, all-rights-reserved terms**
-* No open-source rights are granted or implied
-* Use of the EIPPONE-SDG Pro system, architecture, or methods requires a valid commercial license from EIPPONE Simulation Dynamics Inc.
-* Reverse engineering, decompilation, or derivation of competing systems is strictly prohibited
-
-
-
-###  Export Control & Regulatory Compliance
-
-This document and associated technologies may be subject to export control laws and regulations, including but not limited to:
-
-* Canadian Export and Import Permits Act (EIPA)
-* U.S. Export Administration Regulations (EAR), where applicable
-* EU Dual-Use Regulation (if distributed internationally)
-
-The recipient agrees not to export, re-export, transfer, or disclose controlled technical data to any restricted country, entity, or individual in violation of applicable laws.
-
-
-
-###  Limitation of Liability
-
-This document is provided “as is” for informational and technical evaluation purposes.
-EIPPONE Simulation Dynamics Inc. makes no warranties, express or implied, regarding accuracy, completeness, or fitness for a particular purpose.
-
-Under no circumstances shall EIPPONE be liable for any direct, indirect, incidental, or consequential damages arising from use of this document or related systems.
-
-
-
-
-</div>
-
+* Kubernetes orchestration
+* Docker containerization
+* CI/CD via GitHub Actions
+* Horizontal scaling model
 
 ---
 
+# 13. Performance Benchmarks
 
-<div style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:12px; font-size:12px; color:#57606a;">
+| Metric       | Target     |
+| ------------ | ---------- |
+| 100k records | < 60 sec   |
+| API latency  | < 2 sec    |
+| Concurrency  | 500+ users |
 
-© 2026 EIPPONE Simulation Dynamics Inc. All Rights Reserved.  
-Author: Atsu Vovor  
-Document: EIPPONE-SDG Pro – Enterprise Technical Specification  
-Classification: Proprietary / Confidential   
+---
 
+#  14. Information Security Management System (ISMS)
 
-  This document, including all text, diagrams, architectures, specifications, and associated materials, is the exclusive intellectual property of **EIPPONE Simulation Dynamics Inc.** (“EIPPONE”).
-No part of this document may be copied, reproduced, distributed, transmitted, or modified in any form or by any means—electronic, mechanical, recording, or otherwise—without prior written authorization from EIPPONE.
+Aligned with ISO 27001 principles:
 
+* Security governance framework
+* Continuous risk assessment
+* Security lifecycle management
+* Control enforcement across systems
+
+---
+
+# 15. Risk Management Framework
+
+* Data leakage risk scoring
+* Model inversion threat analysis
+* Infrastructure risk monitoring
+* Compliance risk mapping
+
+---
+
+# 16. Security Controls (Annex A Mapping)
+
+* Access Control (A.9)
+* Cryptography (A.10)
+* Operations Security (A.12)
+* Communications Security (A.13)
+
+---
+
+# 17. Data Protection & Privacy
+
+* Differential Privacy engine
+* k-anonymity enforcement
+* PII detection & removal
+* Data masking layer
+
+---
+
+# 18. Access Control & Identity Management
+
+* Role-Based Access Control (RBAC)
+* API key governance
+* Least privilege enforcement
+* Multi-tenant isolation
+
+---
+
+# 19. Audit Logging & Monitoring
+
+* Immutable audit logs
+* Trace ID tracking
+* Real-time anomaly detection
+* Compliance reporting pipeline
+
+---
+
+# ⚖️ 20. Licensing Model
+
+* Proprietary commercial license
+* No open-source redistribution rights
+* Enterprise licensing required for production use
+
+---
+
+# 21. Confidentiality & NDA
+
+* Controlled access distribution
+* Non-disclosure enforcement
+* Partner-only evaluation access
+
+---
+
+# 22. Export Control Compliance
+
+* Canadian EIPA compliance
+* U.S. EAR awareness
+* EU dual-use regulation alignment
+* Restricted territory enforcement
+
+---
+
+# 23. Limitation of Liability
+
+System provided “as is” without warranty.
+No liability for indirect or consequential damages.
+
+---
+
+#  24. 18-Week Delivery Roadmap
+
+* Phase 1: Core engine
+* Phase 2: API + validation layer
+* Phase 3: enterprise scaling
+* Phase 4: ecosystem integration
+
+---
+
+#  25. Enterprise Platform Evolution Roadmap
+
+<div style="border:1px solid #d0d7de; border-radius:12px; padding:16px;">
+
+## Phase 1 — Intelligence Layer
+
+* Natural language dataset generation
+* LLM schema synthesis
+
+## Phase 2 — Scaling Layer
+
+* Federated synthetic learning
+* GPU distributed training
+
+## Phase 3 — Autonomous Layer
+
+* Self-improving synthetic agents
+* Adaptive simulation systems
+
+## Phase 4 — Ecosystem Layer
+
+* Synthetic data marketplace
+* Multi-modal generation platform
 
 </div>
+
+---
+
+# 26. Research & Innovation Roadmap
+
+* Agentic synthetic intelligence
+* Quantum-inspired simulation
+* Physics-informed GANs
+
+---
+
+#  Appendices
+
+## 27. API Error Codes
+
+(Standardized SDG error taxonomy)
+
+## 28. Data Schemas
+
+(Supported synthetic dataset structures)
+
+## 29. Security Controls Mapping
+
+(ISO 27001 Annex A alignment matrix)
+
+## 30. Benchmark Methodology
+
+(KS test, Wasserstein distance, privacy risk scoring)
+
+---
+
+<div style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:12px; font-size:12px; color:#57606a;">
+  
+© 2026 EIPPONE Simulation Dynamics Inc.
+Author: Atsu Vovor
+Classification: Confidential – Enterprise/Investor Use Only
+
+</div>
+---
 
