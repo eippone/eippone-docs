@@ -129,50 +129,165 @@ Enterprises face three structural constraints:
 
 <br>
 
-## 7. Product Overview
+## 7. Scope
+
+###7.1 In Scope
+
+* Structured synthetic data generation
+
+* Rare-event injection
+
+* REST API access
+
+* Validation and quality scoring
+
+* Docker deployment
+
+* Power BI integration
+
+### 7.2 Out of Scope (Version 1.0)
+
+* Real-time streaming generation
+
+* Federated learning
+
+* Multi-modal data generation
+
+* Autonomous AI agents
+<br>
+
+## 8. Product Overview
 
 Hybrid system combining:
 
-* GAN-based generation
-* Statistical simulation
 * Rare-event injection
+* Statistical simulation
+* GAN-based generation
 * Validation engine
-
-<br>
-
-## 8. System Architecture
 
 ![Synthetic Data in AI: When, Why, and How Enterprises Use It | by Amit Kharche | Medium](https://images.openai.com/static-rsc-4/zu3o3dDJbWYnSgDtcqIdijksesK335ffYMOHUbgRpuCJHW2DiVUJ8HsaYPlITc1KVfTu-F1zKWqQFXPyLBG6JNdiX7lDp22ioGg79UkpkXNXes5nrAlYPblzmarNH9-WOuq2TkICpYIjsW5Fda-SIrVYOA-VL7JdFVrjYbQJgcVG8e5ecAaY7PZ2oJ5OOlt_?purpose=fullsize)
 
 EIPPONE-SDG Pro generates synthetic datasets using a hybrid architecture that combines GANs, statistical reconstruction, and rare-event simulation.
-Layered architecture:
-
-* API Gateway
-* Synthetic Engine
-* Validation Layer
-* Security Layer
-* Storage Layer
 
 <br>
 
-## 9. Core Intelligence Engine
+### 9. Business Objectives
 
-* cGAN / WGAN-GP models
+| Objective              | Target |
+| ---------------------- | ------ |
+| Statistical Similarity | 0.90   |
+| Rare Event Accuracy    | 95%    |
+| PII Leakage            | 0%     |
+| API Availability       | 99.9%  |
+
+### 10. CRISP-DM Methodology
+
+### 10.1 Business Understanding
+
+Define synthetic data generation objectives and success metrics.
+
+### 10.2 Data Understanding
+
+* Distribution analysis
+
+* Correlation analysis
+
+* Class imbalance detection
+
+* Rare-event profiling
+
+### 10.3 Data Preparation
+
+* Normalization
+
+* Encoding
+
+* Feature engineering
+
+* SMOTE balancing
+
+### 10.4 Modeling
+
+* cGAN
+
+* WGAN-GP
+
+* Cholesky reconstruction
+
+* Monte Carlo simulation
+
+### 10.5 Evaluation
+
+* KS similarity
+
+* Wasserstein distance
+
+* Privacy risk score
+
+### 10.6 Deployment
+
+* FastAPI
+
+* Streamlit
+
+* Docker
+
+* Kubernetes
+* 
+<br>
+
+## 11. Functional Requirements
+
+| ID     | Requirement                  |
+| ------ | ---------------------------- |
+| FR-001 | Generate synthetic datasets  |
+| FR-002 | Inject rare events           |
+| FR-003 | Validate statistical quality |
+| FR-004 | Export CSV, JSON, Parquet    |
+| FR-005 | Provide REST API access      |
+
+## 12. Non-Functional Requirements
+
+| Category     | Requirement           |
+| ------------ | --------------------- |
+| Availability | 99.9%                 |
+| Security     | RBAC + encryption     |
+| Scalability  | Horizontal scaling    |
+| Performance  | 100k records < 60 sec |
+<br>
+
+## 13. System Architecture
+
+![Harnessing Synthetic Data for Advanced AI Models](https://images.openai.com/static-rsc-4/MCCKeOA21dqDcZvjC43Wd5T9bJT4zAM_C1WLw2r22X39IwhoVQQ4mCwZsWPr1MT1197TELSH6dvzOyhUzLqQJVO2ljG_h7MSfOSklOSJBQEzrOifOx8L4VtuYnEfbxGWnWZNHwM3hWyWRMWdh7a8SDhEu_JjfLyZmNlw4Fa2nBch1X0IbizD4c6U_Vdvw8pu?purpose=fullsize)
+
+### 14. Data Architecture
+
+![What Is a Data Pipeline? Types, Architecture & More](https://images.openai.com/static-rsc-4/XqOXk0bSvI_vW_WBYjGNJQ6pd5Bo-OXwo7W9sUrTh-h3D-A5-txRgr0EKUtOgcfjt-TFvtLy03d2UCXneMm9Fxra948xgFGe3fGA1RZVq3VUtmjFLJJUoggqaMDL662guxG4wOfhc9Di3bBtLUJVeri3s_AYFgsZq7NYZADZTRLdHiyhH2xwj7_TWqVk5-Je?purpose=fullsize)
+<br>
+
+## 15. Core Intelligence Engine
+
+* Rare-event injection
+* Statistical correction
 * Monte Carlo simulation
 * Distribution alignment engine
-* Rare-event injector
+* cGAN / WGAN-GP models
+* Validation
+* Export
 
 <br>
 
-## 10. Data Architecture
+### 16. Security and Compliance
 
-Pipeline:
-
-Ingestion → Transformation → Generation → Validation → Export
+* Differential Privacy
+* k-Anonymity
+* PII detection
+* Audit logging
+* Encryption
 
 <br>
 
-##  11. API Specification
+##  17. API Specification
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
 
@@ -211,22 +326,43 @@ POST /api/v1/synthesize
 
 <br>
 
-## 12. Deployment Architecture
+## 18. Deployment Architecture
 
-* Kubernetes orchestration
-* Docker containerization
-* CI/CD via GitHub Actions
-* Horizontal scaling model
+![Part-87: 🚀 Kubernetes Deployments with Imperative Commands in GCP (Google Kubernetes Engine) - DEV Community](https://images.openai.com/static-rsc-4/7Povar2M3NrWobY26JDDXjh3yey5o_Bfhs5C0sDXfTMzDOXsttqRXauIBjpUp72SUUg5Y5y_pmTfBvEQnF4AAE61OexS2k3kElxE0Jl3zyr-SzfPH3RE71KhD7csCMUcyjUUSrjdmBcI7mBqpbpCEbc-SIOI9v4mgwhs2xmHxlTnCpJF_mdiCz5egJQB1KxH?purpose=fullsize)
 
-<br>
+### 19. DevOps and CI/CD
+* GitHub Actions
+* Docker Build
+* Automated Testing
+* Container Registry
+* Kubernetes Deployment
 
-## 13. Performance Benchmarks
+### 20. EIPPONE Ecosystem Integration
 
-| Metric       | Target     |
-| ------------ | ---------- |
-| 100k records | < 60 sec   |
-| API latency  | < 2 sec    |
-| Concurrency  | 500+ users |
+| Platform     | Integration Purpose      |
+| ------------ | ------------------------ |
+| RES-X        | Rare-event simulations   |
+| FinSim-360   | Financial stress testing |
+| CYB-SimX     | Cybersecurity datasets   |
+| DT-Ops       | Digital Twin data        |
+| A2I Insights | Executive dashboards     |
+
+### 21. Testing Strategy
+
+* Unit Testing
+* Integration Testing
+* Performance Testing
+* Security Testing
+* Statistical Validation Testing
+
+### 21. Performance Benchmarks
+
+| Metric                  | Target       |
+| ----------------------- | ------------ |
+| 100k records generation | < 60 seconds |
+| API response time       | < 2 seconds  |
+| Concurrent users        | 500+         |
+
 
 
 
@@ -383,6 +519,13 @@ No liability for indirect or consequential damages.
 
 <br>
 
+### 24. Conclusion
+
+EIPPONE-SDG Pro is designed as a foundational synthetic intelligence platform for the broader EIPPONE Enterprise Intelligence Ecosystem.
+
+It combines Generative AI, statistical modeling, privacy engineering, and simulation intelligence to enable organizations to build AI systems faster, safer, and at enterprise scale.
+
+<br>
 ---
 
 
