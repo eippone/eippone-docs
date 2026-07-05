@@ -1,22 +1,22 @@
+<div align="center">
+
 # 📘 EIPPONE-SDG Pro (Synthetic Data Generator)
 
-## Enterprise Technical + Compliance Specification (Hybrid Investor & ISO 27001-Aligned)
+### Enterprise Technical + Compliance Specification (Hybrid Investor & ISO 27001-Aligned)
 
-**Version:** 1.0
-**Status:** MVP Ready
-**Classification:** Confidential – Investor / Enterprise Evaluation
-**Owner:** EIPPONE Simulation Dynamics Inc.
-**Author:** Atsu Vovor
+<p style="font-size: 0.9em; color: #57606a;">
+<strong>Version:</strong> 1.0 | <strong>Status:</strong> MVP Ready | <strong>Classification:</strong> Confidential | <strong>Owner:</strong> EIPPONE Simulation Dynamics Inc.
+</p>
+
+</div>
 
 <br>
-<br  
-
-
 
 <h1>Table of Contents</h1>
 
-## Executive & Investor Layer
+<div style="column-count: 2;">
 
+## 🧾 Executive & Investor Layer
 1. [Executive Summary](#1-executive-summary)
 2. [Company Overview](#2-company-overview)
 3. [Market Problem](#3-market-problem)
@@ -25,7 +25,6 @@
 6. [Investment Highlights](#6-investment-highlights)
 
 ## Product & Engineering Layer
-
 7. [Product Overview](#7-product-overview)
 8. [System Architecture](#8-system-architecture)
 9. [Core Intelligence Engine](#9-core-intelligence-engine)
@@ -34,57 +33,28 @@
 12. [Deployment Architecture](#12-deployment-architecture)
 13. [Performance Benchmarks](#13-performance-benchmarks)
 
-## ISO 27001 Security & Compliance Layer
+## ISO 27001 Security Layer
+14. [ISMS Overview](#14-information-security-management-system-isms)
+15. [Risk Management](#15-risk-management-framework)
+16. [Security Controls](#16-security-controls-annex-a-mapping)
+17. [Data Protection](#17-data-protection--privacy)
 
-14. [Information Security Management System (ISMS)](#14-information-security-management-system-isms)
-15. [Risk Management Framework](#15-risk-management-framework)
-16. [Security Controls (Annex A Mapping)](#16-security-controls-annex-a-mapping)
-17. [Data Protection & Privacy](#17-data-protection--privacy)
-18. [Access Control & Identity Management](#18-access-control--identity-management)
-19. [Audit Logging & Monitoring](#19-audit-logging--monitoring)
-
-## Legal & Governance Layer
-
+## Legal & Governance
 20. [Licensing Model](#20-licensing-model)
-21. [Confidentiality & NDA](#21-confidentiality--nda)
-22. [Export Control Compliance](#22-export-control-compliance)
-23. [Limitation of Liability](#23-limitation-of-liability)
+22. [Export Compliance](#22-export-control-compliance)
 
-## Roadmap & Strategy
+</div>
 
-24. [18-Week Delivery Roadmap](#24-18-week-delivery-roadmap)
-25. [Enterprise Platform Evolution Roadmap](#25-enterprise-platform-evolution-roadmap)
-26. [Research & Innovation Roadmap](#26-research--innovation-roadmap)
-
-## Appendices
-
-27. [Appendix A — API Error Codes](#27-appendix-a--api-error-codes)
-28. [Appendix B — Data Schemas](#28-appendix-b--data-schemas)
-29. [Appendix C — Security Controls Mapping](#29-appendix-c--security-controls-mapping)
-30. [Appendix D — Benchmark Methodology](#30-appendix-d--benchmark-methodology)
-
-<br>
-<br>
+---
 
 # 1. Executive Summary
-
 EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for artificial intelligence, analytics, testing, and simulation environments.
 
-The platform combines Generative AI, statistical modeling, and rare-event simulation techniques to create high-quality synthetic data while eliminating the exposure of sensitive enterprise information.
-
-<br>
-
-
-<div> <p>  </p> </div>
-
 # 2. Company Overview
-
 EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
-
-* Synthetic data generation
-* Simulation intelligence
-* AI-driven decision systems
-* Risk-aware data modeling
+* <b>Synthetic data generation</b>
+* <b>Simulation intelligence</b>
+* <b>AI-driven decision systems</b>
 
 ---
 
