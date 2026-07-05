@@ -1,4 +1,4 @@
-```markdown
+
 # EIPPONE-SDG Pro (Synthetic Data Generator) — Technical Specification  
 :contentReference[oaicite:0]{index=0}
 
@@ -184,11 +184,9 @@ Examples:
 ## 7. API Specification (High-Level)
 
 ### Generate Synthetic Dataset
-```
 
 POST /api/v1/synthesize
 
-```
 
 ### Parameters:
 - dataset_schema
@@ -269,4 +267,4 @@ It bridges:
 **data realism + privacy + simulation intelligence**
 
 ---
-```
+
