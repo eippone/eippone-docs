@@ -126,7 +126,7 @@ Pipeline: Ingestion → Transformation → Generation → Validation → Export
   "rare_event_intensity": 0.03,
   "privacy_level": "High"
 }
-
+```
 
 #  11. API Specification
 
