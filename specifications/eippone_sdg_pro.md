@@ -1,76 +1,11 @@
-<hr>
+<p align="center">
+   <a href="https://www.eippone.com" target="_blank">
+      <img src="https://github.com/eippone/eippone-docs/blob/main/images/eippone_hero.svg" width="100%" />
+    </a>
+</p>
 
-<div style="padding:28px 0 24px 0;">
 
-<h1 style="
-margin:0;
-font-size:3rem;
-font-weight:800;
-font-family:Segoe UI,Arial,sans-serif;
-color:#111827;
-line-height:1.15;">
-
-EIPPONE-SDG Pro (Synthetic Data Generator)
-
-</h1>
-
-<h2 style="
-margin-top:18px;
-margin-bottom:22px;
-font-size:2rem;
-font-weight:600;
-font-family:Segoe UI,Arial,sans-serif;
-color:#1f2937;">
-
-Enterprise Technical Specification
-
-</h2>
-
-<span style="
-display:inline-block;
-padding:6px 14px;
-margin-right:10px;
-background:#dbeafe;
-color:#2563eb;
-border-radius:999px;
-font-size:15px;
-font-weight:600;">
-
-Version 1.0
-
-</span>
-
-<span style="
-display:inline-block;
-padding:6px 14px;
-margin-right:10px;
-background:#dcfce7;
-color:#15803d;
-border-radius:999px;
-font-size:15px;
-font-weight:600;">
-
-Status: MVP Ready
-
-</span>
-
-<span style="
-display:inline-block;
-padding:6px 14px;
-border:2px solid #3b82f6;
-color:#2563eb;
-border-radius:999px;
-font-size:15px;
-font-weight:600;">
-
-Methodology: CRISP-DM
-
-</span>
-
-</div>
-
-<hr>
-
+<div align="center">
 ### Document Control
 
 | Field          | Value                                              |
