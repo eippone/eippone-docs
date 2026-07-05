@@ -1,6 +1,3 @@
-To ensure the entire document is properly structured with HTML/CSS enhancements while maintaining full content coverage, I have refactored the entire file. You can copy the code block below into your `eippone_sdg_pro.md` file.
-
-```markdown
 <div align="center">
 
 # 📘 EIPPONE-SDG Pro (Synthetic Data Generator)
@@ -129,21 +126,6 @@ Pipeline: Ingestion → Transformation → Generation → Validation → Export
   "rare_event_intensity": 0.03,
   "privacy_level": "High"
 }
-
-```
-
-**Response:**
-
-```json
-{
-  "job_id": "SDG-2026-000154",
-  "status": "Completed",
-  "records_generated": 100000,
-  "synthetic_dataset_id": "SYN-845912",
-  "download_url": "[https://api.eippone.com/downloads/SYN-845912.csv](https://api.eippone.com/downloads/SYN-845912.csv)"
-}
-
-```
 
 # 12. Deployment Architecture
 
