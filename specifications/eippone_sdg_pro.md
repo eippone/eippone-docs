@@ -28,139 +28,104 @@
 5. [Competitive Advantage](#5-competitive-advantage)
 6. [Investment Highlights](#6-investment-highlights)
 
-</div>
+**⚙️ Product & Engineering Layer**
+7. [Product Overview](#7-product-overview)
+8. [System Architecture](#8-system-architecture)
+9. [Core Intelligence Engine](#9-core-intelligence-engine)
+10. [Data Architecture](#10-data-architecture)
+11. [API Specification](#11-api-specification)
+12. [Deployment Architecture](#12-deployment-architecture)
+13. [Performance Benchmarks](#13-performance-benchmarks)
 
-<div style="column-count: 2;">
-  
-**⚙️ Product & Engineering Layer**  
-7. [Product Overview](#7-product-overview)    
-8. [System Architecture](#8-system-architecture)  
-9. [Core Intelligence Engine](#9-core-intelligence-engine)  
-10. [Data Architecture](#10-data-architecture)  
-11. [API Specification](#11-api-specification)  
-12. [Deployment Architecture](#12-deployment-architecture)  
-13. [Performance Benchmarks](#13-performance-benchmarks)  
+**🛡️ Security & Compliance Layer**
+14. [ISMS](#14-information-security-management-system-isms)
+15. [Risk Management](#15-risk-management-framework)
+16. [Security Controls](#16-security-controls-annex-a-mapping)
+17. [Data Protection](#17-data-protection--privacy)
+18. [Access Control](#18-access-control--identity-management)
+19. [Audit Logging](#19-audit-logging--monitoring)
 
-</div>
+**⚖️ Legal & Governance Layer**
+20. [Licensing Model](#20-licensing-model)
+21. [Confidentiality](#21-confidentiality--nda)
+22. [Export Control](#22-export-control-compliance)
+23. [Liability](#23-limitation-of-liability)
 
-**🛡️ Security & Compliance Layer**  
-14. [ISMS](#14-information-security-management-system-isms)  
-15. [Risk Management](#15-risk-management-framework)  
-16. [Security Controls](#16-security-controls-annex-a-mapping)  
-17. [Data Protection](#17-data-protection--privacy)  
-18. [Access Control](#18-access-control--identity-management)  
-19. [Audit Logging](#19-audit-logging--monitoring)  
+**🚀 Roadmap & Strategy**
+24. [18-Week Roadmap](#24-18-week-delivery-roadmap)
+25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)
+26. [Research Roadmap](#26-research--innovation-roadmap)
 
-**⚖️ Legal & Governance Layer**  
-20. [Licensing Model](#20-licensing-model)  
-21. [Confidentiality](#21-confidentiality--nda)  
-22. [Export Control](#22-export-control-compliance)  
-23. [Liability](#23-limitation-of-liability)  
-
-**🚀 Roadmap & Strategy**   
-24. [18-Week Roadmap](#24-18-week-delivery-roadmap)  
-25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)  
-26. [Research Roadmap](#26-research--innovation-roadmap)  
-
-**📚 Appendices**  
-27–30. [Appendices](#27-appendix-a--api-error-codes)  
+**📚 Appendices**
+27–30. [Appendices](#27-appendix-a--api-error-codes)
 
 </div>
 </div>
-# 1. Executive Summary
-
-EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for artificial intelligence, analytics, testing, and simulation environments.
-
-The platform combines Generative AI, statistical modeling, and rare-event simulation techniques to create high-quality synthetic data while eliminating the exposure of sensitive enterprise information.
-
-<div> <p>  </p> </div>
-
-# 2. Company Overview
-
-EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
-
-* Synthetic data generation
-* Simulation intelligence
-* AI-driven decision systems
-* Risk-aware data modeling
 
 ---
 
+# 1. Executive Summary
+EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for artificial intelligence, analytics, testing, and simulation environments.
+
+# 2. Company Overview
+EIPPONE Simulation Dynamics Inc. builds enterprise intelligence systems focused on:
+* **Synthetic data generation**
+* **Simulation intelligence**
+* **AI-driven decision systems**
+* **Risk-aware data modeling**
+
 # 3. Market Problem
-
-Enterprises face three structural constraints:
-
 * Data privacy regulations (GDPR, HIPAA, etc.)
 * Limited access to high-quality training datasets
 * High cost of secure data acquisition
 
----
-
 # 4. Business Model
-
 * SaaS API licensing
 * Enterprise on-prem deployments
 * Usage-based synthetic generation
 * Industry-specific simulation modules
 
----
-
 # 5. Competitive Advantage
-
 * Rare-event synthetic modeling engine
 * Hybrid GAN + statistical reconstruction
 * Built-in compliance layer (ISO 27001-aligned)
 * Enterprise API-first architecture
 
----
-
 # 6. Investment Highlights
-
 * High-margin AI infrastructure product
 * Scalable API consumption model
 * Strong enterprise lock-in potential
 * Regulatory-driven demand tailwinds
 
----
-
 # 7. Product Overview
-
-Hybrid system combining:
-
-* GAN-based generation
-* Statistical simulation
-* Rare-event injection
-* Validation engine
-
----
+Hybrid system combining GAN-based generation, statistical simulation, rare-event injection, and a validation engine.
 
 # 8. System Architecture
-
-Layered architecture:
-
-* API Gateway
-* Synthetic Engine
-* Validation Layer
-* Security Layer
-* Storage Layer
-
----
+Layered architecture: API Gateway → Synthetic Engine → Validation Layer → Security Layer → Storage Layer.
 
 # 9. Core Intelligence Engine
-
 * cGAN / WGAN-GP models
 * Monte Carlo simulation
 * Distribution alignment engine
 * Rare-event injector
 
----
-
 # 10. Data Architecture
+Pipeline: Ingestion → Transformation → Generation → Validation → Export
 
-Pipeline:
+# 11. API Specification
+<div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0; background-color: #fdfdfd;">
 
-Ingestion → Transformation → Generation → Validation → Export
+### Synthetic Dataset Generation API
+**Endpoint:** `POST /api/v1/synthesize`
 
+**Request:**
+```json
+{
+  "dataset_schema": "loan_applications",
+  "sample_size": 100000,
+  "rare_event_intensity": 0.03,
+  "privacy_level": "High"
+}
 ---
 
 #  11. API Specification
