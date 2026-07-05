@@ -8,7 +8,7 @@
 **Owner:** EIPPONE Simulation Dynamics Inc.
 **Author:** Atsu Vovor
 
-<div>  </div>
+<div> <p>  </p> </div>
 
 #  Table of Contents
 
@@ -68,7 +68,7 @@ EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to 
 
 The platform combines Generative AI, statistical modeling, and rare-event simulation techniques to create high-quality synthetic data while eliminating the exposure of sensitive enterprise information.
 
-<div>  </div>
+<div> <p>  </p> </div>
 
 # 2. Company Overview
 
