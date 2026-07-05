@@ -14,53 +14,66 @@
 
 <br>
 
-<div style="background-color: #f6f8fa; padding: 20px; border-radius: 8px; border: 1px solid #d0d7de;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; align-items: start;">
 
-<h1>Table of Contents</h1>
+  <div style="break-inside: avoid;">
+    **🧾 Executive & Investor Layer**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>1. [Executive Summary](#1-executive-summary)</li>
+      <li>2. [Company Overview](#2-company-overview)</li>
+      <li>3. [Market Problem](#3-market-problem)</li>
+      <li>4. [Business Model](#4-business-model)</li>
+      <li>5. [Competitive Advantage](#5-competitive-advantage)</li>
+      <li>6. [Investment Highlights](#6-investment-highlights)</li>
+    </ul>
 
-<div>
+    **⚙️ Product & Engineering Layer**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>7. [Product Overview](#7-product-overview)</li>
+      <li>8. [System Architecture](#8-system-architecture)</li>
+      <li>9. [Core Intelligence Engine](#9-core-intelligence-engine)</li>
+      <li>10. [Data Architecture](#10-data-architecture)</li>
+      <li>11. [API Specification](#11-api-specification)</li>
+      <li>12. [Deployment Architecture](#12-deployment-architecture)</li>
+      <li>13. [Performance Benchmarks](#13-performance-benchmarks)</li>
+    </ul>
+  </div>
 
-**Executive & Investor Layer**
-1. [Executive Summary](#1-executive-summary)
-2. [Company Overview](#2-company-overview)
-3. [Market Problem](#3-market-problem)
-4. [Business Model](#4-business-model)
-5. [Competitive Advantage](#5-competitive-advantage)
-6. [Investment Highlights](#6-investment-highlights)
+  <div style="break-inside: avoid;">
+    **🛡️ Security & Compliance Layer**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>14. [ISMS](#14-information-security-management-system-isms)</li>
+      <li>15. [Risk Management](#15-risk-management-framework)</li>
+      <li>16. [Security Controls](#16-security-controls-annex-a-mapping)</li>
+      <li>17. [Data Protection](#17-data-protection--privacy)</li>
+      <li>18. [Access Control](#18-access-control--identity-management)</li>
+      <li>19. [Audit Logging](#19-audit-logging--monitoring)</li>
+    </ul>
 
-**Product & Engineering Layer**
-7. [Product Overview](#7-product-overview)
-8. [System Architecture](#8-system-architecture)
-9. [Core Intelligence Engine](#9-core-intelligence-engine)
-10. [Data Architecture](#10-data-architecture)
-11. [API Specification](#11-api-specification)
-12. [Deployment Architecture](#12-deployment-architecture)
-13. [Performance Benchmarks](#13-performance-benchmarks)
+    **⚖️ Legal & Governance Layer**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>20. [Licensing Model](#20-licensing-model)</li>
+      <li>21. [Confidentiality](#21-confidentiality--nda)</li>
+      <li>22. [Export Control](#22-export-control-compliance)</li>
+      <li>23. [Liability](#23-limitation-of-liability)</li>
+    </ul>
 
-**Security & Compliance Layer**
-14. [ISMS](#14-information-security-management-system-isms)
-15. [Risk Management](#15-risk-management-framework)
-16. [Security Controls](#16-security-controls-annex-a-mapping)
-17. [Data Protection](#17-data-protection--privacy)
-18. [Access Control](#18-access-control--identity-management)
-19. [Audit Logging](#19-audit-logging--monitoring)
+    **🚀 Roadmap & Strategy**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>24. [18-Week Roadmap](#24-18-week-delivery-roadmap)</li>
+      <li>25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)</li>
+      <li>26. [Research Roadmap](#26-research--innovation-roadmap)</li>
+    </ul>
 
-**Legal & Governance Layer**
-20. [Licensing Model](#20-licensing-model)
-21. [Confidentiality](#21-confidentiality--nda)
-22. [Export Control](#22-export-control-compliance)
-23. [Liability](#23-limitation-of-liability)
-
-**Roadmap & Strategy**
-24. [18-Week Roadmap](#24-18-week-delivery-roadmap)
-25. [Platform Evolution](#25-enterprise-platform-evolution-roadmap)
-26. [Research Roadmap](#26-research--innovation-roadmap)
-
-**Appendices**
-27–30. [Appendices](#27-appendix-a--api-error-codes)
+    **📚 Appendices**
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>27–30. [Appendices](#27-appendix-a--api-error-codes)</li>
+    </ul>
+  </div>
 
 </div>
 
+<br>
 
 # 1. Executive Summary
 EIPPONE-SDG Pro is an enterprise synthetic data generation platform designed to produce statistically realistic, privacy-preserving datasets for artificial intelligence, analytics, testing, and simulation environments.
