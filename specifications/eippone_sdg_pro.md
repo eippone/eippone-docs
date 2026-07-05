@@ -1,6 +1,6 @@
 
 # EIPPONE-SDG Pro (Synthetic Data Generator) — Technical Specification  
-:contentReference[oaicite:0]{index=0}
+
 
 ---
 
