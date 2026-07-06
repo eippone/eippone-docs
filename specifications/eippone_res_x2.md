@@ -1672,7 +1672,7 @@ You now have:
 <br>
 
 
-## 16. Security & Compliance
+## 16. Security and Compliance
 
 
 **Security & Compliance (ISO 27001 Full Mapping)**
