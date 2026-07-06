@@ -7,8 +7,8 @@
 **Product:** EIPPONE FinSim-360 
 **Version:** 1.0  
 **Status:** MVP Ready  
-**Classification:** Confidential – Enterprise/Investor Use Only 
-**Owner:** EIPPONE Simulation Dynamics Inc.  
+**Classification:** Confidential – Enterprise/Investor Use Only     
+**Owner:** EIPPONE Simulation Dynamics Inc.    
 **Author:** Atsu Vovor  
 **Last Updated:** July 2026  
 
