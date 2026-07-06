@@ -2,9 +2,9 @@
 ## Enterprise Technical Specification
 ### Appendices
 
-Version 1.0
-Owner: EIPPONE Simulation Dynamics Inc.
-Author: Atsu Vovor
+Version 1.0  
+Owner: EIPPONE Simulation Dynamics Inc.  
+Author: Atsu Vovor  
 
 
 ---
