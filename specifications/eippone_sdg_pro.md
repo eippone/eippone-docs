@@ -186,9 +186,12 @@ This module outlines the end-to-end flow of data through the platform, emphasizi
 | PII Leakage            | 0%     |
 | API Availability       | 99.9%  |
 
+
 <br>
 
-## 10. CRISP-DM Methodology
+
+## 10. CRISP-DM Methodology  
+
 
 ### 10.1 Business Understanding
 
@@ -226,7 +229,7 @@ Define synthetic data generation objectives and success metrics.
 * Streamlit
 * Docker
 * Kubernetes
-* 
+
 <br>
 
 ## 11. Functional Requirements
