@@ -1117,13 +1117,15 @@ This section defines all functional system capabilities required for enterprise 
 
 <br>
 
-# 12. Non-Functional Requirements (ISO-Grade)
+## 12. Non-Functional Requirements
+
+ **Non-Functional Requirements (ISO-Grade)**
 
 EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional requirements**, ensuring reliability, scalability, security, and auditability.
 
 <br>
 
-## 12.1 Performance Requirements
+### 12.1 Performance Requirements
 
 | Metric                 | Target                           |
 | ---------------------- | -------------------------------- |
@@ -1135,7 +1137,7 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 12.2 Availability & Reliability
+### 12.2 Availability & Reliability
 
 * System Availability: **99.95%**
 * Failover Recovery Time: **< 30 seconds**
@@ -1146,7 +1148,7 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 12.3 Scalability Requirements
+### 12.3 Scalability Requirements
 
 * Horizontal auto-scaling architecture
 * Stateless compute layers
@@ -1156,7 +1158,7 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 12.4 Security Requirements (ISO 27001 Aligned)
+### 12.4 Security Requirements (ISO 27001 Aligned)
 
 * End-to-end encryption (AES-256)
 * TLS 1.3 for all communications
@@ -1168,7 +1170,7 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 12.5 Maintainability & Extensibility
+### 12.5 Maintainability & Extensibility
 
 * Modular microservices architecture
 * Plugin-based simulation engine
@@ -1178,7 +1180,7 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 12.6 Observability & Monitoring
+### 12.6 Observability & Monitoring
 
 * Distributed tracing (OpenTelemetry-style)
 * Real-time system metrics dashboard
@@ -1188,13 +1190,13 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-# 13. System Architecture (Enterprise Design)
+## 13. System Architecture (Enterprise Design)
 
 EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-## 13.1 High-Level Architecture
+### 13.1 High-Level Architecture
 
 ```
                     ┌────────────────────────────┐
@@ -1235,9 +1237,9 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-## 13.2 Core System Layers
+### 13.2 Core System Layers
 
-### 1. Interface Layer
+#### 1. Interface Layer
 
 * Executive dashboards
 * Risk visualization portals
@@ -1246,7 +1248,7 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 2. API Gateway Layer
+#### 2. API Gateway Layer
 
 * Authentication & authorization
 * Request routing
@@ -1255,9 +1257,9 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 3. Intelligence Layer
+#### 3. Intelligence Layer
 
-#### Components:
+##### Components:
 
 * AI Scenario Generator
 * LLM Explanation Engine
@@ -1266,7 +1268,7 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 4. Simulation Layer
+#### 4. Simulation Layer
 
 * Monte Carlo engine
 * Stochastic process engine
@@ -1275,7 +1277,7 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 5. Risk Propagation Layer
+#### 5. Risk Propagation Layer
 
 * Dependency graph engine
 * Cascading failure simulator
@@ -1283,7 +1285,7 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 6. Data Processing Layer
+#### 6. Data Processing Layer
 
 * Feature engineering pipeline
 * Data normalization
@@ -1292,7 +1294,7 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-### 7. Storage Layer
+#### 7. Storage Layer
 
 * Data Lake (raw + processed data)
 * Graph Database (dependencies)
@@ -1301,11 +1303,11 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-# 14. Data Architecture (Lakehouse + Graph + Simulation Store)
+## 14. Data Architecture (Lakehouse + Graph + Simulation Store)
 
 <br>
 
-## 14.1 Hybrid Data Architecture Model
+### 14.1 Hybrid Data Architecture Model
 
 EIPPONE-RES-X uses a **three-core data system architecture**:
 
@@ -1327,13 +1329,13 @@ EIPPONE-RES-X uses a **three-core data system architecture**:
 
 <br>
 
-## 14.2 Data Lakehouse Layer
+### 14.2 Data Lakehouse Layer
 
-### Purpose
+#### Purpose
 
 Unified storage for structured and unstructured enterprise data.
 
-### Contents
+#### Contents
 
 * Historical financial data
 * Cybersecurity logs
@@ -1341,20 +1343,20 @@ Unified storage for structured and unstructured enterprise data.
 * External macroeconomic data
 * Synthetic datasets
 
-### Format
+#### Format
 
 * Parquet / Delta Lake format
 * Partitioned by domain & time
 
 <br>
 
-## 14.3 Graph Database Layer
+### 14.3 Graph Database Layer
 
-### Purpose
+#### Purpose
 
 Models systemic dependencies and risk propagation.
 
-### Nodes
+#### Nodes
 
 * Organizations
 * Systems
@@ -1362,13 +1364,13 @@ Models systemic dependencies and risk propagation.
 * Users
 * Events
 
-### Edges
+#### Edges
 
 * Dependency relationships
 * Risk influence paths
 * Event causality links
 
-### Capabilities
+#### Capabilities
 
 * Shock propagation modeling
 * Critical node detection
@@ -1376,20 +1378,20 @@ Models systemic dependencies and risk propagation.
 
 <br>
 
-## 14.4 Simulation Store
+### 14.4 Simulation Store
 
-### Purpose
+#### Purpose
 
 Stores all generated scenarios and simulation outputs.
 
-### Contents
+#### Contents
 
 * Monte Carlo runs
 * Rare event simulations
 * Scenario trees
 * Probability distributions
 
-### Features
+#### Features
 
 * Versioned simulations
 * Replay capability
@@ -1398,7 +1400,7 @@ Stores all generated scenarios and simulation outputs.
 
 <br>
 
-## 14.5 Feature Store (AI Layer)
+### 14.5 Feature Store (AI Layer)
 
 * Real-time feature computation
 * Historical feature registry
@@ -1407,7 +1409,7 @@ Stores all generated scenarios and simulation outputs.
 
 <br>
 
-## 14.6 Data Flow Pipeline
+### 14.6 Data Flow Pipeline
 
 ```
 Raw Data
