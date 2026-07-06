@@ -1,5 +1,19 @@
 # EIPPONE-RES-X — Rare Event Simulator  
 
+
+<section align="center" class="hero" style="margin-top:70px;padding:70px 20px;background:linear-gradient(135deg,#0b3b66,#0ea5b7);color:#fff;text-align:center">
+    <h1>📘 EIPPONE-RES-X — Rare Event Simulator Enterprise Technical Specification</h1>
+    <p align="center">Simulate the future. Neutralize uncertainty. Make confident decisions.</p>
+</section>
+
+**Product:** EIPPONE-RES-X 
+**Version:** 1.0  
+**Status:** MVP Ready  
+**Classification:** Confidential – Enterprise/Investor Use Only 
+**Owner:** EIPPONE Simulation Dynamics Inc.  
+**Author:** Atsu Vovor  
+**Last Updated:** July 2026  
+
 ---
 
 ## 1. Project Overview
@@ -287,4 +301,14 @@ It enables enterprises to:
 - Anticipate black swan events  
 
 ---
+ 
 
+
+<div align="center" style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:12px; font-size:12px; color:#57606a;">
+
+© 2026 EIPPONE Simulation Dynamics Inc. All Rights Reserved.  
+Author: Atsu Vovor  
+Document: EIPPONE-RES-X – Enterprise Technical Specification  
+Classification: Confidential – Enterprise/Investor Use Only 
+
+</div>
