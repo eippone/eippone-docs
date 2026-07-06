@@ -131,7 +131,7 @@ Enterprises face three structural constraints:
 
 ## 7. Scope
 
-###7.1 In Scope
+### 7.1 In Scope
 
 * Structured synthetic data generation
 
@@ -196,49 +196,34 @@ Define synthetic data generation objectives and success metrics.
 ### 10.2 Data Understanding
 
 * Distribution analysis
-
 * Correlation analysis
-
 * Class imbalance detection
-
 * Rare-event profiling
 
 ### 10.3 Data Preparation
-
 * Normalization
-
 * Encoding
-
 * Feature engineering
-
 * SMOTE balancing
 
 ### 10.4 Modeling
 
 * cGAN
-
 * WGAN-GP
-
 * Cholesky reconstruction
-
 * Monte Carlo simulation
 
 ### 10.5 Evaluation
 
 * KS similarity
-
 * Wasserstein distance
-
 * Privacy risk score
-
+  
 ### 10.6 Deployment
 
 * FastAPI
-
 * Streamlit
-
 * Docker
-
 * Kubernetes
 * 
 <br>
@@ -302,6 +287,7 @@ The pipeline is structured into five distinct phases, complemented by supporting
 * **Security & Compliance**: Aligned with ISO 27001, featuring PII detection and masking, k-Anonymity, differential privacy, data governance policies, and continuous monitoring.
 
 <br>
+
 ## 15. Core Intelligence Engine
 
 * Rare-event injection
@@ -328,7 +314,7 @@ The pipeline is structured into five distinct phases, complemented by supporting
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
 
-##  Synthetic Dataset Generation API
+## 18. Synthetic Dataset Generation API
 
 ### Endpoint
 
@@ -363,7 +349,7 @@ POST /api/v1/synthesize
 
 <br>
 
-## 18. Deployment Architecture
+## 19. Deployment Architecture
 
 <p align="center">
   <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-deployment-kubernetes.jpg" 
@@ -386,7 +372,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 * 
 <br>
 
-## 19. DevOps and CI/CD
+## 20. DevOps and CI/CD
 * GitHub Actions
 * Docker Build
 * Automated Testing
@@ -395,7 +381,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 
 <br>
 
-### 20. EIPPONE Ecosystem Integration
+## 21. EIPPONE Ecosystem Integration
 
 | Platform     | Integration Purpose      |
 | ------------ | ------------------------ |
@@ -407,7 +393,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 
 <br>
 
-## 21. Testing Strategy
+## 22. Testing Strategy
 
 * Unit Testing
 * Integration Testing
@@ -417,7 +403,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 
 <br>
 
-## 22. Performance Benchmarks
+## 23. Performance Benchmarks
 
 | Metric                  | Target       |
 | ----------------------- | ------------ |
@@ -428,7 +414,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 
 
 
-## 23. Information Security Management System (ISMS)
+## 24. Information Security Management System (ISMS)
 
 Aligned with ISO 27001 principles:
 
@@ -439,7 +425,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 24. Risk Management Framework
+## 25. Risk Management Framework
 
 * Data leakage risk scoring
 * Model inversion threat analysis
@@ -448,7 +434,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 25. Security Controls (Annex A Mapping)
+## 26. Security Controls (Annex A Mapping)
 
 * Access Control (A.9)
 * Cryptography (A.10)
@@ -457,7 +443,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 26. Data Protection & Privacy
+## 27. Data Protection & Privacy
 
 * Differential Privacy engine
 * k-anonymity enforcement
@@ -466,7 +452,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 27. Access Control & Identity Management
+## 28. Access Control & Identity Management
 
 * Role-Based Access Control (RBAC)
 * API key governance
@@ -475,7 +461,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 28. Audit Logging & Monitoring
+## 29. Audit Logging & Monitoring
 
 * Immutable audit logs
 * Trace ID tracking
@@ -484,7 +470,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## ⚖️ 29. Licensing Model
+## ⚖️ 30. Licensing Model
 
 * Proprietary commercial license
 * No open-source redistribution rights
@@ -492,7 +478,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 30. Confidentiality & NDA
+## 31. Confidentiality & NDA
 
 * Controlled access distribution
 * Non-disclosure enforcement
@@ -500,7 +486,7 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 31. Export Control Compliance
+## 32. Export Control Compliance
 
 * Canadian EIPA compliance
 * U.S. EAR awareness
@@ -509,14 +495,14 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## 32. Limitation of Liability
+## 33. Limitation of Liability
 
 System provided “as is” without warranty.
 No liability for indirect or consequential damages.
 
 <br>
 
-##  33. 18-Week Delivery Roadmap
+##  34. 18-Week Delivery Roadmap
 
 * Phase 1: Core engine
 * Phase 2: API + validation layer
@@ -525,7 +511,7 @@ No liability for indirect or consequential damages.
 
 <br>
 
-## 34. Enterprise Platform Evolution Roadmap
+## 35. Enterprise Platform Evolution Roadmap
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px;">
 
@@ -553,7 +539,7 @@ No liability for indirect or consequential damages.
 
 <br>
 
-## 35. Research & Innovation Roadmap
+## 36. Research & Innovation Roadmap
 
 * Agentic synthetic intelligence
 * Quantum-inspired simulation
@@ -561,7 +547,7 @@ No liability for indirect or consequential damages.
 
 <br>
 
-### 36. Conclusion
+### 37. Conclusion
 
 EIPPONE-SDG Pro is designed as a foundational synthetic intelligence platform for the broader EIPPONE Enterprise Intelligence Ecosystem.
 
@@ -571,21 +557,21 @@ It combines Generative AI, statistical modeling, privacy engineering, and simula
 
 <br>
 
-## 37. Appendices
+## 38. Appendices
 
-### 37.1. API Error Codes
+### 38.1. API Error Codes
 
 (Standardized SDG error taxonomy)
 
-### 37.2.. Data Schemas
+### 38.2.. Data Schemas
 
 (Supported synthetic dataset structures)
 
-### 37.3. Security Controls Mapping
+### 38.3. Security Controls Mapping
 
 (ISO 27001 Annex A alignment matrix)
 
-### 37.4.. Benchmark Methodology
+### 38.4.. Benchmark Methodology
 
 (KS test, Wasserstein distance, privacy risk scoring)
 
