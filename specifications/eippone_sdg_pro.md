@@ -270,7 +270,8 @@ The core architecture is built around a **Core Intelligence Engine** supported b
 
 <br>
 
-### 14. Data Architecture
+## 14. Data Architecture  
+
 
 <p align="center">
   <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-data-pipeline.jpg" 
