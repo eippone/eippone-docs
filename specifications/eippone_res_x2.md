@@ -1672,9 +1672,139 @@ You now have:
 <br>
 
 
+## 16. Security & Compliance
+
+
+**Security & Compliance (ISO 27001 Full Mapping)**
+
+
+
+EIPPONE-RES-X is designed as an **ISO 27001-aligned enterprise simulation system** with security embedded at every architectural layer.
+
 <br>
 
-## 16. API Specification
+### 16.1 Information Security Management System (ISMS)
+
+The platform implements a structured ISMS covering:
+
+* Asset classification (data, models, simulations)
+* Threat modeling (AI + infrastructure + API risks)
+* Continuous risk assessment cycles
+* Security policy enforcement engine
+
+<br>
+
+### 16.2 ISO 27001 Annex A Control Mapping
+
+#### A.5 — Information Security Policies
+
+* Centralized policy enforcement engine
+* Version-controlled security policies
+* Automated compliance validation
+
+<br>
+
+#### A.6 — Organization of Information Security
+
+* Role-based governance model (RBAC + ABAC)
+* Separation of duties across simulation, data, and AI layers
+* Security ownership per microservice
+
+<br>
+
+#### A.7 — Human Resource Security
+
+* Identity verification for enterprise users
+* Privileged access onboarding/offboarding workflow
+* Behavioral anomaly detection for accounts
+
+<br>
+
+#### A.8 — Asset Management
+
+* Data classification engine (Public / Internal / Confidential / Restricted)
+* Simulation asset tagging system
+* Model version control registry
+
+<br>
+
+#### A.9 — Access Control
+
+* Zero-trust architecture
+* Multi-factor authentication (MFA)
+* API token rotation system
+* Fine-grained role permissions:
+
+| Role      | Access Level         |
+| --------- | -------------------- |
+| Executive | Read-only dashboards |
+| Analyst   | Scenario execution   |
+| Engineer  | Model deployment     |
+| Admin     | Full system control  |
+
+<br>
+
+#### A.10 — Cryptography
+
+* AES-256 encryption at rest
+* TLS 1.3 in transit
+* Key rotation via HSM-backed system
+* Simulation data encryption per tenant
+
+<br>
+
+#### A.11 — Operations Security
+
+* Immutable audit logs
+* SIEM integration
+* Real-time anomaly detection in system logs
+* Secure CI/CD pipelines with signed builds
+
+<br>
+
+#### A.12 — Communications Security
+
+* API Gateway encryption enforcement
+* Secure message broker (Kafka-like system)
+* End-to-end encrypted simulation pipelines
+
+<br>
+
+#### A.13 — System Acquisition, Development, Maintenance
+
+* Secure SDLC lifecycle
+* Automated vulnerability scanning
+* Dependency integrity validation
+* AI model security testing framework
+
+<br>
+
+
+#### A.14 — Incident Management
+
+* Real-time incident detection engine
+* Automated alert escalation system
+* Post-incident forensic simulation replay
+
+<br>
+
+#### A.15 — Business Continuity
+
+* Multi-region failover architecture
+* Disaster recovery simulation engine
+* RTO < 5 minutes, RPO = 0
+
+<br>
+
+#### A.16 — Compliance
+
+* GDPR-ready data handling
+* Audit-ready simulation logs
+* Regulatory stress-testing export module
+
+---
+
+## 17. API Specification
 
 EIPPONE-RES-X exposes a **multi-layer API ecosystem**:
 
@@ -1684,7 +1814,7 @@ EIPPONE-RES-X exposes a **multi-layer API ecosystem**:
 
 <br>
 
-### 16.1 REST API Overview
+### 17.1 REST API Overview
 
 Base URL:
 
@@ -1694,7 +1824,7 @@ https://api.eippone.com/v1
 
 <br>
 
-### Core REST Endpoints
+#### Core REST Endpoints
 
 #### 1. Generate Simulation
 
@@ -1724,6 +1854,7 @@ POST /simulation/generate
 ```
 
 <br>
+
 
 #### 2. Retrieve Simulation Result
 
@@ -1766,7 +1897,7 @@ POST /events/detect
 
 <br>
 
-# 16.2 GraphQL API
+### 17.2 GraphQL API
 
 Endpoint:
 
@@ -1776,7 +1907,7 @@ POST /graphql
 
 <br>
 
-#### Example Query
+##### Example Query
 
 ```graphql
 query {
@@ -1793,7 +1924,7 @@ query {
 
 <br>
 
-#### Example Mutation
+##### Example Mutation
 
 ```graphql
 mutation {
@@ -1809,7 +1940,7 @@ mutation {
 
 <br>
 
-### 16.3 SDK (Python Interface)
+### 17.3 SDK (Python Interface)
 
 ```python
 from eippone_resx import Client
@@ -1828,13 +1959,14 @@ print(result.risk_score)
 
 <br>
 
-## 17. Rare Event Simulation API Design
+## 18. Rare Event Simulation API
+**Rare Event Simulation API Design**
 
----
+<br>
 
-### 17.1 Core Simulation Engine API
+## 18.1 Core Simulation Engine API
 
-#### POST /simulate/rare-event
+### POST /simulate/rare-event
 
 ```json
 {
@@ -1851,9 +1983,10 @@ print(result.risk_score)
 
 <br>
 
-### 17.2 Shock Injection API
 
-#### POST /simulate/shock
+## 18.2 Shock Injection API
+
+### POST /simulate/shock
 
 ```json
 {
@@ -1865,9 +1998,9 @@ print(result.risk_score)
 
 <br>
 
-### 17.3 Cascade Simulation API
+## 18.3 Cascade Simulation API
 
-#### POST /simulate/cascade
+### POST /simulate/cascade
 
 Simulates system-wide failure propagation.
 
@@ -1881,9 +2014,9 @@ Simulates system-wide failure propagation.
 
 <br>
 
-### 17.4 EVT Tail Risk API
+## 18.4 EVT Tail Risk API
 
-#### POST /risk/evt
+### POST /risk/evt
 
 ```json
 {
@@ -1894,17 +2027,15 @@ Simulates system-wide failure propagation.
 
 <br>
 
-### 17.5 Scenario Replay API
+## 18.5 Scenario Replay API
 
-##### GET /simulation/replay/{id}
+### GET /simulation/replay/{id}
 
 * Reconstructs full simulation timeline
 * Supports step-by-step debugging
 * Provides audit-grade traceability
 
 <br>
-
-
 
 
 
