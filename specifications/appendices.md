@@ -12,6 +12,7 @@ Author: Atsu Vovor
   <a href="eippone_sdg_pro.md"><strong>⬅ Return to EIPPONE-SDG Pro Enterprise Technical Specification</strong></a>
 </div>
 
+<br>
 #  EIPPONE-SDG Pro Appendices
 
 ## Table of Contents
