@@ -1,5 +1,3 @@
-# EIPPONE FinSim-360 — Financial System Simulation Engine  
-
 <section align="center" class="hero" style="margin-top:70px;padding:70px 20px;background:linear-gradient(135deg,#0b3b66,#0ea5b7);color:#fff;text-align:center">
     <h1>📘 EIPPONE FinSim-360 — Financial System Simulation Engine </h1>
     <h2>Enterprise Technical Specification </h2>
