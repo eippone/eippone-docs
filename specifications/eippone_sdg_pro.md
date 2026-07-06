@@ -330,7 +330,9 @@ The pipeline is structured into five distinct phases, complemented by supporting
 ##  17. API Specification
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
+    
  <br>
+ 
 ## 18. Synthetic Dataset Generation API
 
 ### Endpoint
@@ -338,10 +340,31 @@ The pipeline is structured into five distinct phases, complemented by supporting
 ```http id="v8qk2x"
 POST /api/v1/synthesize
 ```
+### Description
 
-### Request
+Generates a synthetic dataset based on the supplied schema and configuration.
 
-```json id="g4m1rx"
+<br>
+
+### Request Parameters
+
+| Parameter            | Type    | Required | Description                        |
+| -------------------- | ------- | -------- | ---------------------------------- |
+| dataset_schema       | String  | Yes      | Dataset template or schema         |
+| sample_size          | Integer | Yes      | Number of records                  |
+| rare_event_intensity | Float   | No       | Percentage of injected rare events |
+| privacy_level        | String  | No       | Low, Medium or High                |
+
+<br>
+
+### Example Request
+
+```http
+POST https://api.eippone.com/api/v1/synthesize
+Content-Type: application/json
+```
+
+```json
 {
   "dataset_schema": "loan_applications",
   "sample_size": 100000,
@@ -350,17 +373,97 @@ POST /api/v1/synthesize
 }
 ```
 
-### Response
+<br>
 
-```json id="k2x9lm"
+### Example Response
+
+```json
 {
   "job_id": "SDG-2026-000154",
   "status": "Completed",
   "records_generated": 100000,
+  "rare_events_generated": 3000,
   "synthetic_dataset_id": "SYN-845912",
-  "download_url": "https://api.eippone.com/downloads/SYN-845912.csv"
+  "download_url": "https://api.eippone.com/downloads/SYN-845912.csv",
+  "validation_report": {
+    "ks_similarity_score": 0.96,
+    "wasserstein_distance": 0.04,
+    "privacy_risk_score": "Low",
+    "rare_event_accuracy": "97.4%"
+  }
 }
 ```
+
+<br>
+
+### Python Client Example
+
+```python
+import requests
+
+url = "https://api.eippone.com/api/v1/synthesize"
+
+payload = {
+    "dataset_schema": "loan_applications",
+    "sample_size": 100000,
+    "rare_event_intensity": 0.03,
+    "privacy_level": "High"
+}
+
+response = requests.post(url, json=payload)
+
+print(response.json())
+```
+
+<br>
+
+### Typical Workflow
+
+```
+Client Application
+        │
+        ▼
+REST API Request
+        │
+        ▼
+API Gateway
+        │
+        ▼
+Synthetic Data Engine
+        │
+        ▼
+Validation Engine
+        │
+        ▼
+Synthetic Dataset Storage
+        │
+        ▼
+JSON Response + Download URL
+```
+
+<br>
+
+### Supported Output Formats
+
+* CSV
+* JSON
+* Parquet
+* Time-Series Event Logs
+
+<br>
+
+### Enterprise Integrations
+
+* Python
+* Java
+* JavaScript
+* Power BI
+* Power Platform
+* Azure Machine Learning
+* Databricks
+* Streamlit
+* Enterprise ETL Pipelines
+
 
 </div>
 
@@ -523,10 +626,17 @@ No liability for indirect or consequential damages.
 
 ##  34. 18-Week Delivery Roadmap
 
-* Phase 1: Core engine
-* Phase 2: API + validation layer
-* Phase 3: enterprise scaling
-* Phase 4: ecosystem integration
+### CRISP-DM Execution Roadmap
+
+| Phase       | Milestone                 | Focus                                                        |
+| ----------- | ------------------------- | ------------------------------------------------------------ |
+| Weeks 1–2   | Business & Data Discovery | Requirements gathering, data profiling, feasibility analysis |
+| Weeks 3–6   | Model Development         | GAN implementation, statistical engine development           |
+| Weeks 6–8   | Internal Review           | Validation, stress testing, quality assessment               |
+| Weeks 8–12  | System Integration        | API development, dashboard integration, testing              |
+| Weeks 12–15 | Optimization              | Performance tuning, rare-event calibration                   |
+| Weeks 15–18 | Production Deployment     | Documentation, containerization, production release          |
+
 
 <br>
 
