@@ -154,6 +154,7 @@ Enterprises face three structural constraints:
 * Multi-modal data generation
 
 * Autonomous AI agents
+  
 <br>
 
 ## 8. Product Overview
@@ -313,7 +314,7 @@ The pipeline is structured into five distinct phases, complemented by supporting
 ##  17. API Specification
 
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
-
+ <br>
 ## 18. Synthetic Dataset Generation API
 
 ### Endpoint
@@ -369,7 +370,7 @@ The platform is deployed within a scalable **Kubernetes Cluster**, optimized for
 * **Monitoring Stack**: Integrates Prometheus, Grafana, Alertmanager, and Loki/EFK for comprehensive cluster health tracking.
 * **External Connectivity**: Connects via DNS/CDN and load balancers (Cloud LB) to serve web users, API clients, partners, and Power BI/BI tools.
 * **Cloud Infrastructure**: Leverages underlying cloud services for object storage (S3/GCS/Blob), secrets management, IAM/RBAC, VPC/network security, backup/DR, and CloudWatch/logging.
-* 
+  
 <br>
 
 ## 20. DevOps and CI/CD
