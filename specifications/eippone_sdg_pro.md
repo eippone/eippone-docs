@@ -188,7 +188,7 @@ This module outlines the end-to-end flow of data through the platform, emphasizi
 
 <br>
 
-### 10. CRISP-DM Methodology
+## 10. CRISP-DM Methodology
 
 ### 10.1 Business Understanding
 
