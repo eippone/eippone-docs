@@ -568,21 +568,36 @@ It combines Generative AI, statistical modeling, privacy engineering, and simula
 
 ## 38. Appendices
 
-### 38.1. API Error Codes
-
-(Standardized SDG error taxonomy)
-
-### 38.2.. Data Schemas
-
-(Supported synthetic dataset structures)
-
-### 38.3. Security Controls Mapping
-
-(ISO 27001 Annex A alignment matrix)
-
-### 38.4.. Benchmark Methodology
-
-(KS test, Wasserstein distance, privacy risk scoring)
+<a href="appendices.md#appendix-a--api-error-codes" target="_blank" rel="noopener noreferrer">
+  Appendix A — API Error Codes
+</a>
+<a href="appendices.md#appendix-b--data-schemas" target="_blank" rel="noopener noreferrer">
+  Appendix B — Data Schemas
+</a>
+<a href="appendices.md#appendix-c--security-controls-mapping" target="_blank" rel="noopener noreferrer">
+  Appendix C — Security Controls Mapping
+</a>
+<a href="appendices.md#appendix-d--benchmark-methodology" target="_blank" rel="noopener noreferrer">
+  Appendix D — Benchmark Methodology
+</a>
+<a href="appendices.md#appendix-e--glossary-of-terms--acronyms" target="_blank" rel="noopener noreferrer">
+  Appendix E — Glossary of Terms & Acronyms
+</a>
+<a href="appendices.md#appendix-f--configuration-reference" target="_blank" rel="noopener noreferrer">
+  Appendix F — Configuration Reference
+</a>
+<a href="appendices.md#appendix-g--deployment-topologies" target="_blank" rel="noopener noreferrer">
+  Appendix G — Deployment Topologies
+</a>
+<a href="appendices.md#appendix-h--api-reference-summary" target="_blank" rel="noopener noreferrer">
+  Appendix H — API Reference Summary
+</a>
+<a href="appendices.md#appendix-i--change-log--version-history" target="_blank" rel="noopener noreferrer">
+  Appendix I — Change Log & Version History
+</a>
+<a href="appendices.md#appendix-j--references--standards" target="_blank" rel="noopener noreferrer">
+  Appendix J — References & Standards
+</a>
 
 <br>
 
