@@ -1,5 +1,4 @@
 # EIPPONE-RES-X — Rare Event Simulator  
-:contentReference[oaicite:0]{index=0}
 
 ---
 
