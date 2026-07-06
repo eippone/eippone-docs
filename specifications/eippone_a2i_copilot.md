@@ -335,7 +335,7 @@ It enables users to:
 - Trigger simulations instantly  
 - Explore data interactively  
 - Receive AI-driven explanations  
-
+---
 <div align="center" style="border-top:1px solid #d0d7de; margin-top:40px; padding-top:12px; font-size:12px; color:#57606a;">
 
 © 2026 EIPPONE Simulation Dynamics Inc. All Rights Reserved.  
