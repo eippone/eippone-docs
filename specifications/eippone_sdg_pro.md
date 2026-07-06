@@ -329,6 +329,14 @@ The pipeline is structured into five distinct phases, complemented by supporting
 
 ##  17. API Specification
 
+EIPPONE-SDG Pro provides a RESTful API that enables enterprise systems to generate synthetic datasets programmatically.
+
+### Base URL
+
+```
+https://api.eippone.com/api/v1
+```
+
 <div style="border:1px solid #d0d7de; border-radius:12px; padding:16px; margin:12px 0;">
     
  <br>
