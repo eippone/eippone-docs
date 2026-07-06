@@ -9,18 +9,21 @@ Author: Atsu Vovor
 <br>
 
 
-# Table of Contents
+# 📎 EIPPONE-SDG Pro Appendices
 
-* Appendix A — API Error Codes
-* Appendix B — Data Schemas
-* Appendix C — Security Controls Mapping
-* Appendix D — Benchmark Methodology
-* Appendix E — Glossary of Terms & Acronyms
-* Appendix F — Configuration Reference
-* Appendix G — Deployment Topologies
-* Appendix H — API Reference Summary
-* Appendix I — Change Log & Version History
-* Appendix J — References & Standards
+## Table of Contents
+
+- [Appendix A — API Error Codes](#appendix-a--api-error-codes)
+- [Appendix B — Data Schemas](#appendix-b--data-schemas)
+- [Appendix C — Security Controls Mapping](#appendix-c--security-controls-mapping)
+- [Appendix D — Benchmark Methodology](#appendix-d--benchmark-methodology)
+- [Appendix E — Glossary of Terms & Acronyms](#appendix-e--glossary-of-terms--acronyms)
+- [Appendix F — Configuration Reference](#appendix-f--configuration-reference)
+- [Appendix G — Deployment Topologies](#appendix-g--deployment-topologies)
+- [Appendix H — API Reference Summary](#appendix-h--api-reference-summary)
+- [Appendix I — Change Log & Version History](#appendix-i--change-log--version-history)
+- [Appendix J — References & Standards](#appendix-j--references--standards)
+
 
 <br>
 
