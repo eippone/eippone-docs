@@ -1542,7 +1542,7 @@ LEVEL 0 — Raw Enterprise Data Sources
 
 ### 📘 15.3 GitHub-Ready Professional Spec (REIE-Centric)
 
-```html id="reie-html"
+
 <div style="background:#0b1f3a;color:white;padding:20px;border-radius:12px;">
 <h2>Rare Event Intelligence Engine (REIE)</h2>
 <p>Core Cognitive System of EIPPONE-RES-X</p>
@@ -1573,7 +1573,7 @@ LEVEL 0 — Raw Enterprise Data Sources
 </div>
 
 </div>
-```
+
 
 <br>
 
