@@ -7,7 +7,7 @@ Owner: EIPPONE Simulation Dynamics Inc.
 Author: Atsu Vovor  
 
 
----
+
 
 # Table of Contents
 
@@ -22,9 +22,9 @@ Author: Atsu Vovor
 * Appendix I — Change Log & Version History
 * Appendix J — References & Standards
 
----
 
-# 📎 Appendix A — API Error Codes
+
+#  Appendix A — API Error Codes
 
 **Purpose:** Define all standardized API responses and error conditions.
 
@@ -73,9 +73,9 @@ Author: Atsu Vovor
 
 ## A.4 Common Troubleshooting Guide
 
----
 
-# 📎 Appendix B — Data Schemas
+
+#  Appendix B — Data Schemas
 
 **Purpose:** Describe supported dataset templates and metadata.
 
@@ -108,7 +108,7 @@ Example
 }
 ```
 
----
+
 
 ## B.3 Field Definitions
 
@@ -120,7 +120,7 @@ Example
 | Loan Amount       | Float       | Gamma        | No       |
 | Employment Status | Categorical | Discrete     | Yes      |
 
----
+
 
 ## B.4 Supported Output Formats
 
@@ -131,7 +131,7 @@ Example
 * Delta Lake (future)
 * Apache Iceberg (future)
 
----
+
 
 ## B.5 Synthetic Generation Parameters
 
@@ -142,9 +142,9 @@ Example
 * balancing_method
 * correlation_preservation
 
----
 
-# 📎 Appendix C — Security Controls Mapping
+
+#  Appendix C — Security Controls Mapping
 
 **Purpose:** Demonstrate security governance and compliance alignment.
 
@@ -156,7 +156,7 @@ Example
 * Audit Logging
 * Secrets Management
 
----
+
 
 ## C.2 ISO 27001 Alignment
 
@@ -169,7 +169,7 @@ Example
 | Logging        | Immutable Audit Logs |
 | Monitoring     | SIEM Integration     |
 
----
+
 
 ## C.3 Security Features
 
@@ -183,7 +183,7 @@ Example
 * Multi-Factor Authentication
 * Secure Secrets Storage
 
----
+
 
 ## C.4 Compliance Mapping
 
@@ -198,7 +198,7 @@ Example
 
 *Applicable when deployed in those regulated environments.
 
----
+
 
 ## C.5 Encryption Standards
 
@@ -209,7 +209,7 @@ Example
 | Password Hashing | Argon2id or bcrypt |
 | API Tokens       | JWT                |
 
----
+
 
 ## C.6 Identity & Access Management
 
@@ -220,9 +220,9 @@ Example
 * OAuth2
 * MFA
 
----
 
-# 📎 Appendix D — Benchmark Methodology
+
+#  Appendix D — Benchmark Methodology
 
 **Purpose:** Explain how the platform evaluates performance and synthetic data quality.
 
@@ -235,7 +235,7 @@ Example
 | Correlation Preservation | Feature relationships   |
 | Mutual Information       | Dependency preservation |
 
----
+
 
 ## D.2 Privacy Metrics
 
@@ -246,7 +246,7 @@ Example
 | PII Leakage               | 0%      |
 | Re-identification Risk    | Minimal |
 
----
+
 
 ## D.3 Machine Learning Utility
 
@@ -260,7 +260,7 @@ Evaluate synthetic datasets using:
 
 Comparison against original datasets.
 
----
+
 
 ## D.4 Performance Benchmarks
 
@@ -271,7 +271,7 @@ Comparison against original datasets.
 | Concurrent users | 500+     |
 | API latency      | < 2 sec  |
 
----
+
 
 ## D.5 Test Environment
 
@@ -287,7 +287,7 @@ Include details such as:
 * Database
 * Kubernetes version
 
----
+
 
 ## D.6 Benchmark Reproducibility
 
@@ -300,7 +300,7 @@ Document:
 * Software version
 * Benchmark date
 
----
+
 
 ## Appendix E — Glossary of Terms & Acronyms
 
