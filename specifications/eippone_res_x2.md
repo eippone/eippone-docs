@@ -1190,7 +1190,9 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 
 <br>
 
-## 13. System Architecture (Enterprise Design)
+## 13. System Architecture
+
+**System Architecture (Enterprise Design)**
 
 EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
@@ -1303,7 +1305,9 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 
 <br>
 
-## 14. Data Architecture (Lakehouse + Graph + Simulation Store)
+## 14. Data Architecture
+
+**Data Architecture (Lakehouse + Graph + Simulation Store)**
 
 <br>
 
