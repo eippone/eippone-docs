@@ -568,7 +568,7 @@ It combines Generative AI, statistical modeling, privacy engineering, and simula
 
 ## 38. Appendices
 
-<a href="appendices.md#appendix-a--api-error-codes" target="_blank" rel="noopener noreferrer">
+<a href="appendices.md#appendix-a--api-error-codes" target="_blank" rel="noopener noreferrer">  
   Appendix A — API Error Codes
 </a>
 <a href="appendices.md#appendix-b--data-schemas" target="_blank" rel="noopener noreferrer">
