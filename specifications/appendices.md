@@ -7,7 +7,7 @@ Owner: EIPPONE Simulation Dynamics Inc.
 Author: Atsu Vovor  
 
 <br>
-![Back to EIPPONE-SDG Pro](https://github.com/eippone/eippone-docs/blob/main/specifications/eippone_sdg_pro.md)
+
 <div align="center" style="margin:30px 0; padding:12px; border:1px solid #d0d7de; border-radius:8px; background:#f6f8fa;">
   <a href="eippone_sdg_pro.md"><strong>⬅ Return to EIPPONE-SDG Pro Enterprise Technical Specification</strong></a>
 </div>
