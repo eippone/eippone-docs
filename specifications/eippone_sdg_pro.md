@@ -305,7 +305,8 @@ The pipeline is structured into five distinct phases, complemented by supporting
 
 <br>
 
-### 16. Security and Compliance
+### 16. Security and Compliance  
+
 
 * Differential Privacy
 * k-Anonymity
@@ -354,7 +355,8 @@ POST /api/v1/synthesize
 
 <br>
 
-## 19. Deployment Architecture
+## 19. Deployment Architecture  
+
 
 <p align="center">
   <img src="https://github.com/eippone/eippone-docs/blob/main/images/sdg-deployment-kubernetes.jpg" 
@@ -475,7 +477,8 @@ Aligned with ISO 27001 principles:
 
 <br>
 
-## ⚖️ 30. Licensing Model
+## ⚖️ 30. Licensing Model  
+
 
 * Proprietary commercial license
 * No open-source redistribution rights
@@ -552,7 +555,8 @@ No liability for indirect or consequential damages.
 
 <br>
 
-### 37. Conclusion
+### 37. Conclusion  
+
 
 EIPPONE-SDG Pro is designed as a foundational synthetic intelligence platform for the broader EIPPONE Enterprise Intelligence Ecosystem.
 
