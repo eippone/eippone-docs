@@ -807,4 +807,727 @@ A successful deployment of RES-X should enable organizations to:
 
 <br>
 
+# 10. CRISP-DM Methodology
+
+EIPPONE-RES-X extends the traditional **CRISP-DM (Cross-Industry Standard Process for Data Mining)** framework into an **AI-driven, simulation-first enterprise lifecycle model**.
+
+Unlike conventional data mining systems, RES-X integrates **continuous feedback loops between simulation, synthetic data generation, and risk intelligence validation**.
+
+<br>
+
+## 10.1 Extended CRISP-DM Lifecycle (RES-X Model)
+
+```
+Business Understanding
+        ↓
+Data Understanding
+        ↓
+Data Preparation
+        ↓
+Modeling
+        ↓
+Simulation Execution
+        ↓
+Risk Propagation Analysis
+        ↓
+Validation & Calibration
+        ↓
+AI Feedback Loop
+        ↓
+Continuous Improvement Cycle
+```
+
+<br>
+
+## 10.2 Phase 1 — Business Understanding
+
+This phase defines enterprise objectives and risk intelligence scope.
+
+### Key Activities
+
+* Identify enterprise risk domains (financial, cyber, operational, systemic)
+* Define rare event categories (black swan, tail-risk, cascading failures)
+* Establish simulation objectives and KPIs
+* Map stakeholder requirements (executive, regulatory, technical)
+
+### Outputs
+
+* Risk taxonomy
+* Simulation scope definition
+* KPI framework
+* Business constraint model
+
+<br>
+
+## 10.3 Phase 2 — Data Understanding
+
+This phase focuses on analyzing heterogeneous enterprise datasets.
+
+### Key Activities
+
+* Multi-source data ingestion (structured, semi-structured, unstructured)
+* Data lineage mapping
+* Missing event detection (rare event sparsity analysis)
+* Correlation discovery across domains
+* Temporal anomaly identification
+
+### Outputs
+
+* Data quality report
+* Event distribution map
+* Correlation matrix
+* Missingness & sparsity profile
+
+v
+
+## 10.4 Phase 3 — Data Preparation
+
+Preparation focuses on transforming raw enterprise data into simulation-ready structures.
+
+### Key Activities
+
+* Feature engineering for temporal and systemic dependencies
+* Normalization across heterogeneous sources
+* Event encoding (categorical → probabilistic representations)
+* Synthetic augmentation preparation
+* Graph-based dependency modeling
+
+### Outputs
+
+* Cleaned simulation datasets
+* Feature vectors
+* Dependency graphs
+* Synthetic training datasets
+
+<br>
+
+## 10.5 Phase 4 — Modeling
+
+This phase builds the core intelligence models of RES-X.
+
+### Model Families
+
+#### Probabilistic Models
+
+* Bayesian Networks
+* Hidden Markov Models (HMM)
+* Stochastic Process Models
+* Extreme Value Theory (EVT)
+
+#### Machine Learning Models
+
+* Gradient Boosting Risk Models
+* Time-series Deep Learning Models
+* Graph Neural Networks (GNNs)
+* Anomaly Detection Autoencoders
+
+#### Generative Models
+
+* GAN-based scenario generators
+* Diffusion-based simulation engines
+* LLM-assisted scenario synthesis
+
+<br>
+
+## 10.6 Phase 5 — Simulation Execution
+
+Simulation is the core execution layer of RES-X.
+
+### Key Capabilities
+
+* Monte Carlo multi-run execution engine
+* Scenario branching system (multi-future modeling)
+* Time-step event propagation
+* Shock injection mechanisms
+* Dynamic system perturbation modeling
+
+### Outputs
+
+* Thousands of parallel scenario paths
+* Probability-weighted outcome trees
+* Risk propagation sequences
+
+<br>
+
+## 10.7 Phase 6 — Risk Propagation Analysis
+
+This phase models how events spread across systems.
+
+### Key Mechanisms
+
+* Cascading failure simulation
+* Dependency graph traversal
+* Shock diffusion modeling
+* Systemic risk amplification
+* Cross-domain contagion modeling
+
+### Outputs
+
+* Risk diffusion maps
+* System vulnerability scores
+* Critical node identification
+* Contagion probability matrices
+
+<br>
+
+## 10.8 Phase 7 — Validation & Calibration
+
+Ensures statistical realism and reliability of simulation outputs.
+
+### Key Activities
+
+* Backtesting against historical rare events
+* EVT tail-fit validation
+* Cross-model consistency checks
+* Scenario plausibility scoring
+* Drift detection over time
+
+### Outputs
+
+* Model confidence score
+* Simulation validity index
+* Calibration adjustment parameters
+
+<br>
+
+## 10.9 Phase 8 — AI Feedback Loop
+
+This is a unique enhancement beyond traditional CRISP-DM.
+
+### Key Functions
+
+* Reinforcement learning from simulation outcomes
+* Adaptive parameter tuning
+* Scenario refinement using LLM reasoning
+* Continuous model optimization
+* Automated feature re-weighting
+
+### Outputs
+
+* Self-improving simulation models
+* Adaptive risk parameters
+* Optimized scenario generation rules
+
+<br>
+
+# 11. Functional Requirements
+
+This section defines all functional system capabilities required for enterprise deployment.
+
+<br>
+
+## 11.1 System Core Requirements
+
+| ID     | Requirement                             |
+| ------ | --------------------------------------- |
+| FR-001 | Generate synthetic rare-event datasets  |
+| FR-002 | Execute stochastic simulations at scale |
+| FR-003 | Model systemic risk propagation         |
+| FR-004 | Perform real-time anomaly detection     |
+| FR-005 | Provide explainable AI outputs          |
+| FR-006 | Maintain full simulation audit trails   |
+| FR-007 | Support multi-domain risk modeling      |
+
+<br>
+
+## 11.2 Simulation Engine Requirements
+
+| ID     | Requirement                       |
+| ------ | --------------------------------- |
+| FR-010 | Monte Carlo simulation engine     |
+| FR-011 | Scenario branching execution      |
+| FR-012 | Time-series shock modeling        |
+| FR-013 | Extreme Value Theory modeling     |
+| FR-014 | Multi-step stochastic propagation |
+| FR-015 | Scenario weighting and ranking    |
+
+<br>
+
+## 11.3 AI & Intelligence Requirements
+
+| ID     | Requirement                               |
+| ------ | ----------------------------------------- |
+| FR-020 | AI-driven scenario generation             |
+| FR-021 | LLM-based scenario explanation            |
+| FR-022 | Graph-based risk reasoning                |
+| FR-023 | Predictive anomaly detection              |
+| FR-024 | Adaptive learning from simulation results |
+
+<br>
+
+## 11.4 Data Management Requirements
+
+| ID     | Requirement                           |
+| ------ | ------------------------------------- |
+| FR-030 | Multi-source data ingestion           |
+| FR-031 | Data normalization and transformation |
+| FR-032 | Event deduplication engine            |
+| FR-033 | Time-series alignment                 |
+| FR-034 | Synthetic dataset generation          |
+
+<br>
+
+## 11.5 Risk Intelligence Requirements
+
+| ID     | Requirement                |
+| ------ | -------------------------- |
+| FR-040 | Systemic risk scoring      |
+| FR-041 | Dependency graph analysis  |
+| FR-042 | Shock propagation modeling |
+| FR-043 | Tail-risk estimation       |
+| FR-044 | Critical node detection    |
+
+<br>
+
+
+## 11.6 User Interface Requirements
+
+| ID     | Requirement                      |
+| ------ | -------------------------------- |
+| FR-050 | Interactive simulation dashboard |
+| FR-051 | Scenario builder interface       |
+| FR-052 | Risk visualization tools         |
+| FR-053 | Executive reporting UI           |
+| FR-054 | Drill-down analytics views       |
+
+<br>
+
+## 11.7 API & Integration Requirements
+
+| ID     | Requirement                 |
+| ------ | --------------------------- |
+| FR-060 | REST API exposure           |
+| FR-061 | GraphQL API support         |
+| FR-062 | SDK (Python/Enterprise)     |
+| FR-063 | Event streaming integration |
+| FR-064 | External system connectors  |
+
+<br>
+
+## 11.8 Audit & Compliance Requirements
+
+| ID     | Requirement                      |
+| ------ | -------------------------------- |
+| FR-070 | Full simulation trace logging    |
+| FR-071 | Audit-ready reporting            |
+| FR-072 | Role-based access control (RBAC) |
+| FR-073 | Data lineage tracking            |
+| FR-074 | Compliance export formats        |
+
+
+<br>
+
+# 12. Non-Functional Requirements (ISO-Grade)
+
+EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional requirements**, ensuring reliability, scalability, security, and auditability.
+
+<br>
+
+## 12.1 Performance Requirements
+
+| Metric                 | Target                           |
+| ---------------------- | -------------------------------- |
+| Simulation Latency     | < 3 seconds (standard scenarios) |
+| Large-scale simulation | < 60 seconds (10,000+ runs)      |
+| API Response Time      | < 200 ms (P95)                   |
+| Dashboard Rendering    | < 2 seconds                      |
+| Concurrent Simulations | 500+                             |
+
+<br>
+
+## 12.2 Availability & Reliability
+
+* System Availability: **99.95%**
+* Failover Recovery Time: **< 30 seconds**
+* Zero data-loss architecture (RPO = 0)
+* Disaster Recovery (RTO): **< 5 minutes**
+* Multi-region redundancy enabled
+
+
+<br>
+
+## 12.3 Scalability Requirements
+
+* Horizontal auto-scaling architecture
+* Stateless compute layers
+* Distributed simulation workers
+* Elastic data ingestion pipelines
+* Support for **millions of simulation events per hour**
+
+<br>
+
+## 12.4 Security Requirements (ISO 27001 Aligned)
+
+* End-to-end encryption (AES-256)
+* TLS 1.3 for all communications
+* Role-Based Access Control (RBAC)
+* Attribute-Based Access Control (ABAC) extension
+* Zero-trust architecture model
+* Immutable audit logs
+* Secure API gateway with token rotation
+
+<br>
+
+## 12.5 Maintainability & Extensibility
+
+* Modular microservices architecture
+* Plugin-based simulation engine
+* Versioned APIs (v1, v2, v3)
+* Hot-swappable model components
+* Backward-compatible schema evolution
+
+<br>
+
+## 12.6 Observability & Monitoring
+
+* Distributed tracing (OpenTelemetry-style)
+* Real-time system metrics dashboard
+* AI-driven anomaly detection in logs
+* Predictive failure alerts
+* Full audit trail replay system
+
+<br>
+
+# 13. System Architecture (Enterprise Design)
+
+EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
+
+<br>
+
+## 13.1 High-Level Architecture
+
+```
+                    ┌────────────────────────────┐
+                    │     User Interfaces        │
+                    │ Dashboards / APIs / SDKs   │
+                    └────────────┬───────────────┘
+                                 │
+                                 ▼
+                    ┌────────────────────────────┐
+                    │     API Gateway Layer      │
+                    │ Auth / Routing / Security  │
+                    └────────────┬───────────────┘
+                                 │
+        ┌────────────────────────┼────────────────────────┐
+        ▼                        ▼                        ▼
+┌────────────────┐   ┌────────────────────┐   ┌────────────────────┐
+│ Simulation     │   │ AI Intelligence     │   │ Risk Engine        │
+│ Engine Cluster │   │ Layer (LLMs/GNNs)   │   │ Propagation Graphs │
+└────────────────┘   └────────────────────┘   └────────────────────┘
+        │                        │                        │
+        └──────────────┬────────┴────────┬──────────────┘
+                       ▼                 ▼
+            ┌──────────────────────────────────┐
+            │     Data Processing Layer        │
+            │ ETL / Feature Engineering / EVT  │
+            └──────────────┬───────────────────┘
+                           ▼
+            ┌──────────────────────────────────┐
+            │     Data Architecture Layer      │
+            │ Lakehouse + Graph + Simulation   │
+            └──────────────┬───────────────────┘
+                           ▼
+            ┌──────────────────────────────────┐
+            │   Storage & Event Systems        │
+            │ Object Store / Graph DB / Logs   │
+            └──────────────────────────────────┘
+```
+
+<br>
+
+## 13.2 Core System Layers
+
+### 1. Interface Layer
+
+* Executive dashboards
+* Risk visualization portals
+* REST / GraphQL APIs
+* Python SDK
+
+<br>
+
+### 2. API Gateway Layer
+
+* Authentication & authorization
+* Request routing
+* Rate limiting
+* Audit logging
+
+<br>
+
+### 3. Intelligence Layer
+
+#### Components:
+
+* AI Scenario Generator
+* LLM Explanation Engine
+* Graph Neural Risk Analyzer
+* Anomaly Detection Engine
+
+<br>
+
+### 4. Simulation Layer
+
+* Monte Carlo engine
+* Stochastic process engine
+* EVT tail modeling
+* Scenario branching system
+
+<br>
+
+### 5. Risk Propagation Layer
+
+* Dependency graph engine
+* Cascading failure simulator
+* Shock propagation model
+
+<br>
+
+### 6. Data Processing Layer
+
+* Feature engineering pipeline
+* Data normalization
+* Event encoding
+* Synthetic augmentation
+
+<br>
+
+### 7. Storage Layer
+
+* Data Lake (raw + processed data)
+* Graph Database (dependencies)
+* Simulation Store (scenario history)
+* Audit Log Store (immutable)
+
+<br>
+
+# 14. Data Architecture (Lakehouse + Graph + Simulation Store)
+
+<br>
+
+## 14.1 Hybrid Data Architecture Model
+
+EIPPONE-RES-X uses a **three-core data system architecture**:
+
+```
+                ┌──────────────────────┐
+                │   Data Ingestion     │
+                └─────────┬────────────┘
+                          ▼
+     ┌────────────────────────────────────────┐
+     │            DATA LAKEHOUSE             │
+     │ Raw + Processed + Feature Store       │
+     └──────────────┬───────────────┬───────┘
+                    ▼               ▼
+        ┌────────────────┐  ┌────────────────┐
+        │ GRAPH DATABASE │  │ SIMULATION DB  │
+        │ (Dependencies) │  │ (Scenarios)    │
+        └────────────────┘  └────────────────┘
+```
+
+<br>
+
+## 14.2 Data Lakehouse Layer
+
+### Purpose
+
+Unified storage for structured and unstructured enterprise data.
+
+### Contents
+
+* Historical financial data
+* Cybersecurity logs
+* Operational telemetry
+* External macroeconomic data
+* Synthetic datasets
+
+### Format
+
+* Parquet / Delta Lake format
+* Partitioned by domain & time
+
+<br>
+
+## 14.3 Graph Database Layer
+
+### Purpose
+
+Models systemic dependencies and risk propagation.
+
+### Nodes
+
+* Organizations
+* Systems
+* Assets
+* Users
+* Events
+
+### Edges
+
+* Dependency relationships
+* Risk influence paths
+* Event causality links
+
+### Capabilities
+
+* Shock propagation modeling
+* Critical node detection
+* Network resilience scoring
+
+<br>
+
+## 14.4 Simulation Store
+
+### Purpose
+
+Stores all generated scenarios and simulation outputs.
+
+### Contents
+
+* Monte Carlo runs
+* Rare event simulations
+* Scenario trees
+* Probability distributions
+
+### Features
+
+* Versioned simulations
+* Replay capability
+* Audit trail linkage
+* Scenario comparison engine
+
+<br>
+
+## 14.5 Feature Store (AI Layer)
+
+* Real-time feature computation
+* Historical feature registry
+* Model-ready feature vectors
+* Cross-domain feature sharing
+
+<br>
+
+## 14.6 Data Flow Pipeline
+
+```
+Raw Data
+   ↓
+Ingestion Layer
+   ↓
+Data Lakehouse
+   ↓
+Feature Engineering
+   ↓
+Graph Construction
+   ↓
+Simulation Engine
+   ↓
+Risk Propagation Engine
+   ↓
+Scenario Store
+   ↓
+Dashboard / API Output
+```
+
+<br>
+
+# 🧠 TRANSFORMATION LAYER (UPGRADED OUTPUTS)
+
+Now converting the above into 3 deliverable formats:
+
+<br>
+
+# 📘 A) GitHub-Ready Professional Spec (with HTML Cards)
+
+```html
+<div style="background:#0b1f3a;color:white;padding:20px;border-radius:12px;">
+<h2>EIPPONE RES-X — System Architecture Overview</h2>
+<p>Enterprise Rare Event Simulation & Intelligence Platform</p>
+</div>
+
+<br>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+
+<div style="background:#111827;color:white;padding:16px;border-radius:10px;">
+<h3>Simulation Engine</h3>
+<p>Monte Carlo, EVT, stochastic modeling, scenario branching.</p>
+</div>
+
+<div style="background:#111827;color:white;padding:16px;border-radius:10px;">
+<h3>AI Intelligence Layer</h3>
+<p>LLM reasoning, GNN risk analysis, anomaly detection.</p>
+</div>
+
+<div style="background:#111827;color:white;padding:16px;border-radius:10px;">
+<h3>Data Lakehouse</h3>
+<p>Unified storage for structured + unstructured enterprise data.</p>
+</div>
+
+<div style="background:#111827;color:white;padding:16px;border-radius:10px;">
+<h3>Risk Graph Engine</h3>
+<p>Dependency mapping, cascading failure simulation.</p>
+</div>
+
+</div>
+```
+
+<br>
+
+# 📙 B) Investor-Grade Whitepaper Version
+
+## EIPPONE RES-X: Executive Architecture Summary
+
+EIPPONE RES-X is a next-generation enterprise intelligence platform designed to simulate rare, high-impact events across interconnected systems using AI-driven stochastic modeling, graph-based dependency analysis, and probabilistic simulation engines.
+
+The system integrates three foundational pillars:
+
+### 1. Simulation Intelligence Layer
+
+Provides large-scale Monte Carlo simulation, extreme value modeling, and scenario branching to evaluate millions of potential futures.
+
+### 2. AI Cognitive Layer
+
+Uses advanced machine learning, graph neural networks, and large language models to generate, interpret, and optimize scenarios.
+
+### 3. Enterprise Data Fabric
+
+A hybrid lakehouse + graph + simulation store architecture enabling unified data governance, lineage tracking, and real-time analytical processing.
+
+This architecture enables enterprises to move from **reactive risk management** to **predictive resilience engineering**.
+
+<br>
+
+# 📐 C) Architecture Diagram (Mermaid Ready)
+
+```mermaid
+graph TD
+
+A[User Interfaces] --> B[API Gateway]
+
+B --> C1[Simulation Engine Cluster]
+B --> C2[AI Intelligence Layer]
+B --> C3[Risk Propagation Engine]
+
+C1 --> D[Data Processing Layer]
+C2 --> D
+C3 --> D
+
+D --> E[Data Lakehouse]
+
+E --> F1[Graph Database]
+E --> F2[Simulation Store]
+E --> F3[Feature Store]
+
+F1 --> G[Risk Dependency Analysis]
+F2 --> G
+F3 --> C2
+
+G --> H[Dashboards & APIs]
+```
+
+<br>
+
+
+
 
