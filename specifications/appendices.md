@@ -6,7 +6,7 @@ Version 1.0
 Owner: EIPPONE Simulation Dynamics Inc.  
 Author: Atsu Vovor  
 
-
+<br>
 
 
 # Table of Contents
@@ -22,7 +22,7 @@ Author: Atsu Vovor
 * Appendix I — Change Log & Version History
 * Appendix J — References & Standards
 
-
+<br>
 
 #  Appendix A — API Error Codes
 
@@ -73,7 +73,7 @@ Author: Atsu Vovor
 
 ## A.4 Common Troubleshooting Guide
 
-
+<br>
 
 #  Appendix B — Data Schemas
 
@@ -142,7 +142,7 @@ Example
 * balancing_method
 * correlation_preservation
 
-
+<br>
 
 #  Appendix C — Security Controls Mapping
 
@@ -220,7 +220,7 @@ Example
 * OAuth2
 * MFA
 
-
+<br>
 
 #  Appendix D — Benchmark Methodology
 
@@ -300,7 +300,7 @@ Document:
 * Software version
 * Benchmark date
 
-
+<br>
 
 ## Appendix E — Glossary of Terms & Acronyms
 
@@ -358,7 +358,7 @@ This glossary defines technical terms, acronyms, and concepts used throughout th
 | CRISP-DM               | Cross Industry Standard Process for Data Mining.       |
 | Monte Carlo Simulation | Statistical simulation using repeated random sampling. |
 
-
+<br>
 
 ## Appendix F — Configuration Reference
 
