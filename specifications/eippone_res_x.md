@@ -4,10 +4,10 @@
     <p align="center">Simulate the future. Neutralize uncertainty. Make confident decisions.</p>
 </section>
 
-**Product:** EIPPONE-RES-X 
+**Product:** EIPPONE-RES-X   
 **Version:** 1.0  
 **Status:** MVP Ready  
-**Classification:** Confidential – Enterprise/Investor Use Only 
+**Classification:** Confidential – Enterprise/Investor Use Only   
 **Owner:** EIPPONE Simulation Dynamics Inc.  
 **Author:** Atsu Vovor  
 **Last Updated:** July 2026  
