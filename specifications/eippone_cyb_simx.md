@@ -304,11 +304,6 @@ Each EIPPONE platform is documented independently:
 - `eippone_a2i_copilot.md`
 - `eippone_cyb_simx.md` ← **this project**
 
-### Frontend Integration Rule
-
-The **“View Specifications”** button should open:
-
-https://github.com/<your-org>/EIPPONE/blob/main/specs/eippone_cyb_simx.md
 
 
 
