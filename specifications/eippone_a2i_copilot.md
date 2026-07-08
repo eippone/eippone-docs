@@ -292,11 +292,7 @@ Each EIPPONE platform is documented independently:
 - `eippone_a2i_insights.md`
 - `eippone_a2i_copilot.md` ← **this project**
 
-### Frontend Integration Rule
-
-The **“View Specifications”** button should open:
-
-https://github.com/<your-org>/EIPPONE/blob/main/specs/eippone_a2i_copilot.md
+ 
 
 
 
