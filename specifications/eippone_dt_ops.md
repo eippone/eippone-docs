@@ -1,6 +1,6 @@
 
 <section align="center" class="hero" style="margin-top:70px;padding:70px 20px;background:linear-gradient(135deg,#0b3b66,#0ea5b7);color:#fff;text-align:center">
-    <h1>📘 EIPPONE-DT-Ops — Digital Twin Operationse </h1>
+    <h1> EIPPONE-DT-Ops — Digital Twin Operationse </h1>
    <h2>Technical Specification</h2>
     <p align="center">Simulate the future. Neutralize uncertainty. Make confident decisions.</p>
 </section>
