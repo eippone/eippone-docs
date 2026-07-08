@@ -275,11 +275,6 @@ Each platform is documented independently:
 - `eippone_cyb_simx.md`
 - `eippone_finsim_360.md`
 
-### Frontend Integration Rule
-
-The **“View Specifications”** button should open:
-https://github.com/<your-org>/EIPPONE/blob/main/specs/eippone_dt_ops.md  
-
 
 ---
 
