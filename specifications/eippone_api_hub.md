@@ -1,5 +1,5 @@
 <section align="center" class="hero" style="margin-top:70px;padding:70px 20px;background:linear-gradient(135deg,#0b3b66,#0ea5b7);color:#fff;text-align:center">
-    <h1>📘 EIPPONE Simulation Dynamics API Hub</h1>
+    <h1> EIPPONE Simulation Dynamics API Hub</h1>
     <h2>Enterprise Technical Specification </h2>
     <p align="center">Simulate the future. Neutralize uncertainty. Make confident decisions.</p>
 </section
@@ -325,11 +325,7 @@ Each EIPPONE platform is documented independently:
 - `eippone_dq_ai.md`
 - `eippone_simulation_api_hub.md` ← **this project**
 
-### Frontend Integration Rule
 
-The **“View Specifications”** button should open:
-
-https://github.com/<your-org>/EIPPONE/blob/main/specs/eippone_simulation_api_hub.md
 
 
 ---
