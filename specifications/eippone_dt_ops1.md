@@ -976,9 +976,197 @@ The platform integrates seamlessly with the EIPPONE enterprise ecosystem:
 
 <br>
 
-# 24–29. Security & Compliance Layers
+## 24. Information Security Management System (ISMS)
 
-EIPPONE-DT-Ops adheres to all security and governance standards defined in the EIPPONE security specification, including Annex A mapping, ISMS governance, and audit logging requirements.
+### Enterprise Information Security Governance
+
+EIPPONE-DT-Ops implements an enterprise-grade **Information Security Management System (ISMS)** aligned with the principles of **ISO/IEC 27001:2022**, **ISO 27002**, **NIST Cybersecurity Framework (CSF 2.0)**, **NIST SP 800-53 Rev.5**, and industry best practices for secure software development and AI governance.
+
+The ISMS establishes a structured governance framework that protects enterprise information assets, Digital Twin models, synchronization data, customer environments, and critical infrastructure throughout the platform lifecycle.
+
+The objectives of the ISMS are to:
+
+* Protect the confidentiality, integrity, and availability (CIA) of enterprise information.
+
+
+* Establish governance for AI-driven operational synchronization and Digital Twin intelligence.
+
+
+* Manage information security risks systematically.
+
+
+* Ensure regulatory and contractual compliance.
+
+
+* Promote continuous improvement through the Plan–Do–Check–Act (PDCA) cycle.
+
+
+* Support secure enterprise operations across cloud, hybrid, and on-premises deployments.
+
+
+
+### 24.1 ISMS Governance Structure
+
+```text
+                     Board of Directors
+                             │
+                             ▼
+                  Chief Executive Officer
+                             │
+                             ▼
+                 Information Security Committee
+                             │
+       ┌─────────────┬──────────────┬───────────────┐
+       ▼             ▼              ▼               ▼
+ Security Officer  Product Owner  DevSecOps Lead  Compliance Lead
+       │             │              │               │
+       └─────────────┴──────────────┴───────────────┘
+                      Operational Teams
+
+```
+
+### 24.2 Information Security Policy Framework
+
+The platform operates under a comprehensive security policy framework, including: Information Security Policy; Acceptable Use Policy; Data Classification Policy; Access Control Policy; Secure Development Policy; Incident Response Policy; Disaster Recovery Policy; Vulnerability Management Policy; and Cryptographic Key Management Policy.
+
+### 24.3 ISMS Scope
+
+The ISMS covers all assets involved in the delivery and operation of EIPPONE-DT-Ops.
+
+* **In Scope**: Source code, AI/ML models, **DTIE** Cognitive Engine, Digital Twin datasets, customer data, cloud infrastructure, APIs, CI/CD pipelines, monitoring platforms, documentation, and employee endpoints.
+
+
+
+### 24.4 Asset Classification
+
+| Classification | Description | Examples |
+| --- | --- | --- |
+| Public | Information approved for public release | Marketing materials |
+| Internal | Internal operational information | Procedures |
+| Confidential | Customer and business information | Digital Twin datasets |
+| Restricted | Highly sensitive information | Encryption keys, credentials |
+
+### 24.5 Security Lifecycle & Continuous Compliance
+
+The ISMS follows the **PDCA methodology** (Plan, Do, Check, Act) and includes continuous compliance activities such as internal/external audits, penetration testing, vulnerability assessments, and executive security reporting.
+
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+
+## 25. Risk Management Framework
+
+### Enterprise Risk Management
+
+Risk management is integrated into every phase of the EIPPONE-DT-Ops lifecycle, identifying, evaluating, treating, and monitoring security, operational, technical, legal, and business risks.
+
+* **Risk Management Lifecycle**: Identify → Analyze → Evaluate → Treat → Monitor → Review.
+
+
+* **Risk Categories**: Strategic, Operational, Cybersecurity, AI Risk (Model drift/hallucination), Data Risk, Compliance, Third-Party, and Infrastructure failures.
+
+
+* **AI Risk Management**: Implements specialized controls for Digital Twin-specific risks, including model drift, bias, and synchronization failure, mitigated through continuous validation and human-in-the-loop review.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+
+## 26. Security Controls (Annex A Mapping)
+
+### ISO/IEC 27001:2022 Annex A Alignment
+
+EIPPONE-DT-Ops implements security controls aligned with ISO/IEC 27001 Annex A, encompassing:
+
+* **Organizational Controls**: Governance, security roles, threat intelligence, and asset inventory.
+
+
+* **People Controls**: Screening, security awareness, and termination responsibilities.
+
+
+* **Physical Controls**: Perimeter security, entry controls, and monitoring.
+
+
+* **Technological Controls**: Secure authentication, configuration management, logging, monitoring, network security, and secure coding (Secure SDLC).
+
+
+* **Cryptographic Controls**: AES-256 encryption, TLS 1.3, and hardware-backed key management.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+
+## 27. Data Protection & Privacy
+
+## Enterprise Privacy Framework
+
+EIPPONE-DT-Ops protects personal, confidential, and operational information using **Privacy by Design** and **Privacy by Default** principles.
+
+* **Regulatory Compliance**: Supports GDPR, PIPEDA, CCPA, HIPAA (deployment dependent), and SOC 2.
+
+
+* **Data Protection Controls**: AES-256 encryption, TLS 1.3, tokenization, data masking for analytics, and backup encryption.
+
+
+* **Privacy-Preserving AI**: Models support synthetic data generation, differential privacy integration, and data anonymization to protect operational data during twin modeling.
+
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+## 28. Access Control & Identity Management
+
+### Enterprise Identity Security
+
+Identity management follows **Zero Trust** principles, where every request is authenticated, authorized, encrypted, and continuously evaluated.
+
+* **Identity Architecture**: Centralized Identity Provider integrated with Multi-Factor Authentication (MFA), API Gateways, and ABAC/RBAC engines.
+
+
+* **Standard Roles**: Executive (Dashboard), Analyst (Twin simulation), Data Scientist (Model management), Engineer (Development), Administrator (Full control), Auditor (Compliance).
+
+
+* **Secrets Management**: Enterprise-grade management for API keys, database credentials, and certificates; no secrets are ever embedded in source code.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+
+## 29. Audit Logging & Monitoring
+
+### Enterprise Observability Framework
+
+EIPPONE-DT-Ops implements centralized logging, monitoring, and observability to provide complete operational visibility.
+
+* **Logged Events**: Records authentication, API requests, twin synchronization cycles, AI inference, configuration changes, and administrative actions.
+
+
+* **Log Characteristics**: Immutable, time-synchronized, digitally signed, and tamper-evident.
+
+
+* **Monitoring Metrics**: Tracks infrastructure utilization, API latency, twin synchronization throughput, and AI model performance.
+
+
+* **SIEM Integration**: Supports real-time event correlation, threat detection, and forensic investigation through platforms like Microsoft Sentinel and Splunk.
+
+
+* **Audit Readiness**: Maintains comprehensive audit evidence, including AI model lineage, simulation provenance, and configuration history, to support regulatory audits.
 
 
 <p align="right">
