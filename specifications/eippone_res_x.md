@@ -3495,6 +3495,10 @@ To support regulatory compliance and independent assurance, EIPPONE-RES-X mainta
 
 These capabilities support audits against ISO/IEC 27001, SOC 2, NIST frameworks, GDPR, PIPEDA, and other applicable regulatory or contractual requirements.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 
@@ -3667,6 +3671,10 @@ Customers retain ownership of:
 * Customer-generated reports
 * Customer-developed extensions
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 31. Confidentiality & NDA
@@ -3771,6 +3779,10 @@ The following proprietary assets receive enhanced protection:
 * Product branding
 * Research methodologies
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 32. Export Control Compliance
@@ -3847,6 +3859,10 @@ Compliance activities may include:
 * License verification
 * Regulatory updates
 * Legal review for high-risk deployments
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -3938,6 +3954,10 @@ Unless otherwise specified in a separate written agreement, commercial agreement
 This Enterprise Technical Specification is provided for architectural, engineering, product planning, procurement, investor evaluation, and technical implementation purposes.
 
 The contents of this document are subject to change without notice as the EIPPONE platform evolves through ongoing research, development, customer feedback, and regulatory requirements.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -4237,6 +4257,10 @@ Long-term commercial initiatives:
 * Develop patent-protected cognitive simulation technologies.
 * Position EIPPONE as a leader in enterprise AI and simulation intelligence.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 36. Research & Innovation Roadmap
@@ -4366,6 +4390,10 @@ Priority IP areas include:
 
 ---
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 37. Conclusion
@@ -4381,6 +4409,10 @@ The platform's cloud-native architecture, API-first design, ISO 27001-aligned se
 As part of the broader **EIPPONE Enterprise Intelligence Ecosystem**, RES-X complements products such as **EIPPONE-SDG Pro**, **DT-Ops**, **A2I Insights**, and future cognitive intelligence platforms. Together, these technologies form a unified ecosystem that supports synthetic data generation, simulation intelligence, digital twins, executive analytics, and autonomous decision support.
 
 Looking ahead, EIPPONE Simulation Dynamics Inc. will continue investing in research, intellectual property, strategic partnerships, and enterprise innovation to evolve REIE into a globally recognized cognitive simulation platform, advancing the future of enterprise resilience and decision intelligence.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -4429,3 +4461,9 @@ The following appendices provide supporting reference material, implementation g
 
 This completes the **EIPPONE-RES-X Enterprise Technical Specification (Version 1.0)**. The document now follows a comprehensive enterprise structure of **38 sections**, comparable in scope and maturity to commercial technical specifications used for enterprise software procurement, architecture governance, ISO-aligned compliance, investor due diligence, and large-scale product engineering. It establishes the **Rare Event Intelligence Engine (REIE)** as the central cognitive architecture of the platform and aligns RES-X with the broader EIPPONE Enterprise Intelligence Ecosystem.
 
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
