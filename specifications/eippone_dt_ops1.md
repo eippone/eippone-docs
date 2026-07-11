@@ -756,6 +756,12 @@ EIPPONE-DT-Ops utilizes an extended CRISP-DM lifecycle optimized for **Continuou
 * **10.5 Evaluation**: Validation of twin-to-physical synchronization fidelity and simulation outcome accuracy[cite: 1].
 * **10.6 Deployment**: Containerized deployment via Kubernetes with automated synchronization pipelines.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
 # 11. Functional Requirements
 
 | ID | Requirement | Description |
@@ -766,6 +772,12 @@ EIPPONE-DT-Ops utilizes an extended CRISP-DM lifecycle optimized for **Continuou
 | FR-104 | AI Optimization | Reinforcement learning-based operational tuning. |
 | FR-105 | Executive Reporting | Intelligent KPI dashboards for operational decision support[cite: 1]. |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
 # 12. Non-Functional Requirements
 
 | Category | Requirement | Target |
@@ -774,6 +786,12 @@ EIPPONE-DT-Ops utilizes an extended CRISP-DM lifecycle optimized for **Continuou
 | **Reliability** | API Availability | 99.95%[cite: 1] |
 | **Scalability** | Concurrent Digital Twins | 1,000+ instances[cite: 1] |
 | **Security** | Access Control | RBAC/ABAC + Encryption[cite: 1] |
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
 
 # 13. System Architecture
 
@@ -784,6 +802,12 @@ The architecture centers on the **DTIE (Digital Twin Intelligence Engine)**, sup
 * **Simulation Engine**: Discrete-event and agent-based simulation for predictive planning.
 * **API Gateway**: Secure enterprise interface for external system integration.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
 # 14. Data Architecture
 
 The architecture employs a **Lambda/Kappa-inspired pipeline** for operational intelligence:
@@ -793,6 +817,12 @@ The architecture employs a **Lambda/Kappa-inspired pipeline** for operational in
 3. **Storage**: Polyglot persistence (Time-Series DB for state, Graph DB for process dependency).
 4. **Intelligence**: Feature store providing input for AI-driven operational insights[cite: 1].
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
 # 15. Digital Twin Intelligence Engine (DTIE)
 
 The **DTIE** is the cognitive core of EIPPONE-DT-Ops, responsible for the ongoing lifecycle of the Digital Twin:
@@ -801,6 +831,10 @@ The **DTIE** is the cognitive core of EIPPONE-DT-Ops, responsible for the ongoin
 * **Simulation Execution**: Orchestrating what-if scenario runs.
 * **Autonomous Optimization**: Using Reinforcement Learning to recommend operational parameter changes[cite: 1].
 * **Knowledge Graph Reasoning**: Mapping relationships between operational assets and business processes[cite: 1].
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
  
