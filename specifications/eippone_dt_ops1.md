@@ -1481,33 +1481,15 @@ The delivery roadmap is designed to:
 
 | Sprint | Weeks | Primary Deliverables |
 | --- | --- | --- |
-| Sprint 1 | 1–2 | Project initiation, architecture validation, repository setup, CI/CD foundation
-
- |
-| Sprint 2 | 3–4 | Operational data ingestion, process discovery, digital twin schema
-
- |
-| Sprint 3 | 5–6 | **DTIE** Cognitive Engine foundation and synchronization layer
-
- |
-| Sprint 4 | 7–8 | Discrete-event and agent-based simulation engines
-
- |
-| Sprint 5 | 9–10 | Reinforcement learning optimization and process mining logic
-
- |
-| Sprint 6 | 11–12 | REST API, GraphQL API, Python SDK, secure authentication
-
- |
-| Sprint 7 | 13–14 | Executive operational dashboards, KPI heatmaps, ecosystem integration
-
- |
-| Sprint 8 | 15–16 | Security hardening, ISO controls, performance tuning, stress testing
-
- |
-| Sprint 9 | 17–18 | UAT, final documentation, production deployment, release
-
- |
+| Sprint 1 | 1–2 | Project initiation, architecture validation, repository setup, CI/CD foundation|
+| Sprint 2 | 3–4 | Operational data ingestion, process discovery, digital twin schema|
+| Sprint 3 | 5–6 | **DTIE** Cognitive Engine foundation and synchronization layer|
+| Sprint 4 | 7–8 | Discrete-event and agent-based simulation engines|
+| Sprint 5 | 9–10 | Reinforcement learning optimization and process mining logic|
+| Sprint 6 | 11–12 | REST API, GraphQL API, Python SDK, secure authentication|
+| Sprint 7 | 13–14 | Executive operational dashboards, KPI heatmaps, ecosystem integration|
+| Sprint 8 | 15–16 | Security hardening, ISO controls, performance tuning, stress testing|
+| Sprint 9 | 17–18 | UAT, final documentation, production deployment, release|
 
 <br>
 
