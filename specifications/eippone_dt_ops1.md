@@ -964,21 +964,11 @@ The following benchmarks define the measurable Service Level Objectives (SLOs) f
 
 | Metric | Target |
 | --- | --- |
-| Twin Synchronization Latency | < 5 seconds
-
- |
-| API Response Time | < 2 seconds
-
- |
-| Concurrent Digital Twins | 1,000+
-
- |
-| API Availability | 99.95%
-
- |
-| Dashboard Response Time | < 2 seconds
-
- |
+| Twin Synchronization Latency | < 5 seconds|
+| API Response Time | < 2 seconds|
+| Concurrent Digital Twins | 1,000+|
+| API Availability | 99.95%|
+| Dashboard Response Time | < 2 seconds|
  
 
 <p align="right">
