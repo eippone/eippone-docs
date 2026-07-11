@@ -72,6 +72,10 @@
 37. [Conclusion](#37-conclusion)
 38. [Appendices](#38-appendices)
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 1. Executive Summary
@@ -157,7 +161,12 @@ EIPPONE-RES-X helps organizations:
 - Increase executive confidence during uncertainty
 - Reduce financial losses caused by unforeseen events
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
+
 
 # 2. Company Overview
 
@@ -219,6 +228,10 @@ EIPPONE develops technologies in:
 
 Rather than building isolated analytics products, EIPPONE is developing an integrated enterprise ecosystem where synthetic data generation, simulation intelligence, digital twins, cybersecurity analytics, and executive dashboards operate as interconnected components supporting enterprise-wide decision intelligence.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 3. Business Overview
@@ -273,6 +286,10 @@ EIPPONE-RES-X enables organizations to transition from reactive risk management 
 
 This capability empowers decision-makers to evaluate vulnerabilities, optimize mitigation strategies, and strengthen resilience before disruptive events materialize.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 4. Business Model
@@ -317,6 +334,10 @@ EIPPONE-RES-X follows a scalable enterprise software business model designed to 
 - Manufacturing Enterprises
 - Research Institutions
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 5. Competitive Advantage
@@ -354,6 +375,10 @@ EIPPONE-RES-X differentiates itself through its integrated Rare Event Intelligen
 | Digital Twin Integration | Limited | Limited | ✓ |
 | Explainable Risk Intelligence | Partial | Partial | ✓ |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 6. Investment Highlights
@@ -378,6 +403,10 @@ EIPPONE-RES-X addresses one of the fastest-growing enterprise software markets b
 The platform is designed to evolve into a foundational simulation layer supporting the broader EIPPONE Enterprise Intelligence Ecosystem, enabling organizations to simulate operational, financial, cyber, and strategic risks within a unified decision intelligence framework.
 
 Its modular architecture supports continuous expansion through new industry simulation engines, AI capabilities, regulatory modules, and digital twin integrations, creating long-term opportunities for recurring enterprise revenue and global market adoption.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -541,6 +570,10 @@ The platform enables organizations to solve enterprise challenges including:
 - Strategic scenario planning
 - Business continuity analysis
 - Crisis response planning
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -740,6 +773,10 @@ Organizations implementing RES-X can expect measurable improvements in:
 - Crisis preparedness
 - Resource optimization
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 9. Business Objectives
@@ -804,6 +841,10 @@ A successful deployment of RES-X should enable organizations to:
 - Meet regulatory expectations for stress testing and resilience assessment.
 - Integrate seamlessly with enterprise analytics and digital twin platforms.
 - Provide explainable, repeatable, and statistically validated simulation results suitable for executive, technical, and regulatory audiences.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -878,7 +919,7 @@ This phase focuses on analyzing heterogeneous enterprise datasets.
 * Correlation matrix
 * Missingness & sparsity profile
 
-v
+<br>
 
 ## 10.4 Phase 3 — Data Preparation
 
@@ -1008,6 +1049,10 @@ This is a unique enhancement beyond traditional CRISP-DM.
 * Adaptive risk parameters
 * Optimized scenario generation rules
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 11. Functional Requirements
@@ -1115,6 +1160,10 @@ This section defines all functional system capabilities required for enterprise 
 | FR-074 | Compliance export formats        |
 
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 12. Non-Functional Requirements
@@ -1187,6 +1236,10 @@ EIPPONE-RES-X is designed to meet **enterprise ISO 27001-aligned non-functional 
 * AI-driven anomaly detection in logs
 * Predictive failure alerts
 * Full audit trail replay system
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -1302,6 +1355,10 @@ EIPPONE-RES-X uses a **multi-layer distributed intelligence architecture**.
 * Graph Database (dependencies)
 * Simulation Store (scenario history)
 * Audit Log Store (immutable)
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -1438,16 +1495,20 @@ Dashboard / API Output
 <br>
 
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 
 ## 15. Rare Event Intelligence Engine
 
-**🧠 Core Cognitive System of EIPPONE-RES-X**
+**Core Cognitive System of EIPPONE-RES-X**
 
 <br>
 
-### 🧠 15.1 Definition (Rewritten Core)
+###  15.1 Definition (Rewritten Core)
 
 The **Rare Event Intelligence Engine (REIE)** is the **central cognitive orchestration system** of EIPPONE-RES-X.
 
@@ -1460,11 +1521,11 @@ It is responsible for:
 * Scoring event rarity, impact, and systemic significance
 * Continuously learning from simulated and real-world outcomes
 
-> 🧠 REIE is not a component of the system — it is the **decision-making brain of the system**.
+>  REIE is not a component of the system — it is the **decision-making brain of the system**.
 
 <br>
 
-### 🧠 15.2 Tiered Cognitive Architecture (Level 0–3 System)
+###  15.2 Tiered Cognitive Architecture (Level 0–3 System)
 
 REIE introduces a **four-layer cognitive hierarchy**:
 
@@ -1540,7 +1601,7 @@ LEVEL 0 — Raw Enterprise Data Sources
 
 <br>
 
-### 📘 15.3 GitHub-Ready Professional Spec (REIE-Centric)
+###  15.3 GitHub-Ready Professional Spec (REIE-Centric)
 
 
 <div style="background:#0b1f3a;color:white;padding:20px;border-radius:12px;">
@@ -1577,7 +1638,7 @@ LEVEL 0 — Raw Enterprise Data Sources
 
 <br>
 
-### 📙 15.4 Investor-Grade Whitepaper Version (REIE Redefined)
+###  15.4 Investor-Grade Whitepaper Version (REIE Redefined)
 
 The **Rare Event Intelligence Engine (REIE)** is the central cognitive layer of EIPPONE-RES-X, responsible for transforming raw enterprise data into structured simulation intelligence.
 
@@ -1594,7 +1655,7 @@ This architecture enables enterprises to transition from reactive analytics syst
 
 <br>
 
-### 📐 15.5 Updated Architecture Placement (Correct System View)
+###  15.5 Updated Architecture Placement (Correct System View)
 
 ```mermaid id="reie-mermaid"
 graph TD
@@ -1619,9 +1680,9 @@ E -->|Risk Prioritization| C3
 
 <br>
 
-### ⚖️ 15.6 Patent-Style Architecture Claim (HIGH VALUE IP SECTION)
+###  15.6 Patent-Style Architecture Claim (HIGH VALUE IP SECTION)
 
-#### 🧾 Claim 1 — Cognitive Rare Event Simulation System
+####  Claim 1 — Cognitive Rare Event Simulation System
 
 A computer-implemented system comprising:
 
@@ -1641,19 +1702,19 @@ wherein the REIE:
 
 <br>
 
-#### 🧾 Claim 2 — Systemic Risk Orchestration
+####  Claim 2 — Systemic Risk Orchestration
 
 The system of claim 1, wherein the REIE identifies cascading risk structures across interconnected systems and dynamically adjusts simulation parameters based on graph-based dependency analysis.
 
 <br>
 
-#### 🧾 Claim 3 — Self-Optimizing Simulation Intelligence
+####  Claim 3 — Self-Optimizing Simulation Intelligence
 
 The system of claim 1, wherein the REIE improves simulation accuracy through continuous reinforcement learning from historical and synthetic simulation outputs.
 
 <br>
 
-#### 🚀 FINAL RESULT (WHAT WE ACHIEVED)
+####  FINAL RESULT (WHAT WE ACHIEVED)
 
 You now have:
 
@@ -1668,6 +1729,10 @@ You now have:
 #### ✔ GitHub-ready UI structure
 
 #### ✔ Patent-grade IP claims
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -1938,6 +2003,10 @@ mutation {
 }
 ```
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ### 17.3 SDK (Python Interface)
@@ -1956,6 +2025,10 @@ result = client.simulation.get(simulation.id)
 
 print(result.risk_score)
 ```
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -2038,7 +2111,11 @@ Simulates system-wide failure propagation.
 <br>
 
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
+<br>
 
 ## 19. Deployment Architecture
 
@@ -2253,6 +2330,10 @@ Infrastructure provisioning is automated using:
 * GitHub Actions
 * Kubernetes Operators
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 20. DevOps and CI/CD
@@ -2438,6 +2519,10 @@ Supported deployment models:
 | Logging        | ELK Stack                  |
 | Security       | Trivy, CodeQL              |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 21. EIPPONE Ecosystem Integration
@@ -2541,6 +2626,10 @@ Supported formats:
 * GraphQL APIs
 * Event Streams (Kafka-compatible)
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 22. Testing Strategy
@@ -2631,6 +2720,14 @@ A release is approved only if:
 * API Compatibility Maintained
 * Documentation Updated
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 23. Performance Benchmarks
@@ -2718,6 +2815,11 @@ Performance benchmarks define measurable service-level objectives (SLOs) for the
 | REIE Cognitive Engine  | 99.95% |
 | Audit Logging          | 100%   |
 
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
  
@@ -2739,6 +2841,11 @@ The objectives of the ISMS are to:
 * Ensure regulatory and contractual compliance.
 * Promote continuous improvement through the Plan–Do–Check–Act (PDCA) cycle.
 * Support secure enterprise operations across cloud, hybrid, and on-premises deployments.
+
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -2850,6 +2957,10 @@ Security compliance activities include:
 * Policy reviews
 * Supplier assessments
 * Executive security reporting
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -2963,6 +3074,10 @@ Business continuity planning includes:
 * Disaster recovery exercises
 * Crisis communication plans
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 ## 26. Security Controls (Annex A Mapping)
@@ -3048,6 +3163,10 @@ Security activities include:
 * Dependency Scanning
 * Container Security
 * Penetration Testing
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -3142,6 +3261,10 @@ AI models support:
 * Federated learning readiness
 * Data anonymization
 * Secure feature engineering
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -3240,6 +3363,10 @@ Sensitive secrets include:
 * Certificates
 
 Secrets are stored using enterprise-grade secret management solutions and are never embedded in source code.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
