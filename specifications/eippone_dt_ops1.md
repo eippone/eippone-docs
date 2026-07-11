@@ -170,6 +170,10 @@ Organizations implementing DT-Ops can expect to:
 * Support AI-driven continuous improvement
 * Enable enterprise-wide Digital Transformation
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 2. Company Overview
@@ -236,6 +240,10 @@ Rather than developing isolated enterprise applications, EIPPONE is building an 
 
 EIPPONE-DT-Ops serves as the Operational Intelligence layer of this ecosystem.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 3. Business Overview
@@ -298,6 +306,10 @@ The platform empowers executives, operations teams, analysts, engineers, and ent
 
 Organizations gain measurable improvements in efficiency, resilience, productivity, and decision quality while reducing operational risk.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 4. Business Model
@@ -352,6 +364,10 @@ The platform follows a modular expansion strategy where organizations begin with
 
 This approach encourages long-term platform adoption and recurring enterprise revenue.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 5. Competitive Advantage
@@ -390,6 +406,11 @@ EIPPONE-DT-Ops differentiates itself by combining Digital Twin technology with e
 | Explainable AI             | ✗              | Limited                    | ✓              |
 | Ecosystem Integration      | Limited        | Limited                    | ✓              |
 
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 6. Investment Highlights
@@ -417,6 +438,10 @@ EIPPONE-DT-Ops is designed to become the operational intelligence foundation of 
 As organizations deploy additional EIPPONE products—including SDG Pro, RES-X, FinSim-360, and CYB-SimX—the Digital Twin platform becomes increasingly valuable by integrating simulation intelligence, synthetic data, cybersecurity insights, and financial modeling into a unified operational environment.
 
 Its modular architecture supports continuous expansion through industry-specific Digital Twin templates, AI optimization engines, autonomous operational agents, and enterprise orchestration capabilities.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
@@ -525,6 +550,11 @@ The platform supports enterprise operational management, process optimization, p
 * Operations Researchers
 * Simulation Engineers
 
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 8. Product Overview
@@ -621,6 +651,10 @@ Organizations implementing DT-Ops can improve:
 * Operational resilience
 * Enterprise digital maturity
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 <br>
 
 # 9. Business Objectives
@@ -666,6 +700,10 @@ The business objectives establish measurable outcomes for enterprise deployment 
 * API utilization
 * Customer retention
 * Operational resilience score
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 <br>
 
