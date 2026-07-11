@@ -987,9 +987,226 @@ EIPPONE-DT-Ops adheres to all security and governance standards defined in the E
 
 <br>
 
-# 30–33. Legal & Governance Layer
+# 30. Licensing Model
 
-The platform operates under the standard EIPPONE licensing, confidentiality, export control, and limitation of liability frameworks established for the EIPPONE product suite.
+## Enterprise Licensing Strategy
+
+EIPPONE-DT-Ops is licensed as an **enterprise commercial software platform** designed to support organizations ranging from industrial enterprises and smart city operators to multinational corporations, government agencies, and research institutions.
+
+The licensing model is engineered to provide maximum flexibility while ensuring scalability, predictable operational costs, and long-term product sustainability.
+
+The platform supports subscription-based licensing, perpetual enterprise licensing, consumption-based APIs, OEM partnerships, and strategic government deployments.
+
+## 30.1 Licensing Objectives
+
+The licensing strategy is designed to:
+
+* Support organizations of different operational scales
+* Enable cloud, hybrid, and on-premises deployments
+* Simplify enterprise procurement
+* Encourage ecosystem-wide adoption
+* Protect EIPPONE intellectual property
+* Provide predictable enterprise pricing
+* Enable partner integrations
+* Support future platform expansion
+
+## 30.2 License Editions
+
+| Edition | Target Customers | Deployment |
+| --- | --- | --- |
+| Community (Future) | Education & Research | Local |
+| Professional | SMEs | SaaS |
+| Enterprise | Large Organizations | SaaS / Hybrid |
+| Enterprise Plus | Global Enterprises | Multi-region |
+| Government | Public Sector | Sovereign Cloud |
+| Defense Secure | Military & Intelligence | Air-Gapped |
+
+## 30.3 Enterprise Features by Edition
+
+| Capability | Professional | Enterprise | Enterprise Plus | Government |
+| --- | --- | --- | --- | --- |
+| **DTIE** Cognitive Engine | ✓ | ✓ | ✓ | ✓ |
+| Digital Twin Sync | ✓ | ✓ | ✓ | ✓ |
+| AI Scenario Simulation | ✓ | ✓ | ✓ | ✓ |
+| Multi-Tenant Support | Limited | ✓ | ✓ | ✓ |
+| API Access | Standard | Advanced | Unlimited | Unlimited |
+| High Availability | — | ✓ | ✓ | ✓ |
+| Kubernetes Deployment | — | ✓ | ✓ | ✓ |
+| Air-Gapped Deployment | — | — | Optional | ✓ |
+| Premium Support | — | ✓ | ✓ | ✓ |
+| Custom Integrations | — | ✓ | ✓ | ✓ |
+
+## 30.4 Subscription Models
+
+Supported licensing models include:
+
+### Software-as-a-Service (SaaS)
+
+* Annual Subscription; Monthly Subscription; Consumption-Based Billing; Multi-Tenant Cloud.
+
+### Dedicated Private Cloud
+
+* Single Customer Environment; Dedicated Infrastructure; Enterprise SLA; Customer-managed Networking.
+
+### On-Premises
+
+* Annual Maintenance; Enterprise Support; Offline Operation; Customer Infrastructure.
+
+### Hybrid Deployment
+
+* Cloud AI Services; Local Data Processing; Hybrid Identity Integration.
+
+## 30.5 API Licensing
+
+Simulation and synchronization APIs may be licensed using consumption-based pricing. Metrics include: API Requests; Twin Synchronization Events; Simulation Runs; Compute Hours; GPU Hours; Concurrent Twins; Storage Consumption; AI Model Usage.
+
+## 30.6 Enterprise Support Plans
+
+* **Standard**: Next Business Day
+* **Business**: 8 Hours
+* **Premium**: 4 Hours
+* **Mission Critical**: 1 Hour (24×7)
+
+Support services include: Technical Support; Architecture Consulting; Performance Optimization; Security Reviews; Upgrade Assistance; Health Checks; Training Workshops.
+
+## 30.7 Licensing Compliance
+
+License compliance is maintained through: Secure License Keys; Subscription Validation; Usage Analytics; Tenant Registration; Audit Reports; License Renewal Notifications.
+
+## 30.8 Intellectual Property Ownership
+
+Unless otherwise agreed in writing:
+
+* **EIPPONE retains ownership of**: Source code; Platform architecture; **DTIE Cognitive Architecture**; Algorithms; AI models; Documentation; Trademarks; Patents; Trade secrets.
+* **Customers retain ownership of**: Their enterprise data; Digital twin configurations; Business process models; Customer-generated reports; Customer-developed extensions.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+# 31. Confidentiality & NDA
+
+## Confidential Information
+
+EIPPONE-DT-Ops contains proprietary technologies, algorithms, software architectures, artificial intelligence methodologies, and business processes that constitute confidential information and trade secrets of EIPPONE Simulation Dynamics Inc.
+
+This document is classified as:
+
+> **Confidential – Enterprise / Investor Use Only**
+
+Distribution shall be limited to authorized individuals with a legitimate business need.
+
+## 31.1 Definition of Confidential Information
+
+Includes, but is not limited to: Software source code; System architecture; **DTIE Cognitive Architecture**; AI models; Process mining methodologies; Algorithms; Security controls; Deployment configurations; Business strategies; Technical specifications; Pricing models; Patent concepts; Research documentation.
+
+## 31.2 Non-Disclosure Obligations
+
+Recipients agree to: Maintain strict confidentiality; Use information solely for authorized purposes; Prevent unauthorized disclosure; Protect confidential information using reasonable security controls; Notify EIPPONE of suspected unauthorized disclosure; Return or securely destroy confidential materials upon request.
+
+## 31.3 Exclusions
+
+Obligations do not apply to information that: Is publicly available through no fault of the recipient; Was lawfully known before disclosure; Is independently developed without reference to confidential information; Is disclosed under legal obligation.
+
+## 31.4 Third-Party Confidential Information
+
+Customers remain responsible for ensuring they have appropriate rights to submit third-party data into the platform. EIPPONE does not assume ownership of customer confidential information.
+
+## 31.5 Secure Information Handling
+
+Confidential information shall be protected using: Encryption; Role-Based Access Control; Secure storage; Secure transmission; Audit logging; Data retention policies; Secure disposal procedures.
+
+## 31.6 Employee Confidentiality
+
+All employees, contractors, consultants, interns, and third-party service providers shall execute appropriate confidentiality agreements before accessing confidential information.
+
+## 31.7 Intellectual Property Protection
+
+Proprietary assets receiving enhanced protection include: **Digital Twin Intelligence Engine (DTIE)**; Enterprise synchronization frameworks; Operational AI methodologies; Process graph algorithms; System architecture; Technical documentation.
+
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+# 32. Export Control Compliance
+
+## International Trade Compliance
+
+EIPPONE Simulation Dynamics Inc. is committed to complying with applicable export control laws, economic sanctions, and international trade regulations governing the distribution of software, artificial intelligence, encryption, and technical information. Customers are responsible for ensuring that their use of the platform complies with applicable national and international regulations.
+
+## 32.1 Scope
+
+Export control considerations apply to: Software; Source code; APIs; AI models; Documentation; Encryption technologies; Technical assistance; Cloud-hosted services.
+
+## 32.2 Customer Responsibilities
+
+Customers shall: Comply with applicable export regulations; Obtain required governmental approvals; Prevent unauthorized exports; Restrict access where required by law; Ensure compliance by employees and contractors.
+
+## 32.3 Restricted Use
+
+Unless expressly authorized, the platform shall not be used in connection with activities prohibited by applicable export control or sanctions regulations, including unlawful military, weapons proliferation, or sanctioned activities.
+
+## 32.4 Encryption Compliance
+
+The platform incorporates industry-standard cryptographic technologies. Where required, deployment shall comply with applicable import, export, and encryption regulations within the jurisdictions where the software is used.
+
+## 32.5 International Deployment
+
+Global deployments should consider: Data residency; Sovereign cloud requirements; Cross-border data transfer restrictions; Local cybersecurity legislation; Privacy regulations; Government procurement requirements.
+
+## 32.6 Compliance Monitoring
+
+Compliance activities include: Customer due diligence; Geographic deployment review; Export classification review; License verification; Regulatory updates; Legal review for high-risk deployments.
+
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+<br>
+
+# 33. Limitation of Liability
+
+## General Statement
+
+EIPPONE-DT-Ops is an advanced enterprise decision-support and simulation platform intended to assist organizations in evaluating hypothetical operational scenarios, assessing resilience, and supporting strategic decision-making. Simulation outputs represent probabilistic analyses and should not be interpreted as guarantees of future events. Organizations remain solely responsible for business, operational, financial, legal, regulatory, and strategic decisions made using the platform.
+
+## 33.1 Decision Support Disclaimer
+
+Simulation results support—not replace—professional judgment. Final decisions remain the responsibility of authorized personnel.
+
+## 33.2 No Warranty
+
+Except as expressly provided in an executed agreement, the platform is provided on an "as available" and "as configured" basis. No implied warranties are made regarding uninterrupted operation, suitability for a particular purpose, or merchantability.
+
+## 33.3 Limitation of Damages
+
+To the maximum extent permitted by law, EIPPONE Simulation Dynamics Inc. shall not be liable for indirect, incidental, consequential, special, punitive, or exemplary damages, including loss of profits, revenue, business opportunities, or business interruption arising from the use of the platform.
+
+## 33.4 Customer Responsibilities
+
+Customers are responsible for: Validating simulation assumptions; Reviewing AI-generated outputs; Implementing appropriate governance; Maintaining backups; Securing environments; Complying with applicable laws; Performing independent verification before implementation.
+
+## 33.5 AI and Simulation Disclaimer
+
+The **Digital Twin Intelligence Engine (DTIE)** produces probabilistic simulations based on available data, statistical methodologies, AI reasoning, and configured assumptions. Consequently: Simulated events may not occur in reality; Actual outcomes may differ significantly; AI-generated recommendations should be reviewed by qualified personnel.
+
+## 33.6 Force Majeure
+
+Neither party shall be liable for delays or failures resulting from events beyond its reasonable control, including natural disasters, pandemics, third-party cyberattacks, or widespread cloud infrastructure outages.
+
+## 33.7 Governing Law
+
+Unless otherwise specified, commercial agreements shall be governed by the laws of the applicable contracting jurisdiction, with dispute resolution defined in the executed customer agreement.
+
+## 33.8 Document Notice
+
+This Enterprise Technical Specification is provided for architectural, engineering, product planning, procurement, investor evaluation, and implementation purposes. Contents are subject to change as the EIPPONE platform evolves through research, development, and customer feedback.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
