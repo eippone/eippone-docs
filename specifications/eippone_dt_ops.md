@@ -4,13 +4,13 @@
     <p align="center"><strong>Simulate the future. Neutralize uncertainty. Make confident decisions.</strong></p>
 </section>
 
-**Product:** EIPPONE-DT-Ops
-**Version:** 1.0
-**Status:** MVP Ready
-**Classification:** Confidential – Enterprise / Investor Use Only
-**Owner:** EIPPONE Simulation Dynamics Inc.
-**Author:** Atsu Vovor
-**Last Updated:** July 2026
+**Product:** EIPPONE-DT-Ops  
+**Version:** 1.0  
+**Status:** MVP Ready  
+**Classification:** Confidential – Enterprise / Investor Use Only  
+**Owner:** EIPPONE Simulation Dynamics Inc.  
+**Author:** Atsu Vovor  
+**Last Updated:** July 2026  
 
 <br>
 
