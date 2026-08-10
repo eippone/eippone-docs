@@ -765,104 +765,35 @@ Executive Analytics
 -   Outstanding review queue
 -   Processing bottlenecks
 
-------------------------------------------------------------------------
+## 17. Implementation Roadmap — 18-Week Standard
 
-## 17. Implementation Roadmap --- 18-Week Standard
+| Phase | Weeks | Key Activities |
+|---|---:|---|
+| **Business & Data Discovery** | WKS 1–2 | Requirements, stakeholder analysis, process mapping, CSV/PDF analysis, security requirements |
+| **Data Preparation & Prototyping** | WKS 3–5 | Dataverse schema, data import, validation, initial Power Apps implementation |
+| **Internal Review & Iteration** | WKS 6–8 | Employee review, workflow validation, Power BI model/dashboard, testing |
+| **Deployment & Integration** | WKS 9–14 | Power Pages, Power Automate, Power BI, security, AI Builder, chatbot integration, alerts |
 
-  ------------------------------------------------------------------------
-  Phase                                        Weeks Key Activities
-  --------------------- ---------------------------- ---------------------
-  **Business & Data                         WKS 1--2 Requirements,
-  Discovery**                                        stakeholder analysis,
-                                                     process mapping,
-                                                     CSV/PDF analysis,
-                                                     security requirements
-
-  **Data Preparation &                      WKS 3--5 Dataverse schema,
-  Prototyping**                                      data import,
-                                                     validation, initial
-                                                     Power Apps
-                                                     implementation
-
-  **Internal Review &                       WKS 6--8 Employee review,
-  Iteration**                                        workflow validation,
-                                                     Power BI
-                                                     model/dashboard,
-                                                     testing
-
-  **Deployment &                           WKS 9--14 Power Pages, Power
-  Integration**                                      Automate, Power BI,
-                                                     security, AI Builder,
-                                                     chatbot integration,
-                                                     alerts
-
-  **Final Assessment &                    WKS 15--18 UAT, AI extraction
-  Reporting**                                        evaluation, workflow
-                                                     performance,
-                                                     executive reporting,
-                                                     documentation
-  ------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## 18. Project Deliverables Matrix
 
-  ------------------------------------------------------------------------------
-  Deliverable        Description                       Duration Status
-  ------------------ -------------------- --------------------- ----------------
-  **Project Plan**   Requirements,                        2 Wks Completed
-                     architecture,                              
-                     timeline and                               
-                     resources                                  
-
-  **Data             CSV/PDF analysis and                 2 Wks Completed
-  Understanding /    schema alignment                           
-  EDA**                                                         
-
-  **Dataverse Data   Loan Application                     2 Wks Completed
-  Model**            operational database                       
-
-  **Customer         Digital loan intake                  3 Wks Completed
-  Application**      experience                                 
-
-  **Customer Status  Customer                          1--2 Wks Completed
-  Tracking**         application-status                         
-                     experience                                 
-
-  **Employee Review  Internal review and                  2 Wks Completed
-  App**              decision experience                        
-
-  **Power Automate   Acknowledgement and                  2 Wks Implemented /
-  Workflow**         approval automation                        Refinement
-
-  **Power BI         Operational and                   2--3 Wks Implemented /
-  Dashboard**        executive analytics                        Enhancement
-
-  **Power Pages      Web-based customer                2--3 Wks In Development
-  Portal**           experience                                 
-
-  **AI Builder       Document extraction               2--3 Wks Planned
-  Integration**      and intelligent                            
-                     processing                                 
-
-  **Conversational   Customer and                      2--3 Wks Planned
-  AI**               employee chatbot                           
-
-  **High-Value       Automated priority                1--2 Wks Planned
-  Alerts**           notifications                              
-
-  **Executive AI     Automated Power BI                   2 Wks Planned
-  Insights**         narrative insights                         
-
-  **Conversational   Natural-language                  2--3 Wks Planned
-  Power BI**         report analysis                            
-
-  **Final Report**   Technical and                        2 Wks Planned
-                     business                                   
-                     recommendations                            
-  ------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+| Deliverable | Description | Duration | Status |
+|---|---|---:|---|
+| **Project Plan** | Requirements, architecture, timeline and resources | 2 Wks | **Completed** |
+| **Data Understanding / EDA** | CSV/PDF analysis and schema alignment | 2 Wks | **Completed** |
+| **Dataverse Data Model** | Loan Application operational database | 2 Wks | **Completed** |
+| **Customer Application** | Digital loan intake experience | 3 Wks | **Completed** |
+| **Customer Status Tracking** | Customer application-status experience | 1–2 Wks | **Completed** |
+| **Employee Review App** | Internal review and decision experience | 2 Wks | **Completed** |
+| **Power Automate Workflow** | Acknowledgement and approval automation | 2 Wks | **Implemented / Refinement** |
+| **Power BI Dashboard** | Operational and executive analytics | 2–3 Wks | **Implemented / Enhancement** |
+| **Power Pages Portal** | Web-based customer experience | 2–3 Wks | **In Development** |
+| **AI Builder Integration** | Document extraction and intelligent processing | 2–3 Wks | **Planned** |
+| **Conversational AI** | Customer and employee chatbot | 2–3 Wks | **Planned** |
+| **High-Value Alerts** | Automated priority notifications | 1–2 Wks | **Planned** |
+| **Executive AI Insights** | Automated Power BI narrative insights | 2 Wks | **Planned** |
+| **Conversational Power BI** | Natural-language report analysis | 2–3 Wks | **Planned** |
 
 ## 19. Success Criteria
 
