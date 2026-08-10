@@ -237,6 +237,7 @@ The current implementation contains two different identifiers:
 
 ### Current Core Fields
 
+```Text
   ----------------------------------------------------------------------------------
   Display Name      Logical Name                 Data Type         Purpose
   ----------------- ---------------------------- ----------------- -----------------
@@ -284,6 +285,7 @@ The current implementation contains two different identifiers:
   Signature                                                        
   ----------------------------------------------------------------------------------
 
+```
 > Logical names for additional fields should be confirmed from the
 > target Dataverse environment before production deployment.
 
