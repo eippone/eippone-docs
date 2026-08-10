@@ -1,5 +1,15 @@
 # EIPPONE Loan Application Digitization Solution
 
+**Product:** EIPPONE Intelligent Loan Application Platform 
+**Version:** 1.0  
+**Status:** In Development    
+**Classification:** Confidential – Enterprise / Investor Use Only  
+**Owner:** EIPPONE Simulation Dynamics Inc.  
+**Author:** Atsu Vovor  
+**Last Updated:** Aug 2026  
+
+<br>
+
 > **EIPPONE Simulation Dynamics Inc. --- Loan Application Digitization
 > Platform**\
 > An integrated Microsoft Power Platform solution for digitizing loan
