@@ -63,59 +63,20 @@
 9.  Identify high-value applications for enhanced monitoring.
 10. Create a scalable foundation for intelligent lending operations.
 
-------------------------------------------------------------------------
 
 ## 2. CRISP-DM Methodology Alignment
 
-  ----------------------------------------------------------------------------
-  Phase                   Description             Project Activity
-  ----------------------- ----------------------- ----------------------------
-  **Business              Define business         Identify manual processing
-  Understanding**         objectives, users,      challenges, customer needs,
-                          workflow, and success   employee review
-                          criteria.               requirements, approval
-                                                  requirements, and executive
-                                                  reporting needs.
+| Phase                      | Description                                                        | Project Activity                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Business Understanding** | Define business objectives, users, workflow, and success criteria. | Identify manual processing challenges, customer needs, employee review requirements, approval requirements, and executive reporting needs.                           |
+| **Data Understanding**     | Identify and understand application and document data.             | Analyze `Loan App Data.csv`, `Sample Application.pdf`, Dataverse fields, application statuses, documents, and approval information.                                  |
+| **Data Preparation**       | Prepare and align application data for operations and analytics.   | Import 50 sample applications into Dataverse; reconcile CSV/PDF fields; standardize statuses, dates, loan terms, documents, and approval fields.                     |
+| **Modeling**               | Apply automation, AI, and analytics.                               | Power Automate approval workflow, AI Builder document extraction, AI-assisted summaries/recommendations, Power BI measures, and reporting.                           |
+| **Evaluation**             | Assess effectiveness against business objectives.                  | Evaluate processing time, approval/rejection rates, document verification, workflow completion, data quality, AI extraction accuracy, and recommendation usefulness. |
+| **Deployment**             | Integrate the solution into the operational workflow.              | Deploy Power Pages, Power Apps, Dataverse, Power Automate, Power BI, chatbot capabilities, AI Builder processing, and executive reporting.                           |
 
-  **Data Understanding**  Identify and understand Analyze `Loan App Data.csv`,
-                          application and         `Sample Application.pdf`,
-                          document data.          Dataverse fields,
-                                                  application statuses,
-                                                  documents, and approval
-                                                  information.
 
-  **Data Preparation**    Prepare and align       Import 50 sample
-                          application data for    applications into Dataverse;
-                          operations and          reconcile CSV/PDF fields;
-                          analytics.              standardize statuses, dates,
-                                                  loan terms, documents, and
-                                                  approval fields.
 
-  **Modeling**            Apply automation, AI,   Power Automate approval
-                          and analytics.          workflow, AI Builder
-                                                  document extraction,
-                                                  AI-assisted
-                                                  summaries/recommendations,
-                                                  Power BI measures and
-                                                  reporting.
-
-  **Evaluation**          Assess effectiveness    Evaluate processing time,
-                          against business        approval/rejection rates,
-                          objectives.             document verification,
-                                                  workflow completion, data
-                                                  quality, AI extraction
-                                                  accuracy, and recommendation
-                                                  usefulness.
-
-  **Deployment**          Integrate the solution  Deploy Power Pages, Power
-                          into the operational    Apps, Dataverse, Power
-                          workflow.               Automate, Power BI, chatbot
-                                                  capabilities, AI Builder
-                                                  processing, and executive
-                                                  reporting.
-  ----------------------------------------------------------------------------
-
-------------------------------------------------------------------------
 
 ## 3. Technical Stack & Dependencies
 
@@ -218,18 +179,11 @@ The **Loan Application** table is the central operational record.
 
 The current implementation contains two different identifiers:
 
-  ----------------------------------------------------------------------------------
-  Field             Logical Name                 Type              Purpose
-  ----------------- ---------------------------- ----------------- -----------------
-  **Application     `crdff_applicationid`        Autonumber        Human/business
-  ID**                                                             application
-                                                                   number such as
-                                                                   `APP-1002`
+  | Field              | Logical Name              | Type           | Purpose                                              |
+| ------------------ | ------------------------- | -------------- | ---------------------------------------------------- |
+| **Application ID** | **`crdff_applicationid`** | **Autonumber** | Human/business application number such as `APP-1002` |
+| **Loan Application** | **`crdff_loanapplication1Id`** | **Unique Identifier** | Dataverse internal Row ID /GUID |
 
-  **Loan            `crdff_loanapplication1Id`   Unique Identifier Dataverse
-  Application**                                                    internal Row ID /
-                                                                   GUID
-  ----------------------------------------------------------------------------------
 
 > **Important:** Power Automate actions such as **Get a row by ID** must
 > use `crdff_loanapplication1Id`, not `crdff_applicationid`. The
@@ -237,55 +191,24 @@ The current implementation contains two different identifiers:
 
 ### Current Core Fields
 
-```Text
-  ----------------------------------------------------------------------------------
-  Display Name      Logical Name                 Data Type         Purpose
-  ----------------- ---------------------------- ----------------- -----------------
-  Application ID    `crdff_applicationid`        Autonumber        Business
-                                                                   application
-                                                                   number
+| Display Name | Logical Name | Data Type | Purpose |
+|---|---|---|---|
+| **Application ID** | `crdff_applicationid` | Autonumber | Business application number |
+| **Loan Application** | `crdff_loanapplication1Id` | Unique identifier | Dataverse Row ID |
+| **First Name** | `crdff_firstname` | Text | Customer first name |
+| **Last Name** | `crdff_lastname` | Text | Customer last name |
+| **Loan Amount** | `crdff_loanamount` | Currency | Requested amount |
+| **Application Status** | `crdff_applicationstatus` | Choice | Submitted, Under Review, Approved, Rejected |
+| **Address** | `crdff_applicantaddress` | Text area | Customer address |
+| **Loan Term** | — | Choice | 1, 3, 5, or 10 years |
+| **Interest Rate** | — | Decimal | Interest rate |
+| **Approver Name** | `crdff_approvername` | Lookup | Internal approver |
+| **Approver Email** | `crdff_approveremail` | Email | Approval notification |
+| **Approver Position** | — | Text | Reviewing officer position |
+| **Application Date** | — | Date | Submission date |
+| **End Date** | — | Date | Completion date |
+| **Annual Income** | `crdff_AnnualIncome` | Currency | Applicant annual income |
 
-  Loan Application  `crdff_loanapplication1Id`   Unique identifier Dataverse Row ID
-
-  First Name        `crdff_firstname`            Text              Customer first
-                                                                   name
-
-  Last Name         `crdff_lastname`             Text              Customer last
-                                                                   name
-
-  Loan Amount       `crdff_loanamount`           Currency          Requested amount
-
-  Application       `crdff_applicationstatus`    Choice            Submitted, Under
-  Status                                                           Review, Approved,
-                                                                   Rejected
-
-  Address           `crdff_applicantaddress`     Text area         Customer address
-
-  Loan Term         ---                          Choice            1, 3, 5, or 10
-                                                                   years
-
-  Interest Rate     ---                          Decimal           Interest rate
-
-  Approver Name     `crdff_approvername`         Lookup            Internal approver
-
-  Approver Email    `crdff_approveremail`        Email             Approval
-                                                                   notification
-
-  Approver Position ---                          Text              Reviewing officer
-                                                                   position
-
-  Application Date  ---                          Date              Submission date
-
-  End Date          ---                          Date              Completion date
-
-  Annual Income     `crdff_AnnualIncome`         Currency          Applicant annual
-                                                                   income
-
-  Applicant         `crdff_signaturenew`         Image             Digital signature
-  Signature                                                        
-  ----------------------------------------------------------------------------------
-
-```
 > Logical names for additional fields should be confirmed from the
 > target Dataverse environment before production deployment.
 
