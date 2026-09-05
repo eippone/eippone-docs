@@ -1011,8 +1011,351 @@ eippone-ai-document-processing/
     ├── evaluate_models.py
     └── generate_test_data.py
 ```
+# Stucture Implementation script:
 
-# Implemen ted Structure
+```text
+PS C:\EIPPONE\eippone-ai-document-processing> Test-Path .\.venv\Scripts\Activate.ps1
+True
+PS C:\EIPPONE\eippone-ai-document-processing> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+PS C:\EIPPONE\eippone-ai-document-processing> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+PS C:\EIPPONE\eippone-ai-document-processing> .\.venv\Scripts\Activate.ps1
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType Directory -Force -Path `
+>> src, `
+>> src\eippone_document_ai, `
+>> src\eippone_document_ai\ingestion, `
+>> src\eippone_document_ai\ocr, `
+>> src\eippone_document_ai\extraction, `
+>> src\eippone_document_ai\validation, `
+>> src\eippone_document_ai\classification, `
+>> src\eippone_document_ai\evaluation, `
+>> src\eippone_document_ai\api, `
+>> data, `
+>> data\raw, `
+>> data\processed, `
+>> data\samples, `
+>> tests, `
+>> notebooks, `
+>> configs, `
+>> docs, `
+>> scripts
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                src
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                eippone_document_ai
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                ingestion
+d-----        2026-09-04   9:10 PM                ocr
+d-----        2026-09-04   9:10 PM                extraction
+d-----        2026-09-04   9:10 PM                validation
+d-----        2026-09-04   9:10 PM                classification
+d-----        2026-09-04   9:10 PM                evaluation
+d-----        2026-09-04   9:10 PM                api
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                data
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                raw
+d-----        2026-09-04   9:10 PM                processed
+d-----        2026-09-04   9:10 PM                samples
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-09-04   9:10 PM                tests
+d-----        2026-09-04   9:10 PM                notebooks
+d-----        2026-09-04   9:10 PM                configs
+d-----        2026-09-04   9:10 PM                docs
+d-----        2026-09-04   9:10 PM                scripts
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\__init__.py, `
+>> src\eippone_document_ai\ingestion\__init__.py, `
+>> src\eippone_document_ai\ocr\__init__.py, `
+>> src\eippone_document_ai\extraction\__init__.py, `
+>> src\eippone_document_ai\validation\__init__.py, `
+>> src\eippone_document_ai\classification\__init__.py, `
+>> src\eippone_document_ai\evaluation\__init__.py, `
+>> src\eippone_document_ai\api\__init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\ingestion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\ocr
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\extraction
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\validation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\classification
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\evaluation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:10 PM              0 __init__.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> requirements.txt, `
+>> README.md, `
+>> .gitignore, `
+>> pyproject.toml
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:11 PM              0 requirements.txt
+-a----        2026-09-04   9:11 PM              0 README.md
+-a----        2026-09-04   9:11 PM              0 .gitignore
+-a----        2026-09-04   9:11 PM              0 pyproject.toml
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> configs\config.yaml, `
+>> docs\architecture.md, `
+>> tests\__init__.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\configs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:11 PM              0 config.yaml
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\docs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:11 PM              0 architecture.md
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\tests
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:11 PM              0 __init__.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\ingestion\document_loader.py, `
+>> src\eippone_document_ai\ingestion\file_detector.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\ingestion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:12 PM              0 document_loader.py
+-a----        2026-09-04   9:12 PM              0 file_detector.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\ocr\ocr_engine.py, `
+>> src\eippone_document_ai\ocr\image_preprocessor.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\ocr
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:12 PM              0 ocr_engine.py
+-a----        2026-09-04   9:12 PM              0 image_preprocessor.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\classification\document_classifier.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\classification
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:13 PM              0 document_classifier.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\extraction\field_extractor.py, `
+>> src\eippone_document_ai\extraction\schemas.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\extraction
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:13 PM              0 field_extractor.py
+-a----        2026-09-04   9:13 PM              0 schemas.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\validation\field_validator.py, `
+>> src\eippone_document_ai\validation\confidence.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\validation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:13 PM              0 field_validator.py
+-a----        2026-09-04   9:13 PM              0 confidence.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\evaluation\metrics.py, `
+>> src\eippone_document_ai\evaluation\evaluator.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\evaluation
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:14 PM              0 metrics.py
+-a----        2026-09-04   9:14 PM              0 evaluator.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> src\eippone_document_ai\api\main.py, `
+>> src\eippone_document_ai\api\routes.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\src\eippone_document_ai\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:14 PM              0 main.py
+-a----        2026-09-04   9:14 PM              0 routes.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> tests\test_ingestion.py, `
+>> tests\test_ocr.py, `
+>> tests\test_extraction.py, `
+>> tests\test_validation.py, `
+>> tests\test_classification.py, `
+>> tests\test_evaluation.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\tests
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:15 PM              0 test_ingestion.py
+-a----        2026-09-04   9:15 PM              0 test_ocr.py
+-a----        2026-09-04   9:15 PM              0 test_extraction.py
+-a----        2026-09-04   9:15 PM              0 test_validation.py
+-a----        2026-09-04   9:15 PM              0 test_classification.py
+-a----        2026-09-04   9:15 PM              0 test_evaluation.py
+
+
+(.venv) PS C:\EIPPONE\eippone-ai-document-processing> New-Item -ItemType File -Force -Path `
+>> scripts\run_pipeline.py, `
+>> scripts\process_document.py
+
+
+    Directory: C:\EIPPONE\eippone-ai-document-processing\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-09-04   9:15 PM              0 run_pipeline.py
+-a----        2026-09-04   9:15 PM              0 process_document.py
+
+```
+# Implemented Structure
 
 ```text
 (.venv) PS C:\EIPPONE\eippone-ai-document-processing> tree /F
